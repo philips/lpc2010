@@ -7,7 +7,7 @@
 <link rel="alternate" type="application/rss+xml" title="Linux Plumbers Conference 2010 &raquo; Hotel Discount Ends on Friday 8 October Comments Feed" href="http://www.linuxplumbersconf.org/2010/10/06/hotel-discount-ends-on-friday-8-october/feed" />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../wp-includes/wlwmanifest.xml" /> 
-<link rel='index' title='Linux Plumbers Conference 2010' href='../../../../2010.1' />
+<link rel='index' title='Linux Plumbers Conference 2010' href='../../../../2010/' />
 <link rel='start' title='What is Linux Plumbing?' href='../../../04/29/what-is-linux-plumbing' />
 <link rel='prev' title='Opening Keynote and Presentation Track announcement' href='../../../08/24/opening-keynote-and-presentation-track-announcement/trackback' />
 <link rel='next' title='Update on Hotels' href='../../08/update-on-hotels/trackback' />
@@ -34,10 +34,10 @@ function addLoadEvent(func) {
   }
 }
 function wphc(){
-	var wphc_data = [258996181,40823751,74577299,56810960,410317534,388541142,1282663365,258601668,341895148,1310834579,1563538051,1563472771,1563472514,1563538307,1546760835,1546695555,1546695298,1461957506,509670547,74577299,241491408,1279042251,438417795,455209170,862120643,1283056086,1462870670,90830227,455731167,862120643,1283056086,477536911,157213147,3144402,409398486,1283107803,455730394,862120643,1115284438,509668048,455735026,862120643,1165615574,1279049619,1159967633,455211411,862120643,1283055830,555859864,1114240722,1148644803,455192193,862120643,1165615574,1283236488,258601668,342026220,1278912920,158573262,41154503,74577299,241491408,1283242443,258601668,24044012,158726083,1278913435]; 
+	var wphc_data = [825364122,1009980040,975965404,1027548319,640224145,695554969,656940686,1669076366,1802191567,1667910090,1802193367,1667518410,1735871433,1668041677,2036681935,1701662413,1735348175,1684951247,1785610959,2037205196,1684950218,2037334724,1718569677,2037206732,1785679821,2037074895,1668172484,1735282890,2036616650,1784957133,1668108491,1802129615,2037205207,1668763597,628885191,222237580,573641887,2050559881,1920745685]; 
 
 	for (var i=0; i<wphc_data.length; i++){
-		wphc_data[i]=wphc_data[i]^1812038323;
+		wphc_data[i]=wphc_data[i]^1381792764;
 	}
 
 	var a = new Array(wphc_data.length); 
@@ -54,12 +54,12 @@ addLoadEvent(function(){var el=document.getElementById('wphc_value');if(el)el.va
 	<link rel="pingback" href="../../../xmlrpc.php" />
 </head>
 
-<body class="wordpress y2011 m02 d10 h11 single postid-973 s-y2010 s-m10 s-d06 s-h16 s-category-uncategorized s-author-jejb">
+<body class="wordpress y2011 m02 d10 h12 single postid-973 s-y2010 s-m10 s-d06 s-h16 s-category-uncategorized s-author-jejb">
 
 <div id="wrapper" class="hfeed">
 
 	<div id="header">
-		<h1 id="site-title"><span><a href="../../../../2010.1" title="Linux Plumbers Conference 2010" rel="home">Linux Plumbers Conference 2010</a></span></h1>
+		<h1 id="site-title"><span><a href="../../../../2010/" title="Linux Plumbers Conference 2010" rel="home">Linux Plumbers Conference 2010</a></span></h1>
 		<div id="site-description">The conference where userspace meets the kernel</div>
 	</div><!--  #header -->
 
@@ -68,7 +68,7 @@ addLoadEvent(function(){var el=document.getElementById('wphc_value');if(el)el.va
 
 <div id="menu">
 	<ul>
-		<li class="page_item page-item"><a href="../../../../2010.1">Blog</a></li>
+		<li class="page_item page-item"><a href="../../../../2010/">Blog</a></li>
 		<li class="page_item page-item"><a href="../../../participate/index.html" title="Attend">Participate</a></li>
 		<li class="page_item page-item"><a href="../../../ocw/events/LPC2010/schedule" title="Schedule">Schedule</a></li>
 		<li class="page_item page-item"><a href="../../../program/index.html" title="Program">Program</a></li>
@@ -221,7 +221,7 @@ addLoadEvent(function(){var el=document.getElementById('wphc_value');if(el)el.va
 		<ul class="xoxo">
 			<li id="search">
 				<h3><label for="s">Search</label></h3>
-				<form id="searchform" class="blog-search" method="get" action="../../../../2010.1">
+				<form id="searchform" class="blog-search" method="get" action="../../../../2010/">
 					<div>
 						<input id="s" name="s" type="text" class="text" value="" size="10" tabindex="1" />
 						<input type="submit" class="button" value="Find" tabindex="2" />

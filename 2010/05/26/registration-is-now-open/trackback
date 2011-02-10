@@ -7,7 +7,7 @@
 <link rel="alternate" type="application/rss+xml" title="Linux Plumbers Conference 2010 &raquo; Registration is now Open Comments Feed" href="http://www.linuxplumbersconf.org/2010/05/26/registration-is-now-open/feed" />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../wp-includes/wlwmanifest.xml" /> 
-<link rel='index' title='Linux Plumbers Conference 2010' href='../../../../2010.1' />
+<link rel='index' title='Linux Plumbers Conference 2010' href='../../../../2010/' />
 <link rel='start' title='What is Linux Plumbing?' href='../../../04/29/what-is-linux-plumbing' />
 <link rel='prev' title='Call for Track Ideas' href='../../../04/30/call-for-track-ideas/trackback' />
 <link rel='next' title='BoF Sign Up Now Open' href='../../../06/03/bof-sign-up-now-open/trackback' />
@@ -34,10 +34,10 @@ function addLoadEvent(func) {
   }
 }
 function wphc(){
-	var wphc_data = [2112289013,1894245607,1996028595,1911280368,1795030526,1705092598,1056632037,2111897060,1726605516,1017688243,800636323,800701603,800701858,800636067,783859107,783924387,783924642,631946402,1827273651,1996028595,2095960816,1052093931,1755887267,1772683250,1105978851,1055977206,632860078,2011232947,1772153087,1105978851,1055977206,1862249903,2077748987,1923544562,1794106358,1056154875,1772153850,1105978851,821095670,1827268080,1772157394,1105978851,938536694,1052094643,933936305,1772680883,1105978851,1055977462,1403564216,820050418,922739427,1772659105,1105978851,938536694,1056288168,2111897060,1726736588,1051961016,2080026094,1895495911,1996028595,2095960816,1056290539,2111897060,1944579788,2080176355,1051960507]; 
+	var wphc_data = [586299680,804463922,703347558,788468517,904477739,984966179,887630132,2008818228,1974039923,1923841918,1923906925,1923709298,1958182258,1974434166,1789754229,1990554996,1890286194,2024568941,1990557554,1973714285,2024504695,2041210738,1923644016,2007852927,2007661430,1941404798,2041085808,1891072630,2041085043,1941402999,2007332983,2041407349,2024308343,1890412405,1907326327,2007791981,2041407347,1956937584,1923643757,1974957424,2040823158,2007660909,1906668653,1789427309,1924627826,1940416371,2007525234,1789624173,1891072628,1890412414,1891071085,1891072877,1017608557,703347558,788468517,904477739,2058708003]; 
 
 	for (var i=0; i<wphc_data.length; i++){
-		wphc_data[i]=wphc_data[i]^512265619;
+		wphc_data[i]=wphc_data[i]^1100762182;
 	}
 
 	var a = new Array(wphc_data.length); 
@@ -54,12 +54,12 @@ addLoadEvent(function(){var el=document.getElementById('wphc_value');if(el)el.va
 	<link rel="pingback" href="../../../xmlrpc.php" />
 </head>
 
-<body class="wordpress y2011 m02 d10 h11 single postid-289 s-y2010 s-m05 s-d26 s-h15 s-category-uncategorized s-author-jejb">
+<body class="wordpress y2011 m02 d10 h12 single postid-289 s-y2010 s-m05 s-d26 s-h15 s-category-uncategorized s-author-jejb">
 
 <div id="wrapper" class="hfeed">
 
 	<div id="header">
-		<h1 id="site-title"><span><a href="../../../../2010.1" title="Linux Plumbers Conference 2010" rel="home">Linux Plumbers Conference 2010</a></span></h1>
+		<h1 id="site-title"><span><a href="../../../../2010/" title="Linux Plumbers Conference 2010" rel="home">Linux Plumbers Conference 2010</a></span></h1>
 		<div id="site-description">The conference where userspace meets the kernel</div>
 	</div><!--  #header -->
 
@@ -68,7 +68,7 @@ addLoadEvent(function(){var el=document.getElementById('wphc_value');if(el)el.va
 
 <div id="menu">
 	<ul>
-		<li class="page_item page-item"><a href="../../../../2010.1">Blog</a></li>
+		<li class="page_item page-item"><a href="../../../../2010/">Blog</a></li>
 		<li class="page_item page-item"><a href="../../../participate/index.html" title="Attend">Participate</a></li>
 		<li class="page_item page-item"><a href="../../../ocw/events/LPC2010/schedule" title="Schedule">Schedule</a></li>
 		<li class="page_item page-item"><a href="../../../program/index.html" title="Program">Program</a></li>
@@ -221,7 +221,7 @@ addLoadEvent(function(){var el=document.getElementById('wphc_value');if(el)el.va
 		<ul class="xoxo">
 			<li id="search">
 				<h3><label for="s">Search</label></h3>
-				<form id="searchform" class="blog-search" method="get" action="../../../../2010.1">
+				<form id="searchform" class="blog-search" method="get" action="../../../../2010/">
 					<div>
 						<input id="s" name="s" type="text" class="text" value="" size="10" tabindex="1" />
 						<input type="submit" class="button" value="Find" tabindex="2" />

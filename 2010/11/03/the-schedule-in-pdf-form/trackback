@@ -7,7 +7,7 @@
 <link rel="alternate" type="application/rss+xml" title="Linux Plumbers Conference 2010 &raquo; The schedule in PDF form Comments Feed" href="http://www.linuxplumbersconf.org/2010/11/03/the-schedule-in-pdf-form/feed" />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../wp-includes/wlwmanifest.xml" /> 
-<link rel='index' title='Linux Plumbers Conference 2010' href='../../../../2010.1' />
+<link rel='index' title='Linux Plumbers Conference 2010' href='../../../../2010/' />
 <link rel='start' title='What is Linux Plumbing?' href='../../../04/29/what-is-linux-plumbing' />
 <link rel='prev' title='Plumbers Registration now Full' href='../../../10/17/plumbers-registration-now-full/trackback' />
 <link rel='next' title='IRC Backchannel available for MCs' href='../../04/irc-backchannel-available-for-mcs/trackback' />
@@ -34,10 +34,10 @@ function addLoadEvent(func) {
   }
 }
 function wphc(){
-	var wphc_data = [722527684,638712278,537847682,656265153,1007411407,861386951,1024128464,2053045968,2102176155,2053028482,2102176155,2053028738,1900521360,1745072281,722919637,621933565,755688914,1749399946]; 
+	var wphc_data = [1772692701,1688746191,1656170139,1705250520,2125603286,1911454174,716517581,1773085132,1923495140,971467931,989029005,972054926,2058383744,1872245459,568797658,1022652806,1073177992,838100619,1656170139,1805782744,938242499,854679707,956260492,721185164,2142450889,2112307145,1436826059,834613470,2112302235,1436826059,2057977560,581051854,719809170]; 
 
 	for (var i=0; i<wphc_data.length; i++){
-		wphc_data[i]=wphc_data[i]^1216254114;
+		wphc_data[i]=wphc_data[i]^180834747;
 	}
 
 	var a = new Array(wphc_data.length); 
@@ -54,12 +54,12 @@ addLoadEvent(function(){var el=document.getElementById('wphc_value');if(el)el.va
 	<link rel="pingback" href="../../../xmlrpc.php" />
 </head>
 
-<body class="wordpress y2011 m02 d10 h11 single postid-1189 s-y2010 s-m11 s-d03 s-h10 s-category-uncategorized s-author-grant-likely">
+<body class="wordpress y2011 m02 d10 h12 single postid-1189 s-y2010 s-m11 s-d03 s-h10 s-category-uncategorized s-author-grant-likely">
 
 <div id="wrapper" class="hfeed">
 
 	<div id="header">
-		<h1 id="site-title"><span><a href="../../../../2010.1" title="Linux Plumbers Conference 2010" rel="home">Linux Plumbers Conference 2010</a></span></h1>
+		<h1 id="site-title"><span><a href="../../../../2010/" title="Linux Plumbers Conference 2010" rel="home">Linux Plumbers Conference 2010</a></span></h1>
 		<div id="site-description">The conference where userspace meets the kernel</div>
 	</div><!--  #header -->
 
@@ -68,7 +68,7 @@ addLoadEvent(function(){var el=document.getElementById('wphc_value');if(el)el.va
 
 <div id="menu">
 	<ul>
-		<li class="page_item page-item"><a href="../../../../2010.1">Blog</a></li>
+		<li class="page_item page-item"><a href="../../../../2010/">Blog</a></li>
 		<li class="page_item page-item"><a href="../../../participate/index.html" title="Attend">Participate</a></li>
 		<li class="page_item page-item"><a href="../../../ocw/events/LPC2010/schedule" title="Schedule">Schedule</a></li>
 		<li class="page_item page-item"><a href="../../../program/index.html" title="Program">Program</a></li>
@@ -220,7 +220,7 @@ addLoadEvent(function(){var el=document.getElementById('wphc_value');if(el)el.va
 		<ul class="xoxo">
 			<li id="search">
 				<h3><label for="s">Search</label></h3>
-				<form id="searchform" class="blog-search" method="get" action="../../../../2010.1">
+				<form id="searchform" class="blog-search" method="get" action="../../../../2010/">
 					<div>
 						<input id="s" name="s" type="text" class="text" value="" size="10" tabindex="1" />
 						<input type="submit" class="button" value="Find" tabindex="2" />

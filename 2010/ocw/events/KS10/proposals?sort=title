@@ -43,7 +43,7 @@
     $(document).ready(function() {
       app.favorites_path = '/2010/ocw/users/me/favorites';
       app.current_user = false;
-      app.authenticity_token = '8d14f92e6e1470838695fc1036641d45886dce51';
+      app.authenticity_token = '3e52d8b826fdbd11ace6f5a72dc9ca3975325a36';
       populate_user_favorites();
       bind_user_favorite_controls();
     });
@@ -64,7 +64,7 @@
 
 <div id="menu">
 	<ul>
-		<li class="page_item page-item"><a href="../../../../2010.1">Blog</a></li>
+		<li class="page_item page-item"><a href="../../../../2010/">Blog</a></li>
 		<li class="page_item page-item"><a href="../../../participate/index.html" title="Attend">Participate</a></li>
 		<li class="page_item page-item"><a href="../LPC2010/schedule" title="Schedule">Schedule</a></li>
 		<li class="page_item page-item"><a href="../../../program/index.html" title="Program">Program</a></li>
@@ -117,7 +117,7 @@
     <div>
       
       Sort by:
-      <a href="proposals?dir=desc&amp;sort=title">Title</a> &and;, <a href="proposals?sort=track">Track</a>, <a href="proposals?sort=submitted_at">Submission date</a>
+      <a href="http://www.linuxplumbersconf.org/2010/ocw/events/KS10/proposals?dir=desc&amp;sort=title">Title</a> &and;, <a href="proposals?sort=track">Track</a>, <a href="proposals?sort=submitted_at">Submission date</a>
     </div>
   
 
@@ -316,7 +316,7 @@
               <li id="login-as">
                 <h3>Welcome</h3>
                 <ul>
-                  <li><a href="../LPC2010BOFS/proposals/new">Login</a></li>
+                  <li><a href="../../users/me/favorites">Login</a></li>
                   
                 </ul>
               </li>
@@ -385,7 +385,7 @@
   <!-- arbitrary javascript from views -->
   <script type="text/javascript">
 //<![CDATA[
-window._token = '8d14f92e6e1470838695fc1036641d45886dce51'
+window._token = '3e52d8b826fdbd11ace6f5a72dc9ca3975325a36'
 //]]>
 </script>
   <script type="text/javascript">

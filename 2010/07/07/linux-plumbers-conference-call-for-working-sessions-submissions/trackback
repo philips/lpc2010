@@ -7,7 +7,7 @@
 <link rel="alternate" type="application/rss+xml" title="Linux Plumbers Conference 2010 &raquo; Linux Plumber&#8217;s Conference: Call For Working Sessions Submissions Comments Feed" href="http://www.linuxplumbersconf.org/2010/07/07/linux-plumbers-conference-call-for-working-sessions-submissions/feed" />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../wp-includes/wlwmanifest.xml" /> 
-<link rel='index' title='Linux Plumbers Conference 2010' href='../../../../2010.1' />
+<link rel='index' title='Linux Plumbers Conference 2010' href='../../../../2010/' />
 <link rel='start' title='What is Linux Plumbing?' href='../../../04/29/what-is-linux-plumbing' />
 <link rel='prev' title='Linux Plumbers Conference: Call For Papers' href='../../../06/03/linux-plumbers-conference-call-for-papers/trackback' />
 <link rel='next' title='Reminder: Presentation Proposals due July 19' href='../../16/reminder-presentation-proposals-due-july-19/trackback' />
@@ -34,10 +34,10 @@ function addLoadEvent(func) {
   }
 }
 function wphc(){
-	var wphc_data = [1218543490,1168139152,1136623044,1152144775,1606056585,1357259393,1589342102,418342038,536558557,503067356,335035343,519911637,451163093,519520209,536493522,469516239,418788051,469639632,536690643,16267484,419314389,16398804,335429334,484719570,335494876,535050460,536556243,335428047,16399837,436091095,452338135,469639632,502735313,418986191,503200207,16203471,451165149,285090260,1538796185,1217423756,1589602187,48721808,200223455]; 
+	var wphc_data = [289029359,473637117,438582953,490149610,102840804,159212012,1378232575,289159678,171257046,1182037161,1131246013,1147173304,35875250,386607841,1500787176,1180723636,1164279743,1231847098,103889833,1379548156,289159678,171257046,1378445746,289159678,523971286,387988729,1383030945]; 
 
 	for (var i=0; i<wphc_data.length; i++){
-		wphc_data[i]=wphc_data[i]^734989028;
+		wphc_data[i]=wphc_data[i]^1918126473;
 	}
 
 	var a = new Array(wphc_data.length); 
@@ -54,12 +54,12 @@ addLoadEvent(function(){var el=document.getElementById('wphc_value');if(el)el.va
 	<link rel="pingback" href="../../../xmlrpc.php" />
 </head>
 
-<body class="wordpress y2011 m02 d10 h11 single postid-565 s-y2010 s-m07 s-d07 s-h20 s-category-uncategorized s-author-tytso">
+<body class="wordpress y2011 m02 d10 h12 single postid-565 s-y2010 s-m07 s-d07 s-h20 s-category-uncategorized s-author-tytso">
 
 <div id="wrapper" class="hfeed">
 
 	<div id="header">
-		<h1 id="site-title"><span><a href="../../../../2010.1" title="Linux Plumbers Conference 2010" rel="home">Linux Plumbers Conference 2010</a></span></h1>
+		<h1 id="site-title"><span><a href="../../../../2010/" title="Linux Plumbers Conference 2010" rel="home">Linux Plumbers Conference 2010</a></span></h1>
 		<div id="site-description">The conference where userspace meets the kernel</div>
 	</div><!--  #header -->
 
@@ -68,7 +68,7 @@ addLoadEvent(function(){var el=document.getElementById('wphc_value');if(el)el.va
 
 <div id="menu">
 	<ul>
-		<li class="page_item page-item"><a href="../../../../2010.1">Blog</a></li>
+		<li class="page_item page-item"><a href="../../../../2010/">Blog</a></li>
 		<li class="page_item page-item"><a href="../../../participate/index.html" title="Attend">Participate</a></li>
 		<li class="page_item page-item"><a href="../../../ocw/events/LPC2010/schedule" title="Schedule">Schedule</a></li>
 		<li class="page_item page-item"><a href="../../../program/index.html" title="Program">Program</a></li>
@@ -242,7 +242,7 @@ addLoadEvent(function(){var el=document.getElementById('wphc_value');if(el)el.va
 		<ul class="xoxo">
 			<li id="search">
 				<h3><label for="s">Search</label></h3>
-				<form id="searchform" class="blog-search" method="get" action="../../../../2010.1">
+				<form id="searchform" class="blog-search" method="get" action="../../../../2010/">
 					<div>
 						<input id="s" name="s" type="text" class="text" value="" size="10" tabindex="1" />
 						<input type="submit" class="button" value="Find" tabindex="2" />

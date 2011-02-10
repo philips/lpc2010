@@ -7,7 +7,7 @@
 <link rel="alternate" type="application/rss+xml" title="Linux Plumbers Conference 2010 &raquo; FAQs Comments Feed" href="http://www.linuxplumbersconf.org/2010/faqs/feed" />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
-<link rel='index' title='Linux Plumbers Conference 2010' href='../2010.1' />
+<link rel='index' title='Linux Plumbers Conference 2010' href='../2010/' />
 <meta name="generator" content="WordPress 2.9.2" />
 <link rel='canonical' href='faqs' />
 <script type="text/javascript"><!--
@@ -31,10 +31,10 @@ function addLoadEvent(func) {
   }
 }
 function wphc(){
-	var wphc_data = [1795339468,1711515870,1612494474,1729076937,2082058695,1933961679,2098767064,978104280,1029634195,978119562,1029634195,978119306,827717272,672260497,1795469789,1694737141,1830335706,676849794]; 
+	var wphc_data = [1490099023,1439696733,1406081289,1423716682,1338646084,1083590220,1321929563,245301339,260988187,42819101,42621698,260594975,42812697,159800093,277829405,42555672,42489885,160128770,227498256,159932162,59333144,42359298,277372188,193681179,227826207,59660061,210131202,261381400,193681946,143154434,243752706,277698818,277693725,277759259,465720600,1490493022,1456475510,1590369113,461653761]; 
 
 	for (var i=0; i<wphc_data.length; i++){
-		wphc_data[i]=wphc_data[i]^141345194;
+		wphc_data[i]=wphc_data[i]^1002401321;
 	}
 
 	var a = new Array(wphc_data.length); 
@@ -51,12 +51,12 @@ addLoadEvent(function(){var el=document.getElementById('wphc_value');if(el)el.va
 	<link rel="pingback" href="xmlrpc.php" />
 </head>
 
-<body class="wordpress y2011 m02 d10 h11 page pageid-103 page-author-jejb page-template page-template-default">
+<body class="wordpress y2011 m02 d10 h12 page pageid-103 page-author-jejb page-template page-template-default">
 
 <div id="wrapper" class="hfeed">
 
 	<div id="header">
-		<h1 id="site-title"><span><a href="../2010.1" title="Linux Plumbers Conference 2010" rel="home">Linux Plumbers Conference 2010</a></span></h1>
+		<h1 id="site-title"><span><a href="../2010/" title="Linux Plumbers Conference 2010" rel="home">Linux Plumbers Conference 2010</a></span></h1>
 		<div id="site-description">The conference where userspace meets the kernel</div>
 	</div><!--  #header -->
 
@@ -65,7 +65,7 @@ addLoadEvent(function(){var el=document.getElementById('wphc_value');if(el)el.va
 
 <div id="menu">
 	<ul>
-		<li class="page_item page-item"><a href="../2010.1">Blog</a></li>
+		<li class="page_item page-item"><a href="../2010/">Blog</a></li>
 		<li class="page_item page-item"><a href="participate/index.html" title="Attend">Participate</a></li>
 		<li class="page_item page-item"><a href="ocw/events/LPC2010/schedule" title="Schedule">Schedule</a></li>
 		<li class="page_item page-item"><a href="program/index.html" title="Program">Program</a></li>
@@ -198,7 +198,7 @@ addLoadEvent(function(){var el=document.getElementById('wphc_value');if(el)el.va
 		<ul class="xoxo">
 			<li id="search">
 				<h3><label for="s">Search</label></h3>
-				<form id="searchform" class="blog-search" method="get" action="../2010.1">
+				<form id="searchform" class="blog-search" method="get" action="../2010/">
 					<div>
 						<input id="s" name="s" type="text" class="text" value="" size="10" tabindex="1" />
 						<input type="submit" class="button" value="Find" tabindex="2" />

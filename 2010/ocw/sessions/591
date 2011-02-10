@@ -109,7 +109,7 @@
     $(document).ready(function() {
       app.favorites_path = '/2010/ocw/users/me/favorites';
       app.current_user = false;
-      app.authenticity_token = '8d14f92e6e1470838695fc1036641d45886dce51';
+      app.authenticity_token = '3e52d8b826fdbd11ace6f5a72dc9ca3975325a36';
       populate_user_favorites();
       bind_user_favorite_controls();
       bind_calendar_items();
@@ -131,7 +131,7 @@
 
 <div id="menu">
 	<ul>
-		<li class="page_item page-item"><a href="../../../2010.1">Blog</a></li>
+		<li class="page_item page-item"><a href="../../../2010/">Blog</a></li>
 		<li class="page_item page-item"><a href="../../participate/index.html" title="Attend">Participate</a></li>
 		<li class="page_item page-item"><a href="../events/LPC2010/schedule" title="Schedule">Schedule</a></li>
 		<li class="page_item page-item"><a href="../../program/index.html" title="Program">Program</a></li>
@@ -269,7 +269,7 @@
 
 
 
-  <form action="http://www.linuxplumbersconf.org/2010/ocw/proposals/591/comments" class="standard-form" id="comment-form" method="post"><div style="margin:0;padding:0"><input name="authenticity_token" type="hidden" value="8d14f92e6e1470838695fc1036641d45886dce51" /></div>
+  <form action="http://www.linuxplumbersconf.org/2010/ocw/proposals/591/comments" class="standard-form" id="comment-form" method="post"><div style="margin:0;padding:0"><input name="authenticity_token" type="hidden" value="3e52d8b826fdbd11ace6f5a72dc9ca3975325a36" /></div>
     <input id="comment_proposal_id" name="comment[proposal_id]" type="hidden" value="591" />
     <h4>Leave a private comment to organizers about this proposal</h4>
     <table class="standard-form">
@@ -319,9 +319,9 @@
               <li id="login-as">
                 <h3>Welcome</h3>
                 <ul>
-                  <li><a href="../events/LPC2010BOFS/proposals/new">Login</a></li>
+                  <li><a href="../users/me/favorites">Login</a></li>
                   
-                    <li class='pre-bulletted'><a href="../events/LPC2010MC/proposals/new" class="addable">Submit a proposal</a> </li>
+                    <li class='pre-bulletted'><a href="http://www.linuxplumbersconf.org/2010/ocw/events/LPC2010MC/proposals/new" class="addable">Submit a proposal</a> </li>
                   
                 </ul>
               </li>
@@ -390,7 +390,7 @@
   <!-- arbitrary javascript from views -->
   <script type="text/javascript">
 //<![CDATA[
-window._token = '8d14f92e6e1470838695fc1036641d45886dce51'
+window._token = '3e52d8b826fdbd11ace6f5a72dc9ca3975325a36'
 //]]>
 </script>
   <script type="text/javascript">

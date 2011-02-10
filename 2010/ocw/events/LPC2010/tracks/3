@@ -126,7 +126,7 @@
   <script type="text/javascript" charset="utf-8">
     $(document).ready(function() {
       app.current_user = false;
-      app.authenticity_token = '8d14f92e6e1470838695fc1036641d45886dce51';
+      app.authenticity_token = '3e52d8b826fdbd11ace6f5a72dc9ca3975325a36';
     });
   </script>
 </head>
@@ -145,7 +145,7 @@
 
 <div id="menu">
 	<ul>
-		<li class="page_item page-item"><a href="../../../../../2010.1">Blog</a></li>
+		<li class="page_item page-item"><a href="../../../../../2010/">Blog</a></li>
 		<li class="page_item page-item"><a href="../../../../participate/index.html" title="Attend">Participate</a></li>
 		<li class="page_item page-item"><a href="../schedule" title="Schedule">Schedule</a></li>
 		<li class="page_item page-item"><a href="../../../../program/index.html" title="Program">Program</a></li>
@@ -3188,7 +3188,7 @@
               <li id="login-as">
                 <h3>Welcome</h3>
                 <ul>
-                  <li><a href="../../LPC2010BOFS/proposals/new">Login</a></li>
+                  <li><a href="../../../users/me/favorites">Login</a></li>
                   
                 </ul>
               </li>
@@ -3257,7 +3257,7 @@
   <!-- arbitrary javascript from views -->
   <script type="text/javascript">
 //<![CDATA[
-window._token = '8d14f92e6e1470838695fc1036641d45886dce51'
+window._token = '3e52d8b826fdbd11ace6f5a72dc9ca3975325a36'
 //]]>
 </script>
   <script type="text/javascript">

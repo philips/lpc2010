@@ -7,7 +7,7 @@
 <link rel="alternate" type="application/rss+xml" title="Linux Plumbers Conference 2010 &raquo; Plumbers Registration now Full Comments Feed" href="http://www.linuxplumbersconf.org/2010/10/17/plumbers-registration-now-full/feed" />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../wp-includes/wlwmanifest.xml" /> 
-<link rel='index' title='Linux Plumbers Conference 2010' href='../../../../2010.1' />
+<link rel='index' title='Linux Plumbers Conference 2010' href='../../../../2010/' />
 <link rel='start' title='What is Linux Plumbing?' href='../../../04/29/what-is-linux-plumbing' />
 <link rel='prev' title='Preliminary Schedule Up' href='../preliminary-schedule-up/trackback' />
 <link rel='next' title='The schedule in PDF form' href='../../../11/03/the-schedule-in-pdf-form/trackback' />
@@ -34,10 +34,10 @@ function addLoadEvent(func) {
   }
 }
 function wphc(){
-	var wphc_data = [76825276,160784046,260718842,144271545,328157111,483598271,311317160,1406818728,1422528493,1355484904,1456211441,1607140585,1456537837,1422066670,1405683439,1406009585,1389102575,1439368433,1439564524,1456146161,1288177640,1456079337,1456541420,1456407788,1422597358,1288176610,1355613932,1405617905,1456413932,1422597359,1556809457,395122599,77943986,311057077,1322406574,1205475297]; 
+	var wphc_data = [1513796062,1463528908,1361359768,1446484955,1294054613,1115548893,1277206986,259304138,190905472,6485632,174585235,158135694,142605704,258078091,308541057,174322571,141424267,174978451,23461261,241497491,140572302,140767114,7139456,224784265,140898955,191229837,7206029,224915339,142602891,308409736,241235081,258338697,142602379,309195912,308801921,241365642,158136211,142605459,308473743,40234890,1227089093,1510713296,1277471191,276603340,427091075]; 
 
 	for (var i=0; i<wphc_data.length; i++){
-		wphc_data[i]=wphc_data[i]^1744451546;
+		wphc_data[i]=wphc_data[i]^961856696;
 	}
 
 	var a = new Array(wphc_data.length); 
@@ -54,12 +54,12 @@ addLoadEvent(function(){var el=document.getElementById('wphc_value');if(el)el.va
 	<link rel="pingback" href="../../../xmlrpc.php" />
 </head>
 
-<body class="wordpress y2011 m02 d10 h11 single postid-1123 s-y2010 s-m10 s-d17 s-h11 s-category-uncategorized s-author-jejb">
+<body class="wordpress y2011 m02 d10 h12 single postid-1123 s-y2010 s-m10 s-d17 s-h11 s-category-uncategorized s-author-jejb">
 
 <div id="wrapper" class="hfeed">
 
 	<div id="header">
-		<h1 id="site-title"><span><a href="../../../../2010.1" title="Linux Plumbers Conference 2010" rel="home">Linux Plumbers Conference 2010</a></span></h1>
+		<h1 id="site-title"><span><a href="../../../../2010/" title="Linux Plumbers Conference 2010" rel="home">Linux Plumbers Conference 2010</a></span></h1>
 		<div id="site-description">The conference where userspace meets the kernel</div>
 	</div><!--  #header -->
 
@@ -68,7 +68,7 @@ addLoadEvent(function(){var el=document.getElementById('wphc_value');if(el)el.va
 
 <div id="menu">
 	<ul>
-		<li class="page_item page-item"><a href="../../../../2010.1">Blog</a></li>
+		<li class="page_item page-item"><a href="../../../../2010/">Blog</a></li>
 		<li class="page_item page-item"><a href="../../../participate/index.html" title="Attend">Participate</a></li>
 		<li class="page_item page-item"><a href="../../../ocw/events/LPC2010/schedule" title="Schedule">Schedule</a></li>
 		<li class="page_item page-item"><a href="../../../program/index.html" title="Program">Program</a></li>
@@ -221,7 +221,7 @@ addLoadEvent(function(){var el=document.getElementById('wphc_value');if(el)el.va
 		<ul class="xoxo">
 			<li id="search">
 				<h3><label for="s">Search</label></h3>
-				<form id="searchform" class="blog-search" method="get" action="../../../../2010.1">
+				<form id="searchform" class="blog-search" method="get" action="../../../../2010/">
 					<div>
 						<input id="s" name="s" type="text" class="text" value="" size="10" tabindex="1" />
 						<input type="submit" class="button" value="Find" tabindex="2" />
