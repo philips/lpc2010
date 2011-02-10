@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ensemble Independent//vPim 0.695//EN
+CALSCALE:Gregorian
+METHOD:PUBLISH
+X-WR-CALNAME:Harald Hoyer's favorites
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+DTSTART:20101103T100000
+DTEND:20101103T123000
+SUMMARY:Boot and Init
+CREATED:20100712T092709
+LAST-MODIFIED:20101103T011915
+DESCRIPTION:Early initialization and alternatives to traditional unix init.
+  "Wiki":http://wiki.linuxplumbersconf.org/2010:early_boot_and_init_systems 
+ "Etherpad":http://etherpad.osuosl.org/lpc2010-boot-and-init
+LOCATION:Thomas Paine
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/87
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/87
+END:VEVENT
+END:VCALENDAR

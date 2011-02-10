@@ -1,0 +1,731 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+  <title>Embedded track / Linux Plumbers Conference: Developing the Kernel, Libraries and Utilities / November 3-5, 10 / Cambridge, MA</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="Developing the Kernel, Libraries and Utilities / November 3-5, 10 / Cambridge, MA" />
+
+  <!-- Feeds -->
+  <link href="../../../proposals.atom" rel="alternate" title="Linux Plumbers Conference: Proposals feed" type="application/atom+xml" />
+  
+
+  <!-- Stylesheets -->
+  
+    <link href="http://linuxplumbersconf.org/2010/style/style.css" media="screen" rel="stylesheet" type="text/css" />
+  
+  <link href="../../../themes/lpc/stylesheets/custom.css?1275586216" media="screen" rel="Stylesheet" type="text/css" />
+  
+
+  <!-- Dynamic styles -->
+  
+    
+      <style type="text/css" media="screen">
+        
+  /* Audio */
+  .track-53 { color: #28e246; }
+  .track-53.block { background: #28e246; color: #fff; }
+  .track-53.light { background: #b5f5bf; }
+  .track-53.light:hover { background: #86ef97; }
+
+  /* BoF */
+  .track-64 { color: #eca718; }
+  .track-64.block { background: #eca718; color: #fff; }
+  .track-64.light { background: #f8dea8; }
+  .track-64.light:hover { background: #f4cc78; }
+
+  /* Boot and Init */
+  .track-99 { color: #f0196c; }
+  .track-99.block { background: #f0196c; color: #fff; }
+  .track-99.light { background: #faaecb; }
+  .track-99.light:hover { background: #f67dac; }
+
+  /* Desktop */
+  .track-117 { color: #16796d; }
+  .track-117.block { background: #16796d; color: #fff; }
+  .track-117.light { background: #23c2ae; }
+  .track-117.light:hover { background: #1fa999; }
+
+  /* Embedded */
+  .track-73 { color: #9922bf; }
+  .track-73.block { background: #9922bf; color: #fff; }
+  .track-73.light { background: #cf80e8; }
+  .track-73.light:hover { background: #c159e2; }
+
+  /* File and Storage Systems */
+  .track-111 { color: #b6eb75; }
+  .track-111.block { background: #b6eb75; color: #fff; }
+  .track-111.light { background: #ffffff; }
+  .track-111.light:hover { background: #f7fdf0; }
+
+  /* High Availability Clustering */
+  .track-43 { color: #5ad03e; }
+  .track-43.block { background: #5ad03e; color: #fff; }
+  .track-43.light { background: #c9f0c0; }
+  .track-43.light:hover { background: #a4e595; }
+
+  /* Keynote */
+  .track-135 { color: #1be4cb; }
+  .track-135.block { background: #1be4cb; color: #fff; }
+  .track-135.light { background: #a4f4ea; }
+  .track-135.light:hover { background: #76efe0; }
+
+  /* Multimedia Infrastructure */
+  .track-123 { color: #ec69cc; }
+  .track-123.block { background: #ec69cc; color: #fff; }
+  .track-123.light { background: #ffffff; }
+  .track-123.light:hover { background: #fbe2f5; }
+
+  /* Power Management */
+  .track-33 { color: #eaed1d; }
+  .track-33.block { background: #eaed1d; color: #fff; }
+  .track-33.light { background: #f8f9b1; }
+  .track-33.light:hover { background: #f3f580; }
+
+  /* Real Time */
+  .track-105 { color: #ef9f2e; }
+  .track-105.block { background: #ef9f2e; color: #fff; }
+  .track-105.light { background: #fbe8cd; }
+  .track-105.light:hover { background: #f7d098; }
+
+  /* Refereed Presentations */
+  .track-3 { color: #c64024; }
+  .track-3.block { background: #c64024; color: #fff; }
+  .track-3.light { background: #ea9c8c; }
+  .track-3.light:hover { background: #e37a65; }
+
+  /* Tracing */
+  .track-93 { color: #35e39c; }
+  .track-93.block { background: #35e39c; color: #fff; }
+  .track-93.light { background: #c9f7e4; }
+  .track-93.light:hover { background: #97f1cc; }
+
+  /* User Visible Network Issues */
+  .track-63 { color: #1877b9; }
+  .track-63.block { background: #1877b9; color: #fff; }
+  .track-63.light { background: #64b3eb; }
+  .track-63.light:hover { background: #3fa1e6; }
+
+  /* Virtualization */
+  .track-23 { color: #4db3a1; }
+  .track-23.block { background: #4db3a1; color: #fff; }
+  .track-23.light { background: #b9e1da; }
+  .track-23.light:hover { background: #95d2c7; }
+
+      </style>
+    
+  
+
+  <!-- Scripts -->
+  <script src="../../../javascripts/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../javascripts/jquery-ui.effects.core.js" type="text/javascript"></script>
+  <script src="../../../javascripts/jquery-ui.effects.highlight.js" type="text/javascript"></script>
+  <script src="../../../javascripts/application.js" type="text/javascript"></script>
+  
+    
+    
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+      app.current_user = false;
+      app.authenticity_token = '8d14f92e6e1470838695fc1036641d45886dce51';
+    });
+  </script>
+</head>
+
+
+
+<body>
+  <div id="wrapper">
+     <div id="header">
+           <h1 id="site-title"><span><a href="http://linuxplumbersconf.org/2010/" title="Linux Plumbers Conf 2010" rel="home">Linux Plumbers Conf 2010</a></span></h1>
+           <div id="site-description">Developing the Kernel, Libraries and Utilities</div>
+      </div>
+
+      	<div id="access">
+		<div class="skip-link"><a href="73#content" title="Skip to content">'Skip to content</a></div>
+
+<div id="menu">
+	<ul>
+		<li class="page_item page-item"><a href="../../../../../2010.1">Blog</a></li>
+		<li class="page_item page-item"><a href="../../../../participate/index.html" title="Attend">Participate</a></li>
+		<li class="page_item page-item"><a href="../schedule" title="Schedule">Schedule</a></li>
+		<li class="page_item page-item"><a href="../../../../program/index.html" title="Program">Program</a></li>
+		<li class="page_item page-item"><a href="../../../../contact/index.html" title="Contact">Contact</a></li>
+		<li class="page_item page-item"><a href="../../../../faqs" title="FAQs">FAQs</a></li>
+	</ul>
+</div>
+
+	</div><!-- #access -->
+
+
+      <div id="container">
+        <div id="content">
+          <h2 class='entry-title'>Proposals</h2>
+          
+
+          <h2 class='page_title'>Embedded track</h2>
+
+          <!-- Display notices -->
+          
+          
+          
+          
+
+          <!-- Display view's content -->
+          
+
+
+  <div id="track-show">
+    <span class="description"><p><a href="http://wiki.linuxplumbersconf.org/2010:embedded_topics">Wiki</a></p>
+<p>Possible track for capturing embedded/small system topics</p>
+<ul>
+	<li>Standardize boot interface for <span class="caps">ARM</span></li>
+	<li>Device driver and the device tree</li>
+	<li>Core plumbing required in small systems.</li>
+	<li>Running mainstream distros on <span class="caps">ARM</span> devices</li>
+</ul></span>
+
+    
+
+    <div class='record-controls'>
+      
+      <a href="../../LPC2010MC/tracks/13" class="cancelable">All tracks for this event</a>
+    </div>
+
+    
+
+  
+    <div id="sub_list_for_event_4" class="sub_list_for_event ">
+      
+      
+      
+        
+
+
+  <div class="proposals_sub_list_for_kind proposals_sub_list_for_kind_proposals">
+    <div class="proposals_sub_list_for_kind_toggle" style="display: none">
+      <a href="73#">Display proposals...</a>
+    </div>
+    <div class="proposals_sub_list_for_kind_content">
+      <h3>Proposals for this track</h3>
+      
+
+
+  
+
+  
+    <table class='proposals kind_proposals' cellspacing='0'>
+      
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_975'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../../users/me/favorites" class="favorite favorite_975"><span>*</span></a>
+            
+              <a href="../../../proposals/975" class="title">data logging for device field trials</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            embedded device debugging is made harder by the fact that people use them, and when they crash you arn't there.  How to capture useful data persistently for remote postmortem debug is the question
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-73'>
+          <a href="../../LPC2010MC/tracks/73">Embedded</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/23/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../../users/441">Mark Gross</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_909'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../../users/me/favorites" class="favorite favorite_909"><span>*</span></a>
+            
+              <a href="../../../proposals/909" class="title">Device tree discussion session</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            General discussion about device tree support on embedded platforms
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-73'>
+          <a href="../../LPC2010MC/tracks/73">Embedded</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/17/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../../users/531">Jeremy Kerr</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1077'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../../users/me/favorites" class="favorite favorite_1077"><span>*</span></a>
+            
+              <a href="../../../proposals/1077" class="title">discussing syslink: an efficient inter-processor communication system for mobile devices</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            mainlining Syslink: discussion of problems/solutions towards an efficient Inter-Processor Communication system for mobile Linux devices that employ extra slave remote processors
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-73'>
+          <a href="../../LPC2010MC/tracks/73">Embedded</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/27/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../../users/231">Ohad Ben-Cohen</a>, <a href="../../../users/429">Hari Kanigeri</a>, <a href="../../../users/411">Suman Anna</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_63'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../../users/me/favorites" class="favorite favorite_63"><span>*</span></a>
+            
+              <a href="../../../sessions/63" class="title">Embedded</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Embedded topics and issues. &quot;Wiki&quot;:http://wiki.linuxplumbersconf.org/2010:embedded_topics &quot;Etherpad&quot;:http://etherpad.osuosl.org/lpc2010-embedded
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-73'>
+          <a href="../../LPC2010MC/tracks/73">Embedded</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/02/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/users/133">Grant Likely</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_939'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../../users/me/favorites" class="favorite favorite_939"><span>*</span></a>
+            
+              <a href="../../../proposals/939" class="title">Embedded platform mainlining: benefits, obstacles and examples</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Embedded platforms mainlining problems and their possible solutions.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-73'>
+          <a href="../../LPC2010MC/tracks/73">Embedded</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/21/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../../users/465">Mike Rapoport</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1059'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../../users/me/favorites" class="favorite favorite_1059"><span>*</span></a>
+            
+              <a href="../../../proposals/1059" class="title">Multimedia memory management nightmare</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Multimedia devices need to transfer very large amount of data efficiently, a painful operation on ARM-based systems that needs a solution.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-73'>
+          <a href="../../LPC2010MC/tracks/73">Embedded</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/26/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../../users/843">Laurent Pinchart</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_819'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../../users/me/favorites" class="favorite favorite_819"><span>*</span></a>
+            
+              <a href="../../../proposals/819" class="title">Per-device PM QoS constraints</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Explore and discuss methods to handle PM QoS constraints for each device in addition to system wide constraints.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-73'>
+          <a href="../../LPC2010MC/tracks/73">Embedded</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/10/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../../users/927">Kevin Hilman</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_999'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../../users/me/favorites" class="favorite favorite_999"><span>*</span></a>
+            
+              <a href="../../../proposals/999" class="title">Running mainstream distributions on ARM</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Discussion about how to run mainstream Linux distributions on ARM-based systems
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-73'>
+          <a href="../../LPC2010MC/tracks/73">Embedded</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/23/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../../users/465">Mike Rapoport</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_555'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../../users/me/favorites" class="favorite favorite_555"><span>*</span></a>
+            
+              <a href="../../../proposals/555" class="title">Unfragmenting embedded Linux platform offerings</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Discussion around migrating specific Android tools and technology into other embedded Linux distros, to reduce fragmentation in the industry.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-73'>
+          <a href="../../LPC2010MC/tracks/73">Embedded</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/20/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../../users/807">Tim Bird</a>
+          
+        </td>
+      </tr>
+      
+    </table>
+  
+
+
+    </div>
+  </div>
+
+
+      
+    </div>
+  
+
+
+  </div>
+
+
+        </div><!-- content -->
+      </div><!-- container -->
+
+        <div id="primary" class="sidebar">
+          <ul class="xoxo">
+            
+              <li id="login-as">
+                <h3>Welcome</h3>
+                <ul>
+                  <li><a href="../../LPC2010BOFS/proposals/new">Login</a></li>
+                  
+                </ul>
+              </li>
+            
+
+            <li id="subscribe-to">
+              <h3>Subscribe to</h3>
+              <ul>
+                <li class="pre-bulletted"><a href="../../../proposals.atom" class="feedable">Proposals feed</a></li>
+                
+              </ul>
+            </li>
+
+            
+          </ul>
+	  			<div id="sponsor-links">
+				<h3>Sponsors</h3>
+				<br>
+				<h5>Platinum</h5>
+				<br><a href="http://intel.com"><img src="../../../../style/intel_logo.png" /></a>
+				<br>
+				<br><a href="http://qualcomm.com"><img src="../../../../style/Qualcomm.png" /></a>
+				<br>
+				<br><a href="http://ibm.com"><img src="../../../../style/IBMtm.png" /></a>
+				<br>&nbsp;
+				<h5>Gold</h5>
+				<br><a href="http://google.com"><img src="../../../../style/google_logo.gif" /></a>
+				<br>
+				<br><a href="http://www.ti.com"><img src="../../../../style/ti_logo.gif" /></a>
+				<br>&nbsp;
+				<h5>Silver</h5>
+				<br><a href="http://hp.com"><img src="../../../../style/hp_logo.gif" /></a>
+				<br>
+				<br><a href="http://canonical.com"><img src="../../../../style/canonical.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.akamai.com"><img src="../../../../style/akamai_logo_pms.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.linaro.org"><img src="../../../../style/linaro-1.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.oracle.com"><img src="../../../../style/oralogo_small.gif" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.emc.com"><img src="../../../../style/EMC_logo_2004_color2.png" /></a>
+<!--
+				<h3>Media Sponsors</h3>
+				<ul class="sponsor-links">
+
+					<li><a href="http://lwn.net"><img src="/2010/style/lwnlogo.png" /></a></li>
+					<li><a href="http://linuxjournel.com"><img src="/2010/style/ljcolor.png" /></a></li>
+					<li><a href="http://www.linuxpromagazine.com/"><img src="/2010/style/LinuxPro-logo.png" /></a></li>
+				</ul>
+-->
+			</div>
+
+
+
+        </div><!-- #sidebar-1 -->
+
+    <div id="footer">
+    <a href="http://osuosl.org"><img border="0" src="http://linuxplumbersconf.org/2010/style/osl-hosted.png" alt="OSL"/></a>
+    </div>
+
+  </div><!--wrapper -->
+
+  
+
+  <!-- arbitrary javascript from views -->
+  <script type="text/javascript">
+//<![CDATA[
+window._token = '8d14f92e6e1470838695fc1036641d45886dce51'
+//]]>
+</script>
+  <script type="text/javascript">
+    
+  </script>
+
+  
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-168427-8");
+      pageTracker._initData();
+      pageTracker._trackPageview();
+    </script>
+
+    <script src="http://static.getclicky.com/79611.js" type="text/javascript"></script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://static.getclicky.com/79611-db10.gif" /></p></noscript>
+  
+</body>
+</html>

@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <id>tag:www.linuxplumbersconf.org,2005:/2010/ocw/proposals</id>
+  <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org"/>
+  <link type="application/atom+xml" rel="self" href="http://www.linuxplumbersconf.org/2010/ocw/proposals.atom"/>
+  <title>Linux Plumbers Conference: Presentation Proposals</title>
+  <updated>2010-11-03T01:21:14-04:00</updated>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1227</id>
+    <published>2010-11-03T01:21:14-04:00</published>
+    <updated>2010-11-03T01:21:14-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1227"/>
+    <title>GNOME OS</title>
+    <updated>2010-11-03T05:21:14Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;GNOME OS: an open operating system designed for modern life&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;We&amp;#8217;ve been working hard to lay the pipes for something great.  But what is it and what is it for?  Can we work together to build something of consequence?&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Jon McCann&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;User experience designer at Red Hat.  Working on design and coordination for &lt;span class=&quot;caps&quot;&gt;GNOME&lt;/span&gt; 3 and &lt;span class=&quot;caps&quot;&gt;GNOME&lt;/span&gt; OS.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1221</id>
+    <published>2010-10-29T20:30:24-04:00</published>
+    <updated>2010-10-31T00:25:33-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1221"/>
+    <title>Kicking the Tires of The Yocto Project</title>
+    <updated>2010-10-30T00:30:24Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Discuss the details of the recently announced yocto project and where it can lend value to embedded linux development.&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;The yocto project was recently announced at the &lt;span class=&quot;caps&quot;&gt;CELF&lt;/span&gt; conference. This bof will provide an opportunity to discuss the technical details of the project, how it is positioned relative to associated projects, and it&amp;#8217;s value to embedded Linux development.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speakers:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Tracey Erway&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;25 years embedded and/or development tool experience.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Dirk Hohndel&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Dirk Hohndel, Chief Linux and Open Source Technologist, Intel Corporation&lt;/p&gt;
+&lt;p&gt;Dirk has been an active developer and contributor in the Linux space since its earliest days. Among other roles, he worked as Chief Technology Officer of SuSE and as Vice President of The XFree86 Project, Inc. &lt;br /&gt;
+Dirk joined Intel in 2001. He works in the Software and Services Group and focuses on the technology direction of Intel&amp;#8217;s Open Source Technology Center and guides Intel&amp;#8217;s engagements in open source. He is an active contributor in many open source projects and organizations, various program committees and advisory boards.&lt;br /&gt;
+Dirk holds a Diploma in Mathematics and Computer Science from the University of W&#252;rzburg, Germany. He lives in Portland, OR.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1215</id>
+    <published>2010-10-18T10:12:28-04:00</published>
+    <updated>2010-10-19T08:08:55-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1215"/>
+    <title>Design and History of CTDB</title>
+    <updated>2010-10-18T14:12:28Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;This describes the internals of CTDB and why CTDB is designed the way it is.&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;&lt;span class=&quot;caps&quot;&gt;CTDB&lt;/span&gt; is a clustering layer between Samba and a clustered file system. &lt;span class=&quot;caps&quot;&gt;CTDB&lt;/span&gt; is basically a specialized clustered database for Sambas internal &lt;span class=&quot;caps&quot;&gt;IPC&lt;/span&gt;-Databases but has evolved into a whole cluster management software for Samba. As such, &lt;span class=&quot;caps&quot;&gt;CTDB&lt;/span&gt; is independent of any specific cluster manager. It just takes the cluster file system granted as a black box.&lt;/p&gt;
+&lt;p&gt;This is meant as a small presentation to complement the discussion &amp;#8220;The Unholy Union of Corosync, Pacemaker and &lt;span class=&quot;caps&quot;&gt;CTDB&lt;/span&gt;&amp;#8221;. The aim is to describe why &lt;span class=&quot;caps&quot;&gt;CTDB&lt;/span&gt; was invented and how it evolved over the past 3.5 years since its creation. The design of &lt;span class=&quot;caps&quot;&gt;CTDB&lt;/span&gt; will can described in considerable detail.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Michael Adam&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;ul&gt;
+	&lt;li&gt;studied mathematics&lt;/li&gt;
+	&lt;li&gt;working as software engineer and consultant for the Samba software for german SerNet GmbH&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1209</id>
+    <published>2010-10-15T11:31:24-04:00</published>
+    <updated>2010-11-03T23:00:19-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1209"/>
+    <title>Virtualization (Part II)</title>
+    <updated>2010-10-15T15:31:24Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Virtualization topics and issues &amp;quot;Wiki&amp;quot;:http://wiki.linuxplumbersconf.org/2010:virtualization &amp;quot;Etherpad&amp;quot;:http://etherpad.osuosl.org/lpc2010-virtualization&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;Track Lead&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Jes Sorensen&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Jes Sorensen is a veteran Linux kernel developer since 1993. He has worked extensively in and around the Linux kernel; including areas such as Virtualization, high speed networking, and Linux/ia64. He has written more device drivers than he can remember as well as worked on the system libraries (glibc) and Virtualization for high end &lt;span class=&quot;caps&quot;&gt;NUMA&lt;/span&gt; systems. Most recently he has been working on &lt;span class=&quot;caps&quot;&gt;KVM&lt;/span&gt; scalability. Jes has been a frequent speaker and tutorial instructor at various Open Source related conferences. Today Jes works as a Principal Software Engineer for Red Hat Inc. (&lt;a href=&quot;http://www.redhat.com&quot; rel=&quot;nofollow&quot;&gt;http://www.redhat.com&lt;/a&gt;), as part of the Red Hat Virtualization team. Prior to Red Hat, Jes has worked for Silicon Graphics, Wild Open Source, Linuxcare and the European Laboratory for Particle Physics (&lt;a href=&quot;http://www.cern.ch&quot; rel=&quot;nofollow&quot;&gt;http://www.cern.ch&lt;/a&gt;).&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1203</id>
+    <published>2010-10-15T11:26:45-04:00</published>
+    <updated>2010-11-03T22:48:19-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1203"/>
+    <title>Tracing (Part II)</title>
+    <updated>2010-10-15T15:26:45Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Linux Tracing topics and issues.  &amp;quot;Wiki&amp;quot;:http://wiki.linuxplumbersconf.org/2010:tracing &amp;quot;Etherpad&amp;quot;:http://etherpad.osuosl.org/lpc2010-tracing&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;Tracing within the Linux kernel and userland helps in seeing how and why the system acts the way it does. Tracing facilitates the debuging of the system as well as understanding the reason the system behaves in a certain way.&lt;/p&gt;
+&lt;p&gt;Currently, Ftrace is the major tracing infrastructure of the Linux kernel, but perf is starting to overlap in its features. Not to mention LTTng, which is not part of the mainline kernel but is being used by companies with a patched kernel. Integration of these tracers would benefit the user community greatly, but there are some technical (as well as social) issues in making them collaborate better.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speakers:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Vinod Kutty&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Associate Director, &lt;span class=&quot;caps&quot;&gt;CME&lt;/span&gt; Group&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Steven Rostedt&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Steven started tinkering with Linux while working at Lockheed Martin. He left Lockheed to work at TimeSys on their real-time Linux kernel. Then he started his own contracting company which lead him to work on the Linux RT patch with Ingo Molnar, which eventually lead him to a job at Red Hat.&lt;/p&gt;
+&lt;p&gt;While working to get the RT patch&amp;#8217;s latency tracer ready for mainline, he incorporated his own lodgev tracing utility and the final product became what is now known as Ftrace. He currently maintains Ftrace and is working on user space tools to interact with it.&lt;/p&gt;
+&lt;p&gt;He still finds time for his real job which is to support the real-time kernel in Red Hat&amp;#8217;s &lt;span class=&quot;caps&quot;&gt;MRG&lt;/span&gt; product.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1197</id>
+    <published>2010-10-12T06:36:51-04:00</published>
+    <updated>2010-10-12T06:36:51-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1197"/>
+    <title>Unified API for Snapshotting File Systems</title>
+    <updated>2010-10-12T10:36:51Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Let's talk about generic API for snapshots.&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;Some file and storage systems (Btrfs, Nilfs, &lt;span class=&quot;caps&quot;&gt;LVM&lt;/span&gt; and out-of-tree Next3) already support snapshots. Other file systems (Ext4) may gain snapshots support in the near future.&lt;/p&gt;
+&lt;p&gt;Every snapshotting file or storage system uses it&amp;#8217;s own user tools for managing and mounting snapshots.&lt;/p&gt;
+&lt;p&gt;For the sake of applications that would like to take snapshots regardless of the storage type (like backup applications), it would be useful to have a generic snapshots &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt;.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Amir Goldstein&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Amir is a senior engineer at &lt;span class=&quot;caps&quot;&gt;CTERA&lt;/span&gt; Networks who leads the development of the Next3 snapshots project.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1191</id>
+    <published>2010-10-07T10:43:06-04:00</published>
+    <updated>2010-10-15T12:00:50-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1191"/>
+    <title>Ext4 snapshots</title>
+    <updated>2010-10-07T14:43:06Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Overview of Next3 snapshots and what needs to be done to merge them into Ext4.&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;Next3 is a clone of the Ext3 filesystem with built-in support for snapshots, which was developed by &lt;span class=&quot;caps&quot;&gt;CTERA&lt;/span&gt; Networks.&lt;/p&gt;
+&lt;p&gt;Many in the community have expressed their desire that the snapshots feature be merged into Ext4.&lt;/p&gt;
+&lt;p&gt;As the journey towards Ext4 snapshots is about to embark, it is now the perfect time to discuss the various design issues regarding Ext4 snapshots.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Amir Goldstein&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Amir is a senior engineer at &lt;span class=&quot;caps&quot;&gt;CTERA&lt;/span&gt; Networks who leads the development of the Next3 snapshots project.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1185</id>
+    <published>2010-10-01T20:39:34-04:00</published>
+    <updated>2010-10-01T20:39:34-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1185"/>
+    <title>Consolidation of disk heartbeating</title>
+    <updated>2010-10-02T00:39:34Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;We have three disk heartbeats systems; let's not.&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;ocfs2&amp;#8217;s internal cluster stack, o2cb, has a disk heartbeat process named o2hb.  Corosync clusters based on cman use qdiskd.  Corosync clusters using pacemaker used sbd.&lt;/p&gt;
+&lt;p&gt;The ocfs2 team recently enhanced o2hb to support &amp;#8220;global&amp;#8221; heartbeat regions.  This compares to behavior provided by qdiskd and sbd, in some ways surpassing them.&lt;/p&gt;
+&lt;p&gt;Let us discuss the various capabilities, restrictions, and futures of these three heartbeat processes.  The goal is to merge them into a single shared project we can all use and maintain.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Joel Becker&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Joel Becker has been breaking Linux for 15 years and breaking it for Oracle for the past 10.  He is the maintainer of configfs and the co-maintainer of ocfs2 in the Linux kernel.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1179</id>
+    <published>2010-10-01T14:25:50-04:00</published>
+    <updated>2010-11-17T11:25:14-05:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1179"/>
+    <title>The wonderful world of LibreOffice</title>
+    <updated>2010-10-01T18:25:50Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;How we will fix your Free Software Office Suite&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;LibreOffice is the office suite of the future; it also happens to be built round an ancient beast of a codebase that reads, in places, something like a Windows device driver. Come and hear how the exciting transition to a world of beauty and elegance is going.&lt;/p&gt;
+&lt;p&gt;We will look at the threats to the Free Software ecosystem that poorly managed, corporate dominated, copyright assignment based projects can cause. We&amp;#8217;ll look at some f the strains that LibreOffice places on the toolchain, revision-control, the kernel and base system. We will also try to understand the enigma of the failure of component based software engineering.&lt;/p&gt;
+&lt;p&gt;A development plan will be rambled over, with tips on how you can get your favorite new technology integrate into LibreOffice (should you be so brave), and finally you will be persuaded that this is the best place to make your personal blow for a Free Software office suite that we can all be proud of.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Michael Meeks&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Michael is a Christian and enthusiastic believer in Free software. He&lt;br /&gt;
+very much enjoys working for Novell where as a member of the Desktop&lt;br /&gt;
+research team he has worked on desktop infrastructure and&lt;br /&gt;
+applications, particularly MeeGo, OpenOffice.org, &lt;span class=&quot;caps&quot;&gt;CORBA&lt;/span&gt;, Bonobo,&lt;br /&gt;
+Nautilus, Evolution and accessibility, amongst other interesting&lt;br /&gt;
+things. He now works as an Architect, trying to understand and nudge&lt;br /&gt;
+the direction of our Linux Desktop work. Prior to this he worked for&lt;br /&gt;
+Quantel gaining expertise in real time AV editing and playback&lt;br /&gt;
+achieved with high performance focused hardware / software solutions.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1173</id>
+    <published>2010-09-27T17:41:36-04:00</published>
+    <updated>2010-10-15T12:00:33-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1173"/>
+    <title>Kernel Debugging</title>
+    <updated>2010-09-27T21:41:36Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Discuss state of KGDB and other kernel debug technologies.&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;Now that &lt;span class=&quot;caps&quot;&gt;KGDB&lt;/span&gt;/&lt;span class=&quot;caps&quot;&gt;KDB&lt;/span&gt; are merged into the upstream kernel, we can start thinking about what is next in terms of kernel debug technology. Come share your questions about kernel debugging, your stories about challenging situations you had to debug, and your ideas for features and technology direction.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Deepak Saxena&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Deepak Saxena is currently a Linux kernel  developer for Mentor Graphics and prior to that he has been involved with kernel work at One Laptop Per Child, MontaVista Software, and Intel working on broad range of areas including I/O drivers, debuggers, and &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt; board bringup.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1167</id>
+    <published>2010-09-21T09:22:23-04:00</published>
+    <updated>2010-09-21T09:22:23-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1167"/>
+    <title>Routing compressed data through PulseAudio</title>
+    <updated>2010-09-21T13:22:23Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;This presentation will show the benefits in terms of power, audio policy and routing of handling compressed data in PulseAudio&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;PulseAudio is a central part of the Linux audio subsystem, with hooks to control volume, routing and policy. Although it&amp;#8217;s been on the roadmap for several years, PulseAudio does currently not support compressed data, which leads to routing limitations even when hardware assist is available for low-power, Bluetooth and &lt;span class=&quot;caps&quot;&gt;HDMI&lt;/span&gt; use cases.&lt;br /&gt;
+In this talk we will share the status of experiments done at Intel to route compressed data through PulseAudio, the changes needed to latency/time management and the need to expose sink capabilities to apps.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Pierre Bossart&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Audio and system architecture related positions since 1997 with Digigram, STMicroelectronics, Freescale and Intel.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1161</id>
+    <published>2010-09-19T19:34:19-04:00</published>
+    <updated>2010-09-19T19:34:19-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1161"/>
+    <title>systemd and the desktop</title>
+    <updated>2010-09-19T23:34:19Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;systemd is a not only an init systemd, but also a session manager, making the same features that are available for managing the system available to manage the user sessions&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;This is intended to be a follow-up talk to the systemd talk from the boot and init track. While the focus of that talk is how systemd is useful for bringing up and maintaining the system in this talk we&amp;#8217;ll focus more on how to use it to manage user sessions, and how it relates to gnome-session and the &lt;span class=&quot;caps&quot;&gt;KDE&lt;/span&gt; session manager, or the D-Bus session bus.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Lennart Poettering&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;I work for Red Hat in the desktop group, and wrote most of Avahi, PulseAudio, systemd and other things.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1155</id>
+    <published>2010-09-17T10:59:23-04:00</published>
+    <updated>2010-09-17T11:00:35-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1155"/>
+    <title>Reality of PREEMPT_RT in the field</title>
+    <updated>2010-09-17T14:59:23Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;PREEMPT_RT users provide insight in use cases and experience&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;Users of the real-time preemption patch will give insight into their usage scenarios, the up- and downsides of development and deployment and their expectations for the further development of PREEMPT_RT.&lt;/p&gt;
+&lt;p&gt;We will have a presenter from the embedded industrial control space and a presenter from the enterprise RT camp.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speakers:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Thomas Gleixner&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Long time Linux kernel hacker with embedded background and a strong affinity to impossible missions.&lt;/p&gt;
+&lt;p&gt;(Co)Maintainer for x86, everything timers, generic interrupt subsystem and some more in the Linux Kernel. Desperately keeping the real-time preemption patch in shape and merging it piecewise into the mainline kernel.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Matthias B&amp;#252;hler&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Real time developer at &lt;span class=&quot;caps&quot;&gt;TRUMPF&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;David Sperry&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Long time research and development engineer of new large-scale real-time systems primarily in the civil and defense markets.&lt;/p&gt;
+&lt;p&gt;Currently sharing time between supporting a large deployment of PREEMPT_RT Linux based systems and designing future real-time &lt;span class=&quot;caps&quot;&gt;HPC&lt;/span&gt; systems. Recently a part of the Raytheon/&lt;span class=&quot;caps&quot;&gt;IBM&lt;/span&gt; technical team representing the users of the PREEMPT_RT Kernel for the US Navy&#8217;s Zumwalt program.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1149</id>
+    <published>2010-09-16T04:53:32-04:00</published>
+    <updated>2010-09-16T04:53:32-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1149"/>
+    <title>Triaging, debugging, and fixing Ubuntu's audio problems</title>
+    <updated>2010-09-16T08:53:32Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Presentation and discussion around the tools available
+and used to debug audio problems
+&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;A short presentation about the tools which Ubuntu&amp;#8217;s audio developers use to nail down and fix problems in the audio stack. After the presentation, the audience is encouraged to participate in a discussion about what tools they use, if the tools are sufficient, and if there are hidden gems in the tool repository.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;David Henningsson&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;David Henningsson is a software developer from southern Sweden, with a special interest in music and audio software. He has been working for Canonical since July 2010 with hardware enablement and audio infrastructure.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1143</id>
+    <published>2010-09-16T01:44:19-04:00</published>
+    <updated>2010-10-21T14:24:14-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1143"/>
+    <title>State of the kernel: license &quot;wise&quot;.</title>
+    <updated>2010-09-16T05:44:19Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Survey of what licenses are actually in the kernel, beyond GPLv2/GPLv2+.&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;This &lt;span class=&quot;caps&quot;&gt;BOF&lt;/span&gt; will examine at the Linux kernel using current tools (FOSSology, etc.) to analyze the licensing inside the kernel itself,  and illustrate what&amp;#8217;s there and detectable beyond the GPLv2 and GPLv2+ licenses we all expect to see.&lt;/p&gt;
+&lt;p&gt;Discussion of the corner cases found by the analysis, and some of the current trends emerging in reporting licensing and copyrights will be discussed, as well as the open source tools available to assist with package analysis.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Kate Stewart&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Development Manager for Power architecture Linux, U-boot and Gnu toolchain team at Freescale for 10 years.  Just joined Canonical as Ubuntu Release Manager.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1137</id>
+    <published>2010-09-13T18:18:04-04:00</published>
+    <updated>2010-09-21T05:01:31-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1137"/>
+    <title>Corosync Community Roadmap Whiteboard</title>
+    <updated>2010-09-13T22:18:04Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Current community roadmap and discussion about additional features.&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;This talk will present the Corosync community roadmap based upon current user feedback.  Developers and users are encouraged to talk about their ideas and requirements currently unmet.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Steven Dake&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Steven Dake has been involved in Open Source Linux for over 12 years professionally.  Steven Dake was involved in the creation of the industry first Carrier Grade Linux software solution at MontaVista Software.  While working at MontaVista Software, Mr. Dake initiated the openais project which has been used in thousands of designs worldwide for high availability since 2002.  In 2008, Mr. Dake founded the Corosync Cluster Engine project to radically improve the performance and quality based upon real-world experiences of the openais project.  He maintains this project full time with a small group of other high availability experts in the open source community.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1131</id>
+    <published>2010-09-13T16:24:27-04:00</published>
+    <updated>2010-09-13T16:24:27-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1131"/>
+    <title>File System Performance Testing</title>
+    <updated>2010-09-13T20:24:27Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Discussion surrounding performance regression testing&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;This talk is aimed at fostering discussion about performance testing.  There are several frameworks in place for automating tests, but no one seems to add tests, or run the test suites on a regular basis.  Let&amp;#8217;s discuss what the barriers are, and how we move forward to get more complete testing to find performance regressions sooner.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speakers:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Jeff Moyer&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Jeff Moyer is a principal software engineer at Red Hat who has been hacking on Linux since 1995.  While at Red Hat, he has worked on improving the Linux automounter, the netpoll &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt; used by netconsole and netdump, the Linux in-kernel asynchronous and direct I/O code paths, and the block layer.  He currently spends the bulk of his time tracking down bugs and performance problems in the block I/O path.  Before coming to Red Hat, Jeff was involved in the design and implementation of a couple of different high availability clustering infrastructures.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Eric Sandeen&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Eric has been developing Linux filesystems for about a decade, starting with &lt;span class=&quot;caps&quot;&gt;XFS&lt;/span&gt; at &lt;span class=&quot;caps&quot;&gt;SGI&lt;/span&gt; and now working on ext4, ext3, xfs, and other filesystem/storage related bits at Red Hat.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1125</id>
+    <published>2010-09-11T12:06:03-04:00</published>
+    <updated>2010-09-11T12:06:03-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1125"/>
+    <title>Transparent Hugepage Support</title>
+    <updated>2010-09-11T16:06:03Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;The presentation will show some internals and benefits of Transparent Hugepage Support&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;The &lt;span class=&quot;caps&quot;&gt;KVM&lt;/span&gt; memory management is tightly integrated with the Linux core memory management. The entire &lt;span class=&quot;caps&quot;&gt;KVM&lt;/span&gt; guest memory for instance is allocated as regular memory of a Linux task. This presentation will focus on how the mmu notifiers or equivalent methods allows &lt;span class=&quot;caps&quot;&gt;KVM&lt;/span&gt; to take advantage of the advanced and continuously improving Linux Virtual Memory algorithms in order to provide efficient paging, aging, sharing and ballooning to the virtualized guests.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Andrea Arcangeli&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Andrea Arcangeli joined Qumranet on 2008 because of his interest in working on the &lt;span class=&quot;caps&quot;&gt;KVM&lt;/span&gt; virtualization project, with special interest in the virtual machine memory management. Before joining Qumranet he worked for Novell/&lt;span class=&quot;caps&quot;&gt;SUSE&lt;/span&gt; since 1999 on many parts of the Linux Kernel, but especially on the virtual memory subsystem of the kernel. He started working with Linux in his spare time shortly after he connected the first time to the Internet back in 1996 while studying at Bologna University. He enjoys spending most of his time solving software problems, and trying to promote the adoption of Linux and Open Source software everywhere.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1119</id>
+    <published>2010-09-10T11:56:37-04:00</published>
+    <updated>2010-09-20T15:33:32-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1119"/>
+    <title>bootchart2 - what is going on ?</title>
+    <updated>2010-09-10T15:56:37Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Come hear about the somewhat less-lame boot-charting solution.&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;The world of bootcharting has been fragmented with different collectors, different renderers, and all sorts of good work that hasn&amp;#8217;t been widely used. Bootchart2 tries to solve a lot of these problems by pulling the best features together into one place and doing the job better than any before.&lt;br /&gt;
+The kernel however provides a fairly unhelpful set of interfaces to follow what is going on from a performance perspective, suggestions on other interfaces to use much appreciated.&lt;br /&gt;
+Optimization without profiling is a waste of life &amp;#8211; come find out how we can work together to help save it for other things.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Michael Meeks&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Michael is a Christian and enthusiastic believer in Free software. He&lt;br /&gt;
+very much enjoys working for Novell where as a member of the Desktop&lt;br /&gt;
+research team he has worked on desktop infrastructure and&lt;br /&gt;
+applications, particularly MeeGo, OpenOffice.org, &lt;span class=&quot;caps&quot;&gt;CORBA&lt;/span&gt;, Bonobo,&lt;br /&gt;
+Nautilus, Evolution and accessibility, amongst other interesting&lt;br /&gt;
+things. He now works as an Architect, trying to understand and nudge&lt;br /&gt;
+the direction of our Linux Desktop work. Prior to this he worked for&lt;br /&gt;
+Quantel gaining expertise in real time AV editing and playback&lt;br /&gt;
+achieved with high performance focused hardware / software solutions.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1113</id>
+    <published>2010-09-05T20:47:47-04:00</published>
+    <updated>2010-09-10T11:19:00-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1113"/>
+    <title>Dynamic probing with perf</title>
+    <updated>2010-09-06T00:47:47Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;A presentation of kprobes/uprobes based dynamic trace event&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;Dynamic probing has been introduced in perf tools and ftrace&lt;br /&gt;
+since 2.6.33.&lt;br /&gt;
+This feature allows users to add or remove tracepoints in both&lt;br /&gt;
+of kernel and user applications. However they have to know&lt;br /&gt;
+inside of target software including kernel for adding new&lt;br /&gt;
+tracepoints. Perf probe subcommand helps them to add tracepoint&lt;br /&gt;
+easily by using debug information.&lt;br /&gt;
+This presentation will show you the basic functions of perf&lt;br /&gt;
+probe and advanced features recently added and planned to add.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Masami Hiramatsu&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Masami Hiramatsu works at Hitachi, and is a Kprobes maintainer&lt;br /&gt;
+and a SystemTap developer. He has been working in the kernel&lt;br /&gt;
+tracing area since he joined Hitachi from 2002.&lt;br /&gt;
+He is developing the dynamic event tracing on ftrace and&lt;br /&gt;
+perf tools by re-implementing basic dwarf technology of&lt;br /&gt;
+SystemTap on the linux kernel tree.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1107</id>
+    <published>2010-09-04T19:47:45-04:00</published>
+    <updated>2010-09-04T19:47:45-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1107"/>
+    <title>Upstream first, end-customer... eventually</title>
+    <updated>2010-09-04T23:47:45Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Can we improve the availability of new Linux technologies for the environments end customers are using?&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;The md-external-metadata solution, supporting third-party raid-metadata formats via the kernel&#8217;s md driver, has been integrated into the upstream kernel and mdadm projects.  Per the &lt;a href=&quot;http://ldn.linuxfoundation.org/how-participate-linux-community&quot;&gt;known benefits of upstream inclusion&lt;/a&gt; the solution was deployed in community distributions and is now finding its way into the enterprise distributions.  As one would hope, working with upstream lead to incidental improvements being made to the wider kernel like the /sys/dev/ directory for looking up sysfs paths by major/minor numbers.  A successful application of the upstream first policy with long term benefits to the community; however, it has only been picked up for the current major refresh cycle of the enterprise distributions and most likely will not appear in a maintenance update to a previous generation deployment.&lt;/p&gt;
+&lt;p&gt;This solution falls into the gap of being conceptually small enough to be perceived as a straightforward driver update by current end users, but in its targeting of upstream ends up requiring fundamental changes deemed not suitable for an enterprise maintenance update.  Had the priority of the development effort been &#8220;upstream eventually&#8221; a result may have been a new out-of-tree/self-contained raid stack that presents raid volumes as &#8220;sd&#8221; devices in order to minimize distribution retooling, and constrain risk to the driver.  Have other projects encountered this choice and decided against engaging upstream in favor of the short term goal of supporting current enterprise deployments?  The &#8211;stable kernel series has brought community effort to the task of back-porting fixes to older kernels; can a new kernel.org effort do the same for coordinating targeted feature back-ports?  Would this coordination encourage more upstream participation while lowering risk for accepting these features into enterprise distribution maintenance releases?&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Dan Williams&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Dan is a Linux developer at Intel currently focused on enhancing raid and other storage technologies in Linux.  After integrating raid5 and raid6 cpu-offload support into the kernel he went on to maintain the dmaengine subsystem and the ioatdma driver.  Recently, he has been a major contributor to the external metadata capability in mdadm-3.&amp;#215;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1101</id>
+    <published>2010-09-03T11:39:41-04:00</published>
+    <updated>2010-09-03T11:39:41-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1101"/>
+    <title>Newcomers</title>
+    <updated>2010-09-03T15:39:41Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Are we getting old?&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;&amp;#8220;We&amp;#8217;re getting old&amp;#8221; &amp;#8212;Jon Corbet at last kernel summit&lt;/p&gt;
+&lt;p&gt;I am merging quite some patches from newcomers through the trivial tree.                                               These are mostly spelling fixes in comments (+), adding return value checks, teaching code not to re-invent what is already in kernel (you wouldn&amp;#8217;t believe how many people came up with their own revolutionary                                                                &lt;br /&gt;
+implementation of min() and max()), etc, you name it.&lt;/p&gt;
+&lt;p&gt;My experience is, though, that the vast majority of such contributors never move to the &amp;#8220;next level&amp;#8221; &amp;#8212; i.e. something that would bring some real value to the kernel codebase.&lt;/p&gt;
+&lt;p&gt;I am not sure what is the reason behind this &amp;#8212; those people are definitely attracted by the kernel (otherwise they wouldn&amp;#8217;t start reading the code and contributing), but somehow &amp;#8220;start with really easy things, and move on to more complicated stuff once you feel comfortable editing the kernel code&amp;#8221; doesn&amp;#8217;t work for quite large portion of the newcomers. Discussion on the opinions on potential causes of this might be worthwile.&lt;/p&gt;
+&lt;p&gt;Is it that some of us are rather .. ummm &amp;#8230; unfriendly? The learning curve simply being too steep to follow for most people? C programming not being really sexy any more these days? Is it because it&amp;#8217;s simply not easy to pick tasks for beginners? (no &lt;span class=&quot;caps&quot;&gt;TODO&lt;/span&gt; lists available for individual subsystems). Or is it because it&amp;#8217;s companies who pay most of the kernel developers these days, and companies are usually hiring senior developers already? Etc etc.&lt;/p&gt;
+&lt;p&gt;The expected outcome of the discussion is either conclusion on how to improve the situation (some central evidence of pointers to &lt;span class=&quot;caps&quot;&gt;TODO&lt;/span&gt; lists, for example), or statement that we in fact don&amp;#8217;t have any problem in this area.&lt;/p&gt;
+&lt;p&gt;(+) which is of course quite important by itself, at least for easy grepping through the code&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Jiri Kosina&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Jiri Kosina is working for &lt;span class=&quot;caps&quot;&gt;SUSE&lt;/span&gt; Labs, Novell as Linux Kernel developer and teamleader of the Linux Kernel team. He is also a responsible engineering manager for kernels in most of the Linux-based enterprise products that Novell is selling (&lt;span class=&quot;caps&quot;&gt;SUSE&lt;/span&gt; Linux Enterprise Server, &lt;span class=&quot;caps&quot;&gt;SUSE&lt;/span&gt; Linux Enterprise Desktop, &lt;span class=&quot;caps&quot;&gt;SUSE&lt;/span&gt; Linux Enterprise Real-Time).&lt;/p&gt;
+&lt;p&gt;He is a maintainer of &lt;span class=&quot;caps&quot;&gt;HID&lt;/span&gt; subsystem in vanilla kernel tree, and also takes care of the trivial patch queue. He contributed to various other areas of the kernel.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1095</id>
+    <published>2010-09-01T06:41:56-04:00</published>
+    <updated>2010-09-01T06:41:56-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1095"/>
+    <title>SVM Emulation - Performance Discussion</title>
+    <updated>2010-09-01T10:41:56Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;This talk will analyze the performance of the KVM SVM emulation today and will discuss some ideas to improve the performance and closing the performance gap between virtualization levels.&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;Providing virtualization instructions to virtualized operating systems is a difficult part of the hypervisor. On current hardware the virtualization extensions almost always require software emulation. This significantly increases world-switch times in a virtualized environment.&lt;/p&gt;
+&lt;p&gt;This talk will present some numbers on how the &lt;span class=&quot;caps&quot;&gt;SVM&lt;/span&gt; emulation in &lt;span class=&quot;caps&quot;&gt;KVM&lt;/span&gt; performs today under certain workloads and shows where the bottlenecks are and why they are there.&lt;/p&gt;
+&lt;p&gt;At the end of the talk I would like to discuss some ideas on what we could improve in hypervisors and the &lt;span class=&quot;caps&quot;&gt;SVM&lt;/span&gt; emulation code to close the performance gap and get acceptable performance even in nested guests.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Joerg Roedel&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Joerg started kernel development in mid 2006 and worked in a lot of different kernel areas since then. First he wrote an network tunneling driver for the etherip protocol. After joining &lt;span class=&quot;caps&quot;&gt;AMD&lt;/span&gt; he worked mostly on &lt;span class=&quot;caps&quot;&gt;KVM&lt;/span&gt; issues and features. A highlight from this work is the support for nested paging in &lt;span class=&quot;caps&quot;&gt;KVM&lt;/span&gt;. Further he wrote the driver for the &lt;span class=&quot;caps&quot;&gt;AMD&lt;/span&gt; &lt;span class=&quot;caps&quot;&gt;IOMMU&lt;/span&gt; and a generic debugging facility for the Linux &lt;span class=&quot;caps&quot;&gt;DMA&lt;/span&gt;-&lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt;. During the last couple of months he was very busy improving the support for the &lt;span class=&quot;caps&quot;&gt;SVM&lt;/span&gt; virtualization in &lt;span class=&quot;caps&quot;&gt;KVM&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1089</id>
+    <published>2010-08-31T18:30:29-04:00</published>
+    <updated>2010-08-31T18:30:29-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1089"/>
+    <title>Tracer ring-buffer unification with the Generic Ring Buffer library</title>
+    <updated>2010-08-31T22:30:29Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Infrastructure proposal for Perf and Ftrace ring buffer unification.&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;The Generic Ring Buffer library is proposed as a response to both Linux community unification and industry high-performance requirements. This library is a major step in tracer infrastructure unification, providing flexibility, high-throughput, reliability and real-time awareness to both tracers and kernel drivers through a unified &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt;. This effort originates from Linus Torvalds&amp;#8217;s wish, expressed at Kernel Summit 2008, for a single unified ring buffer solution. This ring buffer is proposed as a replacement for both Ftrace and Perf ring buffers. It fulfills the requirements from the telecommunication, embedded, real-time and enterprise server Linux users.&lt;/p&gt;
+&lt;p&gt;Given the high interest around Ftrace and Perf in the last year, I think presenting this ring buffer unification work is timely, as it brings solutions to the problem of tracer code-base duplication.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Mathieu Desnoyers&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Mathieu Desnoyers works at EfficiOS Inc., an operating system efficiency consultancy. He is the author and maintainer of the Linux Trace Toolkit next generation (LTTng) project started in November 2005. He is the main developer of Linux Trace Toolkit Viewer (&lt;span class=&quot;caps&quot;&gt;LTTV&lt;/span&gt;), which started in 2003. He works in close collaboration with Google, &lt;span class=&quot;caps&quot;&gt;IBM&lt;/span&gt; research, Fujitsu, Nokia, and Ericsson. For the past years, he has prepared the ground for mainlining a tracer in the Linux kernel. He is the author of the Tracepoints found in the Linux kernel, initated the work on &amp;#8220;static jump patching&amp;#8221; with the &amp;#8220;Immediate Values&amp;#8221; infrastructure, and has extended the &amp;#8220;Local Atomic Operations&amp;#8221; found in the mainline kernel. A significant part of the kernel static instrumentation is derived from the LTTng project. In the last year, he authored the &amp;#8220;Userspace &lt;span class=&quot;caps&quot;&gt;RCU&lt;/span&gt;&amp;#8221; library. He completed his Ph.D. in December 2009 on the topic of &amp;#8220;Low-Impact Operating System Tracing&amp;#8221;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1083</id>
+    <published>2010-08-30T19:35:30-04:00</published>
+    <updated>2010-08-30T19:35:30-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1083"/>
+    <title>Stable branches</title>
+    <updated>2010-08-30T23:35:30Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Can we make stable branches more stable and more useful?&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;ul&gt;
+	&lt;li&gt;How can we improve the review process to reduce the number of regressions?&lt;/li&gt;
+	&lt;li&gt;Is it worthwhile to add driver backports, or to have separate stable branches that add driver backports?  How well does compat-wireless work and is it a possible model for this?&lt;/li&gt;
+	&lt;li&gt;As I understand it, fixes generally don&amp;#8217;t get applied to older stable branches if &amp;#8216;git cherry-pick&amp;#8217; or &amp;#8216;patch&amp;#8217; barfs, even though the bug may be present in the branch.  Given the volume of patches submitted, I&amp;#8217;m sure Greg doesn&amp;#8217;t have time to check the history of each bug if the submitter doesn&amp;#8217;t bother.  Is there some way this work (archaeology and backporting) can be shared out?&lt;/li&gt;
+&lt;/ul&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Ben Hutchings&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Ben Hutchings became involved in the Debian project in 2003 and has added and adopted a variety of packages. He now concentrates mainly on maintenance of the Linux kernel and closely related packages in Debian.&lt;/p&gt;
+&lt;p&gt;In his day job at Solarflare Communications, Ben maintains the sfc network driver and has worked to improve the various subsystems and utilities that it interacts with.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1077</id>
+    <published>2010-08-27T15:37:43-04:00</published>
+    <updated>2010-10-16T12:19:29-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1077"/>
+    <title>discussing syslink: an efficient inter-processor communication system for mobile devices</title>
+    <updated>2010-08-27T19:37:43Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;mainlining Syslink: discussion of problems/solutions towards an efficient Inter-Processor Communication system for mobile Linux devices that employ extra slave remote processors&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;Next-gen phones and multimedia devices boast an increasing number of processors running independent OS instances, all working together to smooth execution of &lt;span class=&quot;caps&quot;&gt;CPU&lt;/span&gt;-intensive use cases.&lt;/p&gt;
+&lt;p&gt;A typical system would employ a central application processor running Linux, with several specialized co-processors running flavors of real-time OS with dedicated &lt;span class=&quot;caps&quot;&gt;DSP&lt;/span&gt; codecs and multimedia acceleration functions.&lt;/p&gt;
+&lt;p&gt;We would like to discuss problems encountered while developing such performance-focused cross-os ipc system, and to propose solutions that will hopefully help other users too:&lt;/p&gt;
+&lt;p&gt;- allow both user space and kernel drivers to send and receive messages to/from remote processors&lt;br /&gt;
+- allow several remote processors to concurrently manipulate shared data structures&lt;/p&gt;
+&lt;p&gt;examples of generic problems/solutions that would require mainlining:&lt;/p&gt;
+&lt;p&gt;- mplist: a multi-processor-safe linked list that allows easy &amp;amp; fast message passing between remote processors (employing shared physical memory and next/prev pointer addressing that stays valid despite different memory mappings)&lt;/p&gt;
+&lt;p&gt;- hardware spinlocks: allow easy &amp;amp; fast synchronizations between remote processors&lt;/p&gt;
+&lt;p&gt;Interfaces of proposed system includes:&lt;/p&gt;
+&lt;p&gt;- a syslink bus that allows kernel modules to easily send simple messages to remote processors&lt;/p&gt;
+&lt;p&gt;- AF_SYSLINK protocol family that allows user space to send unicast/broadcast messages to remote processors employing different types of communication protocols&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speakers:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Ohad Ben-Cohen&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Long time Linux Kernel and Free/Open Source Software developer, past speaker at the Linux Symposium, Black Hat &lt;span class=&quot;caps&quot;&gt;USA&lt;/span&gt; and &lt;span class=&quot;caps&quot;&gt;OWASP&lt;/span&gt; IL and Founder of Wizery ltd., a Free/Open Source Software consulting firm.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Hari Kanigeri&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Hari Kanigeri has been with Texas Instrument&amp;#8217;s Wireless Division since 2004, working on &lt;span class=&quot;caps&quot;&gt;OMAP&lt;/span&gt; based Modem Processor drivers and Multimedia Application Processor &lt;span class=&quot;caps&quot;&gt;IPC&lt;/span&gt; Drivers. He worked as the Technical lead for OMAP3 Linux DSPBridge, and is currently working on enabling generic Multicore &lt;span class=&quot;caps&quot;&gt;IPC&lt;/span&gt; for OMAP4 Processor.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Suman Anna&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Suman Anna is working as a Sr. Software Design Engineer at Texas Instruments, Inc. Suman had been working in the area of Inter-Processor Communication(&lt;span class=&quot;caps&quot;&gt;IPC&lt;/span&gt;) and worked on multiple embedded OSs on various TI &lt;span class=&quot;caps&quot;&gt;OMAP&lt;/span&gt; chipsets since 2006. Suman is currently a lead developer for the  SysLink Linux &lt;span class=&quot;caps&quot;&gt;IPC&lt;/span&gt; driver on OMAP4.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1071</id>
+    <published>2010-08-27T12:09:43-04:00</published>
+    <updated>2010-08-27T12:09:43-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1071"/>
+    <title>C-State optimization</title>
+    <updated>2010-08-27T16:09:43Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Which C-State is the most optimal in terms of energy saving for a given idle time?&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;Within the Linux &lt;span class=&quot;caps&quot;&gt;CPU&lt;/span&gt; idle framework, the menu governor aims at getting maximum energy saving during &lt;span class=&quot;caps&quot;&gt;CPU&lt;/span&gt; idle time.&lt;br /&gt;
+An important aspect is the correct and precise assessment of the system latency constraints with respect to the expected sleep time.&lt;br /&gt;
+During idle periods, the system will choose a power state to reach, called a C-State (Inactive, Retention, &lt;span class=&quot;caps&quot;&gt;OFF&lt;/span&gt;).&lt;br /&gt;
+Each C-state has an energy cost during sleep and wakeup latencies that must be balanced by the reduction of energy during idle.&lt;br /&gt;
+Which C-state is the most optimal one to be selected in terms of energy saving for a given idle period?&lt;br /&gt;
+The aim of this study is to answer the above question by discussing an approach that permits to define the most optimal C-State during &lt;span class=&quot;caps&quot;&gt;CPU&lt;/span&gt; idle. &lt;br /&gt;
+Each C-state has been characterized by a set of parameters:&lt;br /&gt;
+&#8211; Sleep &amp;amp; wakeup latencies: the deeper the power state is, the longer the sleep &amp;amp; wakeup latencies are&lt;br /&gt;
+&#8211; Idle energy: the deeper the power state is, the lower the consumption during idle period is&lt;br /&gt;
+&#8211; Threshold: the minimum idle time required for a given state to start saving power&lt;br /&gt;
+Based on above parameters, each C-State is represented graphically by a curve showing the accumulated energy over time.&lt;br /&gt;
+The energy break even point of each C-State is determined by comparing the different curves, therefore the most optimal C-State for a given idle time is deduced.&lt;br /&gt;
+Determining the system latency constraints linked to a given HW platform in a precise way allowed achieving significant power savings in low power use cases such as MP3 playback.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speakers:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Vincent Bour&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Vincent Bour works at Texas Instruments France as a system engineer since 1999. He has been working as the power management architect of the &lt;span class=&quot;caps&quot;&gt;OMAP&lt;/span&gt; platforms and he is now focusing on the Linux power management aspect on the &lt;span class=&quot;caps&quot;&gt;OMAP&lt;/span&gt; platforms.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Nicole Chalhoub&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Nicole Chalhoub is a system engineer working on power management at Texas Instruments France. She&#8217;s focusing on the Linux power management for the &lt;span class=&quot;caps&quot;&gt;OMAP&lt;/span&gt; platforms especially on the cpuidle governor module. She&#8217;s working on refining and optimizing this module.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1065</id>
+    <published>2010-08-27T02:35:42-04:00</published>
+    <updated>2010-09-21T05:03:42-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1065"/>
+    <title>IP over steam</title>
+    <updated>2010-08-27T06:35:42Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;how to get a cluster running in any cloud?&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;This discussion explores the option to abuse some common &lt;span class=&quot;caps&quot;&gt;VPN&lt;/span&gt; mechanisms to establish private networks between cluster nodes, and allow virtually any cluster stack to work in several different adverse scenarios like:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Inability to switch multicast (for corosync operations)&lt;/li&gt;
+	&lt;li&gt;nodes are on different IP subnets&lt;/li&gt;
+	&lt;li&gt;cluster requires network redundancy but common solutions such as bonding and redundant rings are not an option&lt;/li&gt;
+&lt;/ul&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Fabio M. Di Nitto&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Fabio is a senior tech leader and developer at Red Hat. Working 100% on Linux High Availability, he drives the development direction for Red Hat Cluster and integration with HA related project.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1059</id>
+    <published>2010-08-26T18:16:30-04:00</published>
+    <updated>2010-08-26T18:23:58-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1059"/>
+    <title>Multimedia memory management nightmare</title>
+    <updated>2010-08-26T22:16:30Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Multimedia devices need to transfer very large amount of data efficiently, a painful operation on ARM-based systems that needs a solution.&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;Many multimedia applications need to transfer video from cameras to the &lt;span class=&quot;caps&quot;&gt;GPU&lt;/span&gt; or framebuffer for display, or to a &lt;span class=&quot;caps&quot;&gt;DSP&lt;/span&gt; for compression. The V4L &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt; allows applications to pass video buffers to drivers, avoiding unnecessary memory copy operations.&lt;/p&gt;
+&lt;p&gt;On &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt;-based systems, &lt;span class=&quot;caps&quot;&gt;DMA&lt;/span&gt; operations to user-provided memory is currently unreliable due to cache coherency issues. Even when &lt;span class=&quot;caps&quot;&gt;DMA&lt;/span&gt; is not involved, such as with many &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; cameras, data corruption can still happen with some cache types.&lt;/p&gt;
+&lt;p&gt;Given the very large amount of video data that needs to be transfered, an efficient memory and cache management scheme is needed for embedded multimedia platforms.&lt;/p&gt;
+&lt;p&gt;This talk will briefly present real-life problems on &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt;-based platforms and will follow with a brainstorming session about possible solutions. Core &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt; developers would be needed.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Laurent Pinchart&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Laurent Pinchart has been a Linux enthusiast since 1997 and Linux kernel developer since 2001. He has written the Linux &lt;span class=&quot;caps&quot;&gt;UVC&lt;/span&gt; driver which supports several hundreds of webcams.&lt;/p&gt;
+&lt;p&gt;Laurent is the founder and owner of Ideas on board, a company specialized in embedded Linux design and development. He currently works for Nokia in the MeeGo Devices unit where he develops embedded camera drivers.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1053</id>
+    <published>2010-08-26T13:22:08-04:00</published>
+    <updated>2010-10-15T15:39:44-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1053"/>
+    <title>Data Center Bridging: Creating DCB aware networks</title>
+    <updated>2010-08-26T17:22:08Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Presentation will highlight the ongoing efforts for enabling data center bridging technologies in the Linux kernel to meet the requirements of applications and stacks over Ethernet. &lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;Data Center Bridging (&lt;span class=&quot;caps&quot;&gt;DCB&lt;/span&gt;) allows traditional Ethernet to meet the requirements of protocols and applications in the data center. The &lt;span class=&quot;caps&quot;&gt;DCB&lt;/span&gt; effort is driving changes into the current 802.1 bridging specifications that need to be supported. Today &lt;span class=&quot;caps&quot;&gt;DCB&lt;/span&gt; is implemented in multiple vendor chipsets and provides benefits typical of Fibre Channel and Infiniband over Ethernet. However, Linux support for &lt;span class=&quot;caps&quot;&gt;DCB&lt;/span&gt; is incomplete as hardware architectures are not correctly abstracted in the OS, which leads to hardware specific solutions. More importantly, it is unclear how applications, protocol stacks and users are supposed to take advantage of the new capabilities offered by &lt;span class=&quot;caps&quot;&gt;DCB&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;This presentation will highlight benefits that &lt;span class=&quot;caps&quot;&gt;DCB&lt;/span&gt; provides to the network, the ongoing enablement effort in the Linux kernel and the current challenges with creating &lt;span class=&quot;caps&quot;&gt;DCB&lt;/span&gt; aware protocol stacks and applications. Finally, a proposed solution to fit &lt;span class=&quot;caps&quot;&gt;DCB&lt;/span&gt; into existing &lt;span class=&quot;caps&quot;&gt;QOS&lt;/span&gt; concepts will be given that should allow protocol stacks, applications, and users to use &lt;span class=&quot;caps&quot;&gt;DCB&lt;/span&gt; regardless of the underlying hardware.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;John Fastabend&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;John is a software engineer in the &lt;span class=&quot;caps&quot;&gt;LAN&lt;/span&gt; Access Division at Intel.  He is responsible for supporting the Data Center Bridging initiatives in the Linux kernel. He is also the primary maintainer for lldpad an open source &lt;span class=&quot;caps&quot;&gt;LLDP&lt;/span&gt; daemon.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1047</id>
+    <published>2010-08-26T06:37:58-04:00</published>
+    <updated>2010-08-26T06:37:58-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1047"/>
+    <title>Why Pacemaker Sucks</title>
+    <updated>2010-08-26T10:37:58Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Tell the Pacemaker developers what sucks about building clusters with Pacemaker&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;Pacemaker has seen significant progress since it split out from Heartbeat 3 years ago, but there is still plenty of room for improvement.&lt;/p&gt;
+&lt;p&gt;Use this session to provide feedback from the trenches and voice your thoughts on where the project&amp;#8217;s priorities should be.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speakers:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Andrew Beekhof&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Cluster guy to the rich and infamous&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Lars Marowsky-Br&amp;#233;e&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Lars has been involved in Open Source High-Availability solutions since 1999. He currently works at Novell &amp;amp; &lt;span class=&quot;caps&quot;&gt;SUSE&lt;/span&gt; as architect and project manager for the &lt;span class=&quot;caps&quot;&gt;SUSE&lt;/span&gt; Linux Enterprise High-Availability Extension.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1041</id>
+    <published>2010-08-25T05:40:14-04:00</published>
+    <updated>2010-08-25T05:40:14-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1041"/>
+    <title>Combining Xenner, Xen and KVM into a giant furball</title>
+    <updated>2010-08-25T09:40:14Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Making the world a better place by enabling people to switch between Xen, Qemu and KVM as they wish.&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;Currently a user can either use Xen to run Xen PV/&lt;span class=&quot;caps&quot;&gt;HVM&lt;/span&gt; guests or &lt;span class=&quot;caps&quot;&gt;KVM&lt;/span&gt; to run &lt;span class=&quot;caps&quot;&gt;KVM&lt;/span&gt; &lt;span class=&quot;caps&quot;&gt;HVM&lt;/span&gt; guests. But why does it have to be that way? We&amp;#8217;re all using Qemu in the background anyways, right?&lt;/p&gt;
+&lt;p&gt;This will be a discussion on how to integrate Xen PV stubs into Qemu, so we get the chance of using Xen PV guests in Qemu/&lt;span class=&quot;caps&quot;&gt;KVM&lt;/span&gt;/Xen &lt;span class=&quot;caps&quot;&gt;HVM&lt;/span&gt;. But I don&amp;#8217;t want to stop there &amp;#8211; maybe there&amp;#8217;s even more potential of cooperation. Why not use Xen &lt;span class=&quot;caps&quot;&gt;HVM&lt;/span&gt; PV drivers in &lt;span class=&quot;caps&quot;&gt;KVM&lt;/span&gt;? Imagine a world where one is all and all is one. Amazing, eh?&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Alexander Graf&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Alexander started working for Novell about 3 years ago. Since then he worked on fancy things like mkinitrd, qemu and &lt;span class=&quot;caps&quot;&gt;KVM&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Whenever something really useful comes to his mind, he tends to implement it. Among his more well-known projects are Mac OS X virtualization, the modular &lt;span class=&quot;caps&quot;&gt;SUSE&lt;/span&gt; initrd and nested &lt;span class=&quot;caps&quot;&gt;SVM&lt;/span&gt;. He is also the official maintainer of &lt;span class=&quot;caps&quot;&gt;KVM&lt;/span&gt; for PowerPC and Qemu for S390x.&lt;/p&gt;
+&lt;p&gt;On the publicly invisible side he worked on &lt;span class=&quot;caps&quot;&gt;SUSE&lt;/span&gt; Studio backend parts, keeping appliance building secure and fast.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1035</id>
+    <published>2010-08-24T18:33:02-04:00</published>
+    <updated>2010-08-24T18:33:02-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1035"/>
+    <title>Virtualizing NUMA</title>
+    <updated>2010-08-24T22:33:02Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Discussing the benefits of virtualizing NUMA architecture in KVM or Xen guests&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;All recent servers with more than one &lt;span class=&quot;caps&quot;&gt;CPU&lt;/span&gt; socket rely on &lt;span class=&quot;caps&quot;&gt;NUMA&lt;/span&gt; (non-uniform memory access) to solve scalability problems. If guests fit entirely into one &lt;span class=&quot;caps&quot;&gt;NUMA&lt;/span&gt; node (both in terms of memory and required vCPUs), the current implementation both in &lt;span class=&quot;caps&quot;&gt;KVM&lt;/span&gt; and Xen work quite well. But if larger guests exceed one of these resources, the performance may degrade.&lt;br /&gt;
+The solution is to allow the hypervisor to assign resources from multiple nodes to one guest and to tell the guests about it by injecting a virtual &lt;span class=&quot;caps&quot;&gt;NUMA&lt;/span&gt; layout.&lt;br /&gt;
+I will show the performance impact of different &lt;span class=&quot;caps&quot;&gt;NUMA&lt;/span&gt; scenarios in guests in Xen and &lt;span class=&quot;caps&quot;&gt;KVM&lt;/span&gt; and hope to discuss possible solutions. Issues to solve are the limiting static nature of the current resource allocation and the best approach to an automatic setup of the &lt;span class=&quot;caps&quot;&gt;NUMA&lt;/span&gt; parameters.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Andre Przywara&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;After graduation from the University of Technology in Berlin, Germany in 2002 with a diploma thesis on realtime embedded Linux and working there for a four years (including lecturing) I joined &lt;span class=&quot;caps&quot;&gt;AMD&lt;/span&gt; in Dresden, Germany in 2006. At the &lt;span class=&quot;caps&quot;&gt;OSRC&lt;/span&gt; I worked on several fields in the virtualization area both in Xen and &lt;span class=&quot;caps&quot;&gt;KVM&lt;/span&gt;, contributing to topics like &lt;span class=&quot;caps&quot;&gt;NUMA&lt;/span&gt; (QEMUs guest &lt;span class=&quot;caps&quot;&gt;NUMA&lt;/span&gt; emulation), &lt;span class=&quot;caps&quot;&gt;CPUID&lt;/span&gt; (including guest multi-core emulation) as well as cross-vendor migration. I presented some topics at the Berlin Linux-Tag and at the Chemnitzer Linux-Tage events.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1029</id>
+    <published>2010-08-24T13:47:31-04:00</published>
+    <updated>2010-08-24T13:47:31-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1029"/>
+    <title>platform-specific PM customization</title>
+    <updated>2010-08-24T17:47:31Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Currently, platform-specific code has a need to customize common PM methods, typically on the platform_bus.  This track is to discuss the various approaches to solving this problem.&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;The platform_bus currently has a weak-symbol method for overriding various methods of its struct dev_pm_ops.  This is used by platforms that want to customize/extend the default PM methods and add platform-specific behavior.&lt;/p&gt;
+&lt;p&gt;Doing this has led to several discussions on the &amp;#8220;right&amp;#8221; way to approach this.  Various topics below have been discussed on mailing lists and would be good to discuss further:&lt;/p&gt;
+&lt;p&gt;- customizing existing bus (platform_bus)&lt;br /&gt;
+- creating a new platform-specific bus&lt;br /&gt;
+- how to extend platform_device (pdev_archdata, devres, device parents, etc.)&lt;/p&gt;
+&lt;p&gt;Currently the need for this has been demonstrated on SH, sh-mobile, &lt;span class=&quot;caps&quot;&gt;OMAP&lt;/span&gt; and msm.  Would be great to have folks from each camp there.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Kevin Hilman&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Kevin has been a Linux user since 1994, and a kernel hacker since 1999 when he started writing drivers and working on kernel ports to new embedded platforms. He has been a driver/kernel developer for Equator Technologies, Texas Instruments, MontaVista and now runs a small consulting company offering services in upstream kernel development, and specializing in power management.&lt;/p&gt;
+&lt;p&gt;He is also the maintainer of the kernel for the TI DaVinci SoCs and is active developer in the TI &lt;span class=&quot;caps&quot;&gt;OMAP&lt;/span&gt; kernel community where he is a maintainer of the &lt;span class=&quot;caps&quot;&gt;OMAP&lt;/span&gt; PM core code.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1023</id>
+    <published>2010-08-24T11:53:01-04:00</published>
+    <updated>2010-08-26T18:19:34-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1023"/>
+    <title>Media controller: finally getting audio and video to play together</title>
+    <updated>2010-08-24T15:53:01Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;The Media Controller is a new kernel API designed to give applications full control over media devices through a single interface.&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;As the video hardware available today push the Linux video &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt; to its limits, the Video For Linux community got together during the Linux Plumbers Conference 2009 to draft an extension to the V4L subsystem called the Media Controller.&lt;/p&gt;
+&lt;p&gt;The Media Controller has been under development for nearly one year now, and allows userspace applications to discover and control media devices internals. Although written with V4L in mind, the &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt; is not limited to V4L but aims at being useful for sound and display devices as well.&lt;/p&gt;
+&lt;p&gt;This micro-conference will present the Media Controller concept and will gather feedback from the audio subsystem developers on how to make the &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt; suitable for their needs.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Laurent Pinchart&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Laurent Pinchart has been a Linux enthusiast since 1997 and Linux kernel developer since 2001. He has written the Linux &lt;span class=&quot;caps&quot;&gt;UVC&lt;/span&gt; driver which supports several hundreds of webcams.&lt;/p&gt;
+&lt;p&gt;Laurent is the founder and owner of Ideas on board, a company specialized in embedded Linux design and development. He currently works for Nokia in the MeeGo Devices unit where he develops embedded camera drivers.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1017</id>
+    <published>2010-08-24T11:38:11-04:00</published>
+    <updated>2010-10-15T11:59:48-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1017"/>
+    <title>Containers checkpoint/restart</title>
+    <updated>2010-08-24T15:38:11Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Discuss the current state of checkpoint/restart in mainline, and what needs to be done to merge it.&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;The current state of checkpoint/restart implementation is &amp;#8220;ready to be merged but not merged yet&amp;#8221;. We want to sit and discuss what are the remaining obstacles, how do we cooperate, and in general what needs to be done in order to merge it.&lt;/p&gt;
+&lt;p&gt;Checkpoint/restart is a mechanism to freeze a group of processes (usually a container) and dump its complete state to a storage device, in order to restart this state later. This can be used for e.g. live migration of task groups between different computers.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speakers:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Kir Kolyshkin&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Kirill Kolyshkin was named leader and project manager for the OpenVZ project in 2005 to further the adoption of containers virtualization for Linux. He spearheads the overall development and manages all key architecture, updates and feature upgrades for OpenVZ. Kolyshkin has more than 10 years of Linux experience and has long been an active open source advocate. He is a frequent speaker about virtualization technology and his 15-years career experience includes positions in information technology at Deutsche Bank and telecommunications company, Severtelecom. He holds a degree in Computer Science from the Ukhta State Technical University.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Vivek  Kashyap&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;
+&lt;p&gt;Vivek works in IBM&amp;#8217;s Linux Technology Center leading Linux Containers, Application mobility and Network Virtualization. Vivek has worked on Linux resource management, delay-accounting, Energy &amp;amp; hardware management, and authored InfiniBand, IPoIB, &lt;span class=&quot;caps&quot;&gt;IEEE&lt;/span&gt; 802.1Qbg protocol standards and worked on corresponding implementation in Linux.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Pavel Emelyanov&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Pavel Emelyanov is a core OpenVZ and &lt;span class=&quot;caps&quot;&gt;PVC&lt;/span&gt; kernel developer working in the project for the last six years. His current role is the kernel team leader. Pavel is also the leading force behind a few mainstream kernel features, such as the network and the &lt;span class=&quot;caps&quot;&gt;PID&lt;/span&gt; namespaces. He holds a PhD in Mathematics from the Moscow Institute of Physics and Technology.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Oren Laadan&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Oren Laadan is a PhD student of Computer Science at Columbia University. His research revolves around application virtualization and checkpoint-restart. He developed Zap, a system for transparent application checkpoint-restart that operates as a kernel module, and is the author of several publications on the topic. Oren is currently the maintainer for the Linux Checkpoint-Restart (linux-cr) project, which is based in part on his experience with Zap. Previously, he was a core developer of &lt;span class=&quot;caps&quot;&gt;MOSIX&lt;/span&gt; for Linux, an extension of the Linux kernel for single-system image clustering and automatic load balancing.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1011</id>
+    <published>2010-08-24T11:31:39-04:00</published>
+    <updated>2010-08-24T11:31:39-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1011"/>
+    <title>Linux Containers: are we there yet?</title>
+    <updated>2010-08-24T15:31:39Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;An overview of the current state of Linux Containers in (and out of) the mainline.&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;This gives an overview of the current state of containers implementation in the mainline Linux (&lt;span class=&quot;caps&quot;&gt;LXC&lt;/span&gt;), comparing that to off-the-mainline OpenVZ and summarizing what else need to be done for mainline containers to succeed (including, among other things, resource management and checkpoint/restart).&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speakers:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Kir Kolyshkin&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Kirill Kolyshkin was named leader and project manager for the OpenVZ project in 2005 to further the adoption of containers virtualization for Linux. He spearheads the overall development and manages all key architecture, updates and feature upgrades for OpenVZ. Kolyshkin has more than 10 years of Linux experience and has long been an active open source advocate. He is a frequent speaker about virtualization technology and his 15-years career experience includes positions in information technology at Deutsche Bank and telecommunications company, Severtelecom. He holds a degree in Computer Science from the Ukhta State Technical University.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Pavel Emelyanov&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Pavel Emelyanov is a core OpenVZ and &lt;span class=&quot;caps&quot;&gt;PVC&lt;/span&gt; kernel developer working in the project for the last six years. His current role is the kernel team leader. Pavel is also the leading force behind a few mainstream kernel features, such as the network and the &lt;span class=&quot;caps&quot;&gt;PID&lt;/span&gt; namespaces. He holds a PhD in Mathematics from the Moscow Institute of Physics and Technology.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/1005</id>
+    <published>2010-08-23T21:36:40-04:00</published>
+    <updated>2010-08-23T21:36:40-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1005"/>
+    <title>EGL and GLES1/2 on Linux</title>
+    <updated>2010-08-24T01:36:40Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;An overview of the mesa EGL and GLES 1/2 implementation on Linux&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;&lt;span class=&quot;caps&quot;&gt;EGL&lt;/span&gt; is a platform independent &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt; for integrating the OpenGL rendering &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt; with the underlying window system. It can be used as a replacement for &lt;span class=&quot;caps&quot;&gt;GLX&lt;/span&gt;, &lt;span class=&quot;caps&quot;&gt;WGL&lt;/span&gt;, &lt;span class=&quot;caps&quot;&gt;AGL&lt;/span&gt;, but will also run on devices with custom or no window systems. As such, it&#8217;s very popular in embedded devices.&lt;/p&gt;
+&lt;p&gt;Along with &lt;span class=&quot;caps&quot;&gt;EGL&lt;/span&gt;, applications often use GLES1 or GLES2. These are subsets of the full OpenGL rendering &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt;, designed for embedded use. They cut away many legacy or less useful features, and target fixed funcition and fully programmable &lt;span class=&quot;caps&quot;&gt;GPU&lt;/span&gt; respectively.&lt;/p&gt;
+&lt;p&gt;This talk will give brief overview of &lt;span class=&quot;caps&quot;&gt;EGL&lt;/span&gt; and GLES1/2 and some of the most interesting extensions and demonstrate how we support them in the open source mesa drivers.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Kristian H&amp;#248;gsberg&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Kristian has worked on X and Linux Graphics in general since 2004 and helped make &lt;span class=&quot;caps&quot;&gt;AIGLX&lt;/span&gt; and DRI2 happen.  Recently he&amp;#8217;s been working on &lt;span class=&quot;caps&quot;&gt;EGL&lt;/span&gt; support in the mesa drivers under X and without X.&lt;/p&gt;
+&lt;p&gt;Kristian currently works at Intel, doing Linux graphics stack development.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/999</id>
+    <published>2010-08-23T17:46:00-04:00</published>
+    <updated>2010-08-23T18:17:11-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/999"/>
+    <title>Running mainstream distributions on ARM</title>
+    <updated>2010-08-23T21:46:00Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Discussion about how to run mainstream Linux distributions on ARM-based systems&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;Nowadays &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt; architecture becomes more and more widespread and popular among variety of device vendors. &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt; based SoCs are used in smartphones, home &lt;span class=&quot;caps&quot;&gt;NAS&lt;/span&gt; boxes, medical equipment, industrial devices and so on.&lt;br /&gt;
+A lot of &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt; devices run Linux and there are &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt; ports of Slackware, Debian, Gentoo and Ubuntu. However, there are very few &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt;-based devices can undergo &amp;#8220;traditional&amp;#8221; Linux installation with &lt;span class=&quot;caps&quot;&gt;ISO&lt;/span&gt; or &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; images and fancy installers. &lt;br /&gt;
+The ability to install Linux out of the box on an &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt;-based device would simplify software prototyping and development for specialized embedded systems. And, especially, this ability seems essential for smartbook and tablet devices.&lt;/p&gt;
+&lt;p&gt;The topics that seem to me worth discussing are:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Multiplatform kernel&lt;/li&gt;
+	&lt;li&gt;Integration of SoC-specific graphics and multimedia&lt;/li&gt;
+	&lt;li&gt;Lightweight desktop&lt;/li&gt;
+	&lt;li&gt;Radio interfaces support (3G, &lt;span class=&quot;caps&quot;&gt;GPS&lt;/span&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Mike Rapoport&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Mike Rapoport is a senior Linux developer at CompuLab, Ltd. He is a maintainer of several embedded platforms in the Linux kernel.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/993</id>
+    <published>2010-08-23T17:15:09-04:00</published>
+    <updated>2010-08-23T17:15:09-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/993"/>
+    <title>multi-card/gpu - can we fix it?</title>
+    <updated>2010-08-23T21:15:09Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;non-traditional multi-card scenarios are appearing in hardware and we need to better place kernel/X.org to deal with these&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;There is a lot of movement in the &lt;span class=&quot;caps&quot;&gt;GPU&lt;/span&gt; world to hybrid &lt;span class=&quot;caps&quot;&gt;GPU&lt;/span&gt; models, although some developers say this is a workaround for a hw problem, the hw exists and Linux needs to be able to take advantage of it. Current &lt;span class=&quot;caps&quot;&gt;GPU&lt;/span&gt; switching systems include AMD&amp;#8217;s PowerXpress and NVidia&amp;#8217;s Optimus solutions. Also multi-gpu rendering systems like &lt;span class=&quot;caps&quot;&gt;SLI&lt;/span&gt; and Crossfire are not currently supported by open-source developers.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;David Airlie&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Maintainer of kernel graphics subsystem, formerly known as direct rendering manager.&lt;/p&gt;
+&lt;p&gt;Red Hat X.org co-maintainer, covering Fedora and &lt;span class=&quot;caps&quot;&gt;RHEL&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/987</id>
+    <published>2010-08-23T12:21:52-04:00</published>
+    <updated>2010-09-17T10:47:21-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/987"/>
+    <title>Kernel assisted adaptive mutexes</title>
+    <updated>2010-08-23T16:21:52Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Leveraging kernel-side knowledge of task scheduling can provide for more efficient adaptive mutexes.&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;Performance tuning is a careful balance of various cost-benefit trade-offs. Spinning loops are a common method used to reduce the overhead of context switching for short wait periods. Tuning these loops is notoriously tedious. The results are fragile, often only lasting through the next OS revision or even hardware upgrade. With the current focus on low-latency and real-time computing, these spinning loops present additional challenges. In the not too distant past, the Linux kernel has adopted some adaptive spinning techniques which use the additional state the kernel is aware of to make more intelligent use of the spinning loop. Kernel assisted Adaptive Mutexes make this mechanism available to user-space. We elaborate on the pros and cons of a pair of implementations and explore various workloads to identify which benefit, and which do not.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Darren Hart&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Darren Hart has most recently been working to improve the Linux kernel&amp;#8217;s support for highly threaded real-time applications. He has presented on Real-Time Linux benchmarking at the Ottawa Linux Symposium in 2007 as well as the Linux Foundation: End User Summit in 2008. He presented his work on futex requeue PI support at LinuxCon and the Real-Time Linux Workshop in 2009. His current area of focus is improving scalability for the Real-Time Linux kernel through intelligent kernel-assisted adaptive locking. Darren worked for IBM&amp;#8217;s Linux Technology Center from 2004 to 2010, leading the Real-Time Linux development team since 2006.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/981</id>
+    <published>2010-08-22T20:16:59-04:00</published>
+    <updated>2010-08-22T20:16:59-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/981"/>
+    <title>Android PM experiances</title>
+    <updated>2010-08-23T00:16:59Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;What have you learned from Android PM enabling of you device?&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;Tuning Android PM for a device takes more than enabling wake-locks and pm_suspend.  I would like to have a sharing session on what android PM enabling has been like.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Mark Gross&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;(draft &amp;#8211; will update later)&lt;br /&gt;
+Mark Gross works in the Intel Ultra Mobile Group at Intel and is focused on enabling Android on Intel based handset and tablet platforms. (Moorestown at the moment)&lt;/p&gt;
+&lt;p&gt;Mark is also active in power linux kernel power management, mostly through PM-QoS, and has been participating in the Linux kernel for around 10 years.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/975</id>
+    <published>2010-08-22T20:12:30-04:00</published>
+    <updated>2010-08-22T20:12:30-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/975"/>
+    <title>data logging for device field trials</title>
+    <updated>2010-08-23T00:12:30Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;embedded device debugging is made harder by the fact that people use them, and when they crash you arn't there.  How to capture useful data persistently for remote postmortem debug is the question&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;Black Box recording of state data over time such that useful debug tracing, core files, and kernel messages reliably is an interesting challenge for an embedded device undergoing field trials.&lt;/p&gt;
+&lt;p&gt;what logging,trace,crash dump, core dump, and other information would be useful to have in a standard kernel?&lt;/p&gt;
+&lt;p&gt;I think there is a lot of duplicated effort going into this sort of thing we should look to getting semi standardized.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Mark Gross&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;(draft &amp;#8211; will update later)&lt;br /&gt;
+Mark Gross works in the Intel Ultra Mobile Group at Intel and is focused on enabling Android on Intel based handset and tablet platforms. (Moorestown at the moment)&lt;/p&gt;
+&lt;p&gt;Mark is also active in power linux kernel power management, mostly through PM-QoS, and has been participating in the Linux kernel for around 10 years.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/969</id>
+    <published>2010-08-22T20:05:06-04:00</published>
+    <updated>2010-08-22T20:05:06-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/969"/>
+    <title>device pm tuning is hard</title>
+    <updated>2010-08-23T00:05:06Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;after getting all the pm patches into your system, there is a lot more work to do to get good battery life.&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;The difference between PM enabled and a PM tuned device is about 4 days of standby battery life.  Going the last mile on the PM tuning is really hard work, and has a lot of challenges you wouldn&amp;#8217;t expect.&lt;/p&gt;
+&lt;p&gt;like device fw bugs, c-state and p-state issues, and generally involves a lot of tracing work in kernel and with power measurement hardware.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Mark Gross&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;(draft &amp;#8211; will update later)&lt;br /&gt;
+Mark Gross works in the Intel Ultra Mobile Group at Intel and is focused on enabling Android on Intel based handset and tablet platforms. (Moorestown at the moment)&lt;/p&gt;
+&lt;p&gt;Mark is also active in power linux kernel power management, mostly through PM-QoS, and has been participating in the Linux kernel for around 10 years.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/963</id>
+    <published>2010-08-22T19:56:37-04:00</published>
+    <updated>2010-10-15T11:59:28-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/963"/>
+    <title>Power On war stories</title>
+    <updated>2010-08-22T23:56:37Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;lighting up a new board brings together a lot of interesting talent, and has a lot of challenges.&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;I&amp;#8217;ve just experienced my first power on and we had to get creative to debug and work around a number of hardware and software issues to get the system to come up to a semi usable state.  I would like to know how common this experience is, and if yours was worse than mine ;)&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Mark Gross&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;(draft &amp;#8211; will update later)&lt;br /&gt;
+Mark Gross works in the Intel Ultra Mobile Group at Intel and is focused on enabling Android on Intel based handset and tablet platforms. (Moorestown at the moment)&lt;/p&gt;
+&lt;p&gt;Mark is also active in power linux kernel power management, mostly through PM-QoS, and has been participating in the Linux kernel for around 10 years.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/957</id>
+    <published>2010-08-22T17:17:07-04:00</published>
+    <updated>2010-09-21T05:07:38-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/957"/>
+    <title>Matahari - A General Purpose, Cross-Platform Agent for Clustered and non-Clustered Hosts</title>
+    <updated>2010-08-22T21:17:07Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Introducing Matahari and its role in a clustered environment &lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;This session will explain Matahari&amp;#8217;s cross-platform architecture, current status, feature set and how to get involved.&lt;/p&gt;
+&lt;p&gt;The presentation will focus on Matahari&amp;#8217;s capabilities for controlling and monitoring the health of services on clustered and non-clustered hosts, as well as the integration points with Pacemaker.&lt;/p&gt;
+&lt;p&gt;Additionally, the optimizations for virtual environments will be discussed.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Andrew Beekhof&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Cluster guy to the rich and infamous&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/951</id>
+    <published>2010-08-22T17:06:27-04:00</published>
+    <updated>2010-08-22T17:06:27-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/951"/>
+    <title>The Future of the OCF Standard</title>
+    <updated>2010-08-22T21:06:27Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Resurrecting the OCF Standards Body for Resource Agents &lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;The &lt;span class=&quot;caps&quot;&gt;OCF&lt;/span&gt; standards body has been inactive for over half a decade.&lt;br /&gt;
+In that time, vendors have made incompatible extensions because &amp;#8220;upstream&amp;#8221; was completely inactive.&lt;br /&gt;
+We need to formulate a plan to either move on or replace the original stakeholders who&amp;#8217;s first priority is to produce an updated version of the standard that incorporates the various extensions and creates a plan for the future.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Andrew Beekhof&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Cluster guy to the rich and infamous&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/945</id>
+    <published>2010-08-22T08:35:16-04:00</published>
+    <updated>2010-09-10T11:20:05-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/945"/>
+    <title>Merge Tracing and Debugging</title>
+    <updated>2010-08-22T12:35:16Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Consider further integration of kernel debugging and tracing.&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;At the end of the day developers want to understand how bits and bytes move through the linux kernel and how that relates back to the linux source base.  To that end the kernel debugger and the tracing sub systems have the same purpose in life.&lt;/p&gt;
+&lt;p&gt;In the 2.6.36 kernel the debugger can dump the ftrace buffer.  What are the next logical steps to blend functionality of the tracing and debugger subsystems?  Perhaps ftrace/perf can use the debugger via debugger scriptlets?  Perhaps debugger events could be used with in ftrace/perf or created by the kernel debugger to implement watchpoints?  Perhaps there should be a gdb-serial non-stopping user space interface to the kernel debugger akin to the functionality of gdb vmlinux /proc/kcore which can further integrate with tracing functionality.&lt;/p&gt;
+&lt;p&gt;As and example, innovations like the kernel gdb tracepoints (&lt;a href=&quot;http://lkml.org/lkml/2010/8/11/170)&quot; rel=&quot;nofollow&quot;&gt;http://lkml.org/lkml/2010/8/11/170)&lt;/a&gt; could get merged into existing APIs to share between tracing and the debugger instead of completely duplicating existing infrastructure.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Jason Wessel&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Jason is a long time Linux developer since the early 90&#8217;s. He has worked on a wide range of projects over the years spanning from web servers, proxies, and qemu, to kernel drivers and debuggers.&lt;/p&gt;
+&lt;p&gt;Jason currently works at Wind River as a product architect for the WR Linux core runtime. He is also the current kernel.org &lt;span class=&quot;caps&quot;&gt;KGDB&lt;/span&gt; maintainer.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/939</id>
+    <published>2010-08-21T17:23:13-04:00</published>
+    <updated>2010-08-21T17:23:13-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/939"/>
+    <title>Embedded platform mainlining: benefits, obstacles and examples</title>
+    <updated>2010-08-21T21:23:13Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;Embedded platforms mainlining problems and their possible solutions.&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;Embedded platforms as well as devices running Linux are rarely supported by the mainline kernel and upstream distributions. And, although the benefits of being in the mainline were described by numerous presentations and articles, the device manufacturers still prefer to invent their own Linux based wheel.&lt;br /&gt;
+It happens because of different technical and less technical problems and obstacles that overweight mainlining benefits from the device manufacturers point of view.&lt;/p&gt;
+&lt;p&gt;The discussion should help the embedded developers to keep in pace with the mainline and ship a working product at the same time.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Mike Rapoport&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Mike Rapoport is a senior Linux developer at CompuLab, Ltd. He is a maintainer of several embedded platforms in the Linux kernel.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.linuxplumbersconf.org,2005:Proposal/933</id>
+    <published>2010-08-21T17:01:47-04:00</published>
+    <updated>2010-10-15T15:37:11-04:00</updated>
+    <link type="text/html" rel="alternate" href="http://www.linuxplumbersconf.org/2010/ocw/proposals/933"/>
+    <title>Achieving Better Out-of-the-box Network Scaling</title>
+    <updated>2010-08-21T21:01:47Z</updated>
+    <content type="html">&lt;div&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;One Line Summary:&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;This is a discussion of how Linux needs to scale better out-of-the-box with large I/O network devices.&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;b&gt;Abstract:&lt;/b&gt;&lt;/dt&gt;&lt;dd/&gt;&lt;p&gt;As servers continue to add more cores and more &lt;span class=&quot;caps&quot;&gt;NUMA&lt;/span&gt; nodes, scaling large I/O network devices, such as 10 Gigabit and 40 Gigabit Ethernet, become more of a challenge.&lt;/p&gt;
+&lt;p&gt;Today, extensive hand-tuning and intricate driver hacks can be done to maximize performance with &lt;span class=&quot;caps&quot;&gt;NUMA&lt;/span&gt; locality, interrupt alignment, and flow affinity.  However, Linux needs to become more intelligent across these subsystems to scale better without requiring users to apply these extensive system tweaks.&lt;/p&gt;
+&lt;p&gt;This discussion will highlight work that has already started to solve these scaling issues.  It will then outline what the community needs to focus on to improve scaling performance for the future.&lt;/p&gt;&lt;/dl&gt;&lt;div&gt;&lt;p&gt;&lt;b&gt;Speaker:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Peter Waskiewicz&lt;/b&gt;&lt;/p&gt;&lt;div/&gt;&lt;p&gt;Peter (PJ) is a senior software engineer in the &lt;span class=&quot;caps&quot;&gt;LAN&lt;/span&gt; Access Division at Intel. He is responsible for supporting the new technologies in Intel&amp;#8217;s next generation &lt;span class=&quot;caps&quot;&gt;LAN&lt;/span&gt; products both in silicon and updating the Linux kernel. He recently was the primary maintainer for the ixgbe driver, Intel&amp;#8217;s 10 GbE &lt;span class=&quot;caps&quot;&gt;PCI&lt;/span&gt; Express driver, and is now focused on 40 Gigabit Ethernet research. His contributions to the kernel include the original Tx multiqueue networking &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt;, packet socket changes allowing channel bonding to work with layer 2 protocols on individual adapters, multiple fixes to the &lt;span class=&quot;caps&quot;&gt;MSI&lt;/span&gt;-X interrupt layer, native Data Center Bridging support in the network stack, n-tuple filter offload support in ethtool, and interrupt core updates to allow drivers to manage &lt;span class=&quot;caps&quot;&gt;MSI&lt;/span&gt;-X &lt;span class=&quot;caps&quot;&gt;CPU&lt;/span&gt; affinity.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;to_s/&gt;</content>
+    <author>
+      <name></name>
+    </author>
+  </entry>
+</feed>
+

@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ensemble Independent//vPim 0.695//EN
+CALSCALE:Gregorian
+METHOD:PUBLISH
+X-WR-CALNAME:Mark Brown's favorites
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+DTSTART:20101104T100000
+DTEND:20101104T123000
+SUMMARY:Audio
+CREATED:20100716T122026
+LAST-MODIFIED:20101103T223511
+DESCRIPTION:Discussion of audio integration issues in both kernel and users
+ pace\, covering both desktop and embedded systems. "Wiki":http://wiki.linux
+ plumbersconf.org/2010:audio "Etherpad":http://etherpad.osuosl.org/lpc2010-a
+ udio
+LOCATION:William Dawes
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/177
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/177
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101104T100000
+DTEND:20101104T123000
+SUMMARY:Challenges in Mobile Networking
+CREATED:20100810T132208
+LAST-MODIFIED:20101015T153635
+DESCRIPTION:Challenges that we have with networking in the mobile space.
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/825
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/825
+END:VEVENT
+END:VCALENDAR

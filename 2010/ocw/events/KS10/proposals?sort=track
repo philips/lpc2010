@@ -1,0 +1,410 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+  <title>Kernel Summit 2010 proposals / Linux Plumbers Conference: Developing the Kernel, Libraries and Utilities / November 3-5, 10 / Cambridge, MA</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="Developing the Kernel, Libraries and Utilities / November 3-5, 10 / Cambridge, MA" />
+
+  <!-- Feeds -->
+  <link href="../../proposals.atom" rel="alternate" title="Linux Plumbers Conference: Proposals feed" type="application/atom+xml" />
+  
+
+  <!-- Stylesheets -->
+  
+    <link href="http://linuxplumbersconf.org/2010/style/style.css" media="screen" rel="stylesheet" type="text/css" />
+  
+  <link href="../../themes/lpc/stylesheets/custom.css?1275586216" media="screen" rel="Stylesheet" type="text/css" />
+  
+
+  <!-- Dynamic styles -->
+  
+    
+      <style type="text/css" media="screen">
+        
+  /* Kernel Summit Proposal */
+  .track-129 { color: #874f4f; }
+  .track-129.block { background: #874f4f; color: #fff; }
+  .track-129.light { background: #c19595; }
+  .track-129.light:hover { background: #b17a7a; }
+
+      </style>
+    
+  
+
+  <!-- Scripts -->
+  <script src="../../javascripts/jquery.min.js" type="text/javascript"></script>
+  <script src="../../javascripts/jquery-ui.effects.core.js" type="text/javascript"></script>
+  <script src="../../javascripts/jquery-ui.effects.highlight.js" type="text/javascript"></script>
+  <script src="../../javascripts/application.js" type="text/javascript"></script>
+  
+    
+    
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+      app.favorites_path = '/2010/ocw/users/me/favorites';
+      app.current_user = false;
+      app.authenticity_token = '8d14f92e6e1470838695fc1036641d45886dce51';
+      populate_user_favorites();
+      bind_user_favorite_controls();
+    });
+  </script>
+</head>
+
+
+
+<body>
+  <div id="wrapper">
+     <div id="header">
+           <h1 id="site-title"><span><a href="http://linuxplumbersconf.org/2010/" title="Linux Plumbers Conf 2010" rel="home">Linux Plumbers Conf 2010</a></span></h1>
+           <div id="site-description">Developing the Kernel, Libraries and Utilities</div>
+      </div>
+
+      	<div id="access">
+		<div class="skip-link"><a href="proposals?sort=track#content" title="Skip to content">'Skip to content</a></div>
+
+<div id="menu">
+	<ul>
+		<li class="page_item page-item"><a href="../../../../2010.1">Blog</a></li>
+		<li class="page_item page-item"><a href="../../../participate/index.html" title="Attend">Participate</a></li>
+		<li class="page_item page-item"><a href="../LPC2010/schedule" title="Schedule">Schedule</a></li>
+		<li class="page_item page-item"><a href="../../../program/index.html" title="Program">Program</a></li>
+		<li class="page_item page-item"><a href="../../../contact/index.html" title="Contact">Contact</a></li>
+		<li class="page_item page-item"><a href="../../../faqs" title="FAQs">FAQs</a></li>
+	</ul>
+</div>
+
+	</div><!-- #access -->
+
+
+      <div id="container">
+        <div id="content">
+          <h2 class='entry-title'>Proposals</h2>
+          
+
+          <h2 class='page_title'>Kernel Summit 2010 proposals</h2>
+
+          <!-- Display notices -->
+          
+          
+          
+          
+
+          <!-- Display view's content -->
+          
+
+
+
+
+
+
+
+
+  <div>
+    
+      
+      <div class="event_text closed_text">
+        <p>We're no longer accepting proposals for the Kernel Summit in Cambridge, MA (USA).</p>
+        
+      </div>
+      
+    
+  </div>
+
+  
+
+
+  
+    <div>
+      
+      Sort by:
+      <a href="proposals?sort=title">Title</a>, <a href="proposals?dir=desc&amp;sort=track">Track</a> &and;, <a href="proposals?sort=submitted_at">Submission date</a>
+    </div>
+  
+
+  
+    <table class='proposals kind_proposals' cellspacing='0'>
+      
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1101'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1101"><span>*</span></a>
+            
+              <a href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1101" class="title">Newcomers</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Are we getting old?
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-129'>
+          <a href="http://www.linuxplumbersconf.org/2010/ocw/events/KS10/tracks/129">Kernel Summit Proposal</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            09/03/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/users/1185">Jiri Kosina</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1083'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1083"><span>*</span></a>
+            
+              <a href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1083" class="title">Stable branches</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Can we make stable branches more stable and more useful?
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-129'>
+          <a href="http://www.linuxplumbersconf.org/2010/ocw/events/KS10/tracks/129">Kernel Summit Proposal</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/30/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/users/1155">Ben Hutchings</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1089'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1089"><span>*</span></a>
+            
+              <a href="../../proposals/1089" class="title">Tracer ring-buffer unification with the Generic Ring Buffer library</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Infrastructure proposal for Perf and Ftrace ring buffer unification.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-129'>
+          <a href="http://www.linuxplumbersconf.org/2010/ocw/events/KS10/tracks/129">Kernel Summit Proposal</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/31/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/1011">Mathieu Desnoyers</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1107'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1107"><span>*</span></a>
+            
+              <a href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1107" class="title">Upstream first, end-customer... eventually</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Can we improve the availability of new Linux technologies for the environments end customers are using?
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-129'>
+          <a href="http://www.linuxplumbersconf.org/2010/ocw/events/KS10/tracks/129">Kernel Summit Proposal</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            09/04/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/users/1179">Dan Williams</a>
+          
+        </td>
+      </tr>
+      
+    </table>
+  
+
+
+
+
+        </div><!-- content -->
+      </div><!-- container -->
+
+        <div id="primary" class="sidebar">
+          <ul class="xoxo">
+            
+              <li id="login-as">
+                <h3>Welcome</h3>
+                <ul>
+                  <li><a href="../LPC2010BOFS/proposals/new">Login</a></li>
+                  
+                </ul>
+              </li>
+            
+
+            <li id="subscribe-to">
+              <h3>Subscribe to</h3>
+              <ul>
+                <li class="pre-bulletted"><a href="../../proposals.atom" class="feedable">Proposals feed</a></li>
+                
+              </ul>
+            </li>
+
+            
+          </ul>
+	  			<div id="sponsor-links">
+				<h3>Sponsors</h3>
+				<br>
+				<h5>Platinum</h5>
+				<br><a href="http://intel.com"><img src="../../../style/intel_logo.png" /></a>
+				<br>
+				<br><a href="http://qualcomm.com"><img src="../../../style/Qualcomm.png" /></a>
+				<br>
+				<br><a href="http://ibm.com"><img src="../../../style/IBMtm.png" /></a>
+				<br>&nbsp;
+				<h5>Gold</h5>
+				<br><a href="http://google.com"><img src="../../../style/google_logo.gif" /></a>
+				<br>
+				<br><a href="http://www.ti.com"><img src="../../../style/ti_logo.gif" /></a>
+				<br>&nbsp;
+				<h5>Silver</h5>
+				<br><a href="http://hp.com"><img src="../../../style/hp_logo.gif" /></a>
+				<br>
+				<br><a href="http://canonical.com"><img src="../../../style/canonical.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.akamai.com"><img src="../../../style/akamai_logo_pms.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.linaro.org"><img src="../../../style/linaro-1.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.oracle.com"><img src="../../../style/oralogo_small.gif" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.emc.com"><img src="../../../style/EMC_logo_2004_color2.png" /></a>
+<!--
+				<h3>Media Sponsors</h3>
+				<ul class="sponsor-links">
+
+					<li><a href="http://lwn.net"><img src="/2010/style/lwnlogo.png" /></a></li>
+					<li><a href="http://linuxjournel.com"><img src="/2010/style/ljcolor.png" /></a></li>
+					<li><a href="http://www.linuxpromagazine.com/"><img src="/2010/style/LinuxPro-logo.png" /></a></li>
+				</ul>
+-->
+			</div>
+
+
+
+        </div><!-- #sidebar-1 -->
+
+    <div id="footer">
+    <a href="http://osuosl.org"><img border="0" src="http://linuxplumbersconf.org/2010/style/osl-hosted.png" alt="OSL"/></a>
+    </div>
+
+  </div><!--wrapper -->
+
+  
+
+  <!-- arbitrary javascript from views -->
+  <script type="text/javascript">
+//<![CDATA[
+window._token = '8d14f92e6e1470838695fc1036641d45886dce51'
+//]]>
+</script>
+  <script type="text/javascript">
+    
+  </script>
+
+  
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-168427-8");
+      pageTracker._initData();
+      pageTracker._trackPageview();
+    </script>
+
+    <script src="http://static.getclicky.com/79611.js" type="text/javascript"></script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://static.getclicky.com/79611-db10.gif" /></p></noscript>
+  
+</body>
+</html>

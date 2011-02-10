@@ -1,0 +1,125 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ensemble Independent//vPim 0.695//EN
+CALSCALE:Gregorian
+METHOD:PUBLISH
+X-WR-CALNAME:Mike Rapoport's favorites
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+DTSTART:20101105T100000
+DTEND:20101105T123000
+SUMMARY:Embedded
+CREATED:20100702T121628
+LAST-MODIFIED:20101103T230558
+DESCRIPTION:Embedded topics and issues. "Wiki":http://wiki.linuxplumberscon
+ f.org/2010:embedded_topics "Etherpad":http://etherpad.osuosl.org/lpc2010-em
+ bedded
+LOCATION:William Dawes
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/63
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/63
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101104T133000
+DTEND:20101104T141500
+SUMMARY:Porting the Linux kernel to a new architecture\, done right
+CREATED:20100717T163246
+LAST-MODIFIED:20101116T193511
+DESCRIPTION:A quick tour around the architecture specific kernel implementa
+ tion a working example code.
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/237
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/237
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T151000
+DTEND:20101103T155500
+SUMMARY:Device trees on ARM
+CREATED:20100719T041152
+LAST-MODIFIED:20101013T190057
+DESCRIPTION:Status of device tree support for Linux on ARM
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/303
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/303
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101104T090000
+DTEND:20101104T094500
+SUMMARY:Embedded Linux easier
+CREATED:20100719T154103
+LAST-MODIFIED:20101013T183144
+DESCRIPTION:An approach to making it easier to work with embedded Linux
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/411
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/411
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T090000
+DTEND:20101103T094500
+SUMMARY:The kernel report
+CREATED:20100719T161742
+LAST-MODIFIED:20101116T193341
+DESCRIPTION:The kernel: where it is\, how it got there\, and where it's goi
+ ng.
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/417
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/417
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101104T151000
+DTEND:20101104T155500
+SUMMARY:Linux Graphics Directions
+CREATED:20100719T180742
+LAST-MODIFIED:20101013T183817
+DESCRIPTION:Now that we have competent Linux kernel graphics support\, what
+  comes next?
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/483
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/483
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T133000
+DTEND:20101103T160000
+SUMMARY:Desktop
+CREATED:20100722T175534
+LAST-MODIFIED:20101103T012413
+DESCRIPTION:Desktop related topics "Wiki":http://wiki.linuxplumbersconf.org
+ /2010:desktop "Etherpad":http://etherpad.osuosl.org/lpc2010-desktop
+LOCATION:Thomas Paine
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/591
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/591
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T163000
+DTEND:20101103T173000
+SUMMARY:Power On war stories
+CREATED:20100822T195637
+LAST-MODIFIED:20101015T115928
+DESCRIPTION:lighting up a new board brings together a lot of interesting ta
+ lent\, and has a lot of challenges.
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/963
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/963
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T173000
+DTEND:20101103T183000
+SUMMARY:Kernel Debugging
+CREATED:20100927T174136
+LAST-MODIFIED:20101015T120033
+DESCRIPTION:Discuss state of KGDB and other kernel debug technologies.
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/1173
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/1173
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T173000
+DTEND:20101103T183000
+SUMMARY:Kicking the Tires of The Yocto Project
+CREATED:20101029T203024
+LAST-MODIFIED:20101031T002533
+DESCRIPTION:Discuss the details of the recently announced yocto project and
+  where it can lend value to embedded linux development.
+LOCATION:William Dawes
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/1221
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/1221
+END:VEVENT
+END:VCALENDAR

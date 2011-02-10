@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ensemble Independent//vPim 0.695//EN
+CALSCALE:Gregorian
+METHOD:PUBLISH
+X-WR-CALNAME:Nikhil Rao's favorites
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+DTSTART:20101105T105000
+DTEND:20101105T113500
+SUMMARY:Kernel Debugging (Current state)
+CREATED:20100719T104045
+LAST-MODIFIED:20101013T184001
+DESCRIPTION:A presentation about the current state of kernel tracing tools.
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/345
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/345
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101105T090000
+DTEND:20101105T094500
+SUMMARY:Unified energy-aware scheduling
+CREATED:20100719T140400
+LAST-MODIFIED:20101116T192339
+DESCRIPTION:Unified approach to CPU power management where the scheduler wo
+ rks in co-ordination with cpufreq and cpuidle subsystems
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/381
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/381
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T090000
+DTEND:20101103T094500
+SUMMARY:The kernel report
+CREATED:20100719T161742
+LAST-MODIFIED:20101116T193341
+DESCRIPTION:The kernel: where it is\, how it got there\, and where it's goi
+ ng.
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/417
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/417
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101105T100000
+DTEND:20101105T104500
+SUMMARY:Idle scheduling support in the Linux Kernel
+CREATED:20100719T222649
+LAST-MODIFIED:20101116T192637
+DESCRIPTION:This talk describes how Google uses CFS to provide differentiat
+ ed CPU QoS\, discusses the strengths and shortcomings of idle scheduling su
+ pport in the Linux kernel\, and presents solutions that improve utilization
+  without impacting isolation.
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/519
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/519
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101105T151000
+DTEND:20101105T155500
+SUMMARY:TCP-NV: Congestion Avoidance for Data Centers
+CREATED:20100719T225456
+LAST-MODIFIED:20101116T193016
+DESCRIPTION:TCP-NV is a TCP variant for Data Centers that implements conges
+ tion avoidance\, where the congestion window can decrease when queue build-
+ up is detected and before packet loss occurs.
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/525
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/525
+END:VEVENT
+END:VCALENDAR

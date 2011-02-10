@@ -1,0 +1,4343 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+  <title>Schedule / Linux Plumbers Conference: Developing the Kernel, Libraries and Utilities / November 3-5, 10 / Cambridge, MA</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="Developing the Kernel, Libraries and Utilities / November 3-5, 10 / Cambridge, MA" />
+
+  <!-- Feeds -->
+  <link href="../../proposals.atom" rel="alternate" title="Linux Plumbers Conference: Proposals feed" type="application/atom+xml" />
+  
+
+  <!-- Stylesheets -->
+  
+    <link href="http://linuxplumbersconf.org/2010/style/style.css" media="screen" rel="stylesheet" type="text/css" />
+  
+  <link href="../../themes/lpc/stylesheets/custom.css?1275586216" media="screen" rel="Stylesheet" type="text/css" />
+  
+
+  <!-- Dynamic styles -->
+  
+    
+      <style type="text/css" media="screen">
+        
+  /* Audio */
+  .track-53 { color: #28e246; }
+  .track-53.block { background: #28e246; color: #fff; }
+  .track-53.light { background: #b5f5bf; }
+  .track-53.light:hover { background: #86ef97; }
+
+  /* BoF */
+  .track-64 { color: #eca718; }
+  .track-64.block { background: #eca718; color: #fff; }
+  .track-64.light { background: #f8dea8; }
+  .track-64.light:hover { background: #f4cc78; }
+
+  /* Boot and Init */
+  .track-99 { color: #f0196c; }
+  .track-99.block { background: #f0196c; color: #fff; }
+  .track-99.light { background: #faaecb; }
+  .track-99.light:hover { background: #f67dac; }
+
+  /* Desktop */
+  .track-117 { color: #16796d; }
+  .track-117.block { background: #16796d; color: #fff; }
+  .track-117.light { background: #23c2ae; }
+  .track-117.light:hover { background: #1fa999; }
+
+  /* Embedded */
+  .track-73 { color: #9922bf; }
+  .track-73.block { background: #9922bf; color: #fff; }
+  .track-73.light { background: #cf80e8; }
+  .track-73.light:hover { background: #c159e2; }
+
+  /* File and Storage Systems */
+  .track-111 { color: #b6eb75; }
+  .track-111.block { background: #b6eb75; color: #fff; }
+  .track-111.light { background: #ffffff; }
+  .track-111.light:hover { background: #f7fdf0; }
+
+  /* High Availability Clustering */
+  .track-43 { color: #5ad03e; }
+  .track-43.block { background: #5ad03e; color: #fff; }
+  .track-43.light { background: #c9f0c0; }
+  .track-43.light:hover { background: #a4e595; }
+
+  /* Keynote */
+  .track-135 { color: #1be4cb; }
+  .track-135.block { background: #1be4cb; color: #fff; }
+  .track-135.light { background: #a4f4ea; }
+  .track-135.light:hover { background: #76efe0; }
+
+  /* Multimedia Infrastructure */
+  .track-123 { color: #ec69cc; }
+  .track-123.block { background: #ec69cc; color: #fff; }
+  .track-123.light { background: #ffffff; }
+  .track-123.light:hover { background: #fbe2f5; }
+
+  /* Power Management */
+  .track-33 { color: #eaed1d; }
+  .track-33.block { background: #eaed1d; color: #fff; }
+  .track-33.light { background: #f8f9b1; }
+  .track-33.light:hover { background: #f3f580; }
+
+  /* Real Time */
+  .track-105 { color: #ef9f2e; }
+  .track-105.block { background: #ef9f2e; color: #fff; }
+  .track-105.light { background: #fbe8cd; }
+  .track-105.light:hover { background: #f7d098; }
+
+  /* Refereed Presentations */
+  .track-3 { color: #c64024; }
+  .track-3.block { background: #c64024; color: #fff; }
+  .track-3.light { background: #ea9c8c; }
+  .track-3.light:hover { background: #e37a65; }
+
+  /* Tracing */
+  .track-93 { color: #35e39c; }
+  .track-93.block { background: #35e39c; color: #fff; }
+  .track-93.light { background: #c9f7e4; }
+  .track-93.light:hover { background: #97f1cc; }
+
+  /* User Visible Network Issues */
+  .track-63 { color: #1877b9; }
+  .track-63.block { background: #1877b9; color: #fff; }
+  .track-63.light { background: #64b3eb; }
+  .track-63.light:hover { background: #3fa1e6; }
+
+  /* Virtualization */
+  .track-23 { color: #4db3a1; }
+  .track-23.block { background: #4db3a1; color: #fff; }
+  .track-23.light { background: #b9e1da; }
+  .track-23.light:hover { background: #95d2c7; }
+
+      </style>
+    
+  
+
+  <!-- Scripts -->
+  <script src="../../javascripts/jquery.min.js" type="text/javascript"></script>
+  <script src="../../javascripts/jquery-ui.effects.core.js" type="text/javascript"></script>
+  <script src="../../javascripts/jquery-ui.effects.highlight.js" type="text/javascript"></script>
+  <script src="../../javascripts/application.js" type="text/javascript"></script>
+  
+    <script src="../../javascripts/jquery.scrollTo-1.4.2-min.js" type="text/javascript"></script><script src="../../javascripts/jquery.localscroll-1.2.7-min.js" type="text/javascript"></script>
+    
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+      app.favorites_path = '/2010/ocw/users/me/favorites';
+      app.current_user = false;
+      app.authenticity_token = '8d14f92e6e1470838695fc1036641d45886dce51';
+      populate_user_favorites();
+      bind_user_favorite_controls();
+      bind_calendar_items();
+      $.localScroll({hash:true, duration:300});
+    });
+  </script>
+</head>
+
+
+
+<body>
+  <div id="wrapper">
+     <div id="header">
+           <h1 id="site-title"><span><a href="http://linuxplumbersconf.org/2010/" title="Linux Plumbers Conf 2010" rel="home">Linux Plumbers Conf 2010</a></span></h1>
+           <div id="site-description">Developing the Kernel, Libraries and Utilities</div>
+      </div>
+
+      	<div id="access">
+		<div class="skip-link"><a href="schedule#content" title="Skip to content">'Skip to content</a></div>
+
+<div id="menu">
+	<ul>
+		<li class="page_item page-item"><a href="../../../../2010.1">Blog</a></li>
+		<li class="page_item page-item"><a href="../../../participate/index.html" title="Attend">Participate</a></li>
+		<li class="page_item page-item"><a href="schedule" title="Schedule">Schedule</a></li>
+		<li class="page_item page-item"><a href="../../../program/index.html" title="Program">Program</a></li>
+		<li class="page_item page-item"><a href="../../../contact/index.html" title="Contact">Contact</a></li>
+		<li class="page_item page-item"><a href="../../../faqs" title="FAQs">FAQs</a></li>
+	</ul>
+</div>
+
+	</div><!-- #access -->
+
+
+      <div id="container">
+        <div id="content">
+          <h2 class='entry-title'>Proposals</h2>
+          
+
+          <h2 class='page_title'>Schedule</h2>
+
+          <!-- Display notices -->
+          
+          
+          
+          
+
+          <!-- Display view's content -->
+          
+
+
+
+
+
+
+<div class='calendar_download'>
+  <a href="schedule.ics">Download all</a> /
+  <a href="webcal://www.linuxplumbersconf.org/2010/ocw/events/LPC2010/schedule.ics">Subscribe to all</a>
+  
+</div>
+
+
+
+
+<div class="schedule_color_key">
+  <strong>Color key:</strong>
+  
+    <span class="definition light track-53">
+      <a href="../LPC2010MC/tracks/53">Audio</a>
+    </span>
+  
+    <span class="definition light track-64">
+      <a href="../LPC2010BOFS/tracks/64">BoF</a>
+    </span>
+  
+    <span class="definition light track-99">
+      <a href="../LPC2010MC/tracks/99">Boot and Init</a>
+    </span>
+  
+    <span class="definition light track-117">
+      <a href="../LPC2010MC/tracks/117">Desktop</a>
+    </span>
+  
+    <span class="definition light track-73">
+      <a href="../LPC2010MC/tracks/73">Embedded</a>
+    </span>
+  
+    <span class="definition light track-111">
+      <a href="../LPC2010MC/tracks/111">File and Storage Systems</a>
+    </span>
+  
+    <span class="definition light track-43">
+      <a href="../LPC2010MC/tracks/43">High Availability Clustering</a>
+    </span>
+  
+    <span class="definition light track-135">
+      <a href="tracks/135">Keynote</a>
+    </span>
+  
+    <span class="definition light track-123">
+      <a href="../LPC2010MC/tracks/123">Multimedia Infrastructure</a>
+    </span>
+  
+    <span class="definition light track-33">
+      <a href="../LPC2010MC/tracks/33">Power Management</a>
+    </span>
+  
+    <span class="definition light track-105">
+      <a href="../LPC2010MC/tracks/105">Real Time</a>
+    </span>
+  
+    <span class="definition light track-3">
+      <a href="tracks/3">Refereed Presentations</a>
+    </span>
+  
+    <span class="definition light track-93">
+      <a href="../LPC2010MC/tracks/93">Tracing</a>
+    </span>
+  
+    <span class="definition light track-63">
+      <a href="../LPC2010MC/tracks/63">User Visible Network Issues</a>
+    </span>
+  
+    <span class="definition light track-23">
+      <a href="../LPC2010MC/tracks/23">Virtualization</a>
+    </span>
+  
+  <span class="definition light generic_item %>">
+    Other
+  </span>
+</div>
+
+<div class='schedule_jump'>
+  <strong>Jump to day:</strong>
+  <ul>
+  
+    <li><a href="schedule#day_2010_11_02" id="to_day_2010_11_02">Tuesday, November  2, 2010</a></li>
+  
+    <li><a href="schedule#day_2010_11_03" id="to_day_2010_11_03">Wednesday, November  3, 2010</a></li>
+  
+    <li><a href="schedule#day_2010_11_04" id="to_day_2010_11_04">Thursday, November  4, 2010</a></li>
+  
+    <li><a href="schedule#day_2010_11_05" id="to_day_2010_11_05">Friday, November  5, 2010</a></li>
+    </ul>
+</div>
+
+
+  <a name="day_2010_11_02"></a>
+  <a href="schedule#top" class='to_top'>Return to top</a>
+  <h3>Tuesday, November  2, 2010</h3>
+
+  <table class='schedule'>
+    
+      
+
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-02T19:00:00">7:00</abbr> &ndash; <abbr class="dtend" title="2010-11-02T22:00:00">10:00pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent generic_item' id='schedule_item-21'>
+      <div class='concise'>
+        
+          <span class='summary'>Reception at Jillian's</span>
+        
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            Reception at Jillian's
+          
+        </li>
+        
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-02T19:00:00">7:00</abbr> &ndash; <abbr class="dtend" title="2010-11-02T22:00:00">10:00pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Joint reception with the Kernel Summit at <a href="http://www.jilliansboston.com/">Jillians</a> at Fenway, Second Floor</p>
+<p>Drinks &amp; Appetizers, and a floor full of entertainment: Pool tables, table tennis, foosball, darts, and more.</p>
+<p>Buses will depart from the Hyatt at 6:30pm</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                                </tr>
+            </table>
+
+  <a name="day_2010_11_03"></a>
+  <a href="schedule#top" class='to_top'>Return to top</a>
+  <h3>Wednesday, November  3, 2010</h3>
+
+  <table class='schedule'>
+    
+      
+
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='2'>
+                
+<h4><abbr class="dtstart" title="2010-11-03T09:00:00">9:00</abbr> &ndash; <abbr class="dtend" title="2010-11-03T09:45:00">9:45am</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-135' id='proposal-417'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_417"><span>*</span></a>
+          <a href="../../sessions/417" class="url summary">The kernel report</a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/417">The kernel report</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/135" class="track-135">Keynote</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-03T09:00:00">9:00</abbr> &ndash; <abbr class="dtend" title="2010-11-03T09:45:00">9:45am</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>The kernel: where it is, how it got there, and where it&#8217;s going.</p>
+            </div>
+          </li>
+	
+	
+	  <li><a href="../../system/presentations/417/original/kreport.pdf">slides</a></li>
+        
+        
+          
+        
+        
+          <li>
+            <strong>Speakers:</strong>
+            <a href="../../users/693">Jonathan Corbet</a>
+          </li>
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                                </tr>
+          
+      
+
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='2'>
+                
+<h4><abbr class="dtstart" title="2010-11-03T09:45:00">9:45</abbr> &ndash; <abbr class="dtend" title="2010-11-03T10:00:00">10:00am</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent generic_item' id='schedule_item-3'>
+      <div class='concise'>
+        
+          <span class='summary'>Break</span>
+        
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            Break
+          
+        </li>
+        
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-03T09:45:00">9:45</abbr> &ndash; <abbr class="dtend" title="2010-11-03T10:00:00">10:00am</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Break</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                                </tr>
+          
+      
+
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-03T10:00:00">10:00</abbr> &ndash; <abbr class="dtend" title="2010-11-03T10:45:00">10:45am</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-3' id='proposal-531'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_531"><span>*</span></a>
+          <a href="../../sessions/531" class="url summary">License To Kill…Your Code...</a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/531">License To Kill…Your Code...</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/3" class="track-3">Refereed Presentations</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-03T10:00:00">10:00</abbr> &ndash; <abbr class="dtend" title="2010-11-03T10:45:00">10:45am</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Just as the lack of software discipline can lead to bad code and poor usability, the lack of license understanding and execution can cripple the legitimate usability of open source software.</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+          <li>
+            <strong>Speakers:</strong>
+            <a href="../../users/705">Mark Gisi</a>, <a href="../../users/747">Sven Dummer</a>
+          </li>
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                      
+            
+            
+              <td class='schedule_block' rowspan='3' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-03T10:00:00">10:00am</abbr> &ndash; <abbr class="dtend" title="2010-11-03T12:30:00">12:30pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-99' id='proposal-87'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_87"><span>*</span></a>
+          <a href="../../sessions/87" class="url summary">Boot and Init</a>
+        
+        
+          <span class='room'>Thomas Paine</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/87">Boot and Init</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/99" class="track-99">Boot and Init</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/9">Thomas Paine</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-03T10:00:00">10:00am</abbr> &ndash; <abbr class="dtend" title="2010-11-03T12:30:00">12:30pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Early initialization and alternatives to traditional unix init. <a href="http://wiki.linuxplumbersconf.org/2010:early_boot_and_init_systems">Wiki</a> <a href="http://etherpad.osuosl.org/lpc2010-boot-and-init">Etherpad</a></p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+    <li class='vevent light track-105' id='proposal-93'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_93"><span>*</span></a>
+          <a href="../../sessions/93" class="url summary">Real-Time</a>
+        
+        
+          <span class='room'>William Dawes</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/93">Real-Time</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/105" class="track-105">Real Time</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/15">William Dawes</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-03T10:00:00">10:00am</abbr> &ndash; <abbr class="dtend" title="2010-11-03T12:30:00">12:30pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Real Time Linux discussions <a href="http://wiki.linuxplumbersconf.org/2010:real-time_response_for_full_foss_linux_stack">Wiki</a> <a href="http://etherpad.osuosl.org/lpc2010-real-time">EtherPad</a></p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                                </tr>
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-03T10:50:00">10:50</abbr> &ndash; <abbr class="dtend" title="2010-11-03T11:35:00">11:35am</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-3' id='proposal-501'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_501"><span>*</span></a>
+          <a href="../../sessions/501" class="url summary">Linux Multitenant File Servers using Likewise-CIFS</a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/501">Linux Multitenant File Servers using Likewise-CIFS</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/3" class="track-3">Refereed Presentations</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-03T10:50:00">10:50</abbr> &ndash; <abbr class="dtend" title="2010-11-03T11:35:00">11:35am</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>The paper will explain the architecture used by the Likewise-<span class="caps">CIFS</span> file server to enable Linux hosts to concurrently operate as a member of multiple Microsoft Active Directory domains.</p>
+            </div>
+          </li>
+	
+	
+	  <li><a href="../../system/presentations/501/original/Likewise-Multi-Domain-Lsass.pdf">slides</a></li>
+        
+        
+          
+        
+        
+          <li>
+            <strong>Speakers:</strong>
+            <a href="../../users/711">Gerald Carter</a>
+          </li>
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                      
+            
+                                </tr>
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-03T11:40:00">11:40am</abbr> &ndash; <abbr class="dtend" title="2010-11-03T12:25:00">12:25pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-3' id='proposal-495'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_495"><span>*</span></a>
+          <a href="../../sessions/495" class="url summary">Next Steps In File Permission Models</a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/495">Next Steps In File Permission Models</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/3" class="track-3">Refereed Presentations</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-03T11:40:00">11:40am</abbr> &ndash; <abbr class="dtend" title="2010-11-03T12:25:00">12:25pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Why <span class="caps">POSIX</span> ACLs are not enough and how to replace them</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+          <li>
+            <strong>Speakers:</strong>
+            <a href="../../users/621">Andreas Gruenbacher</a>
+          </li>
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                      
+            
+                                </tr>
+          
+      
+
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='2'>
+                
+<h4><abbr class="dtstart" title="2010-11-03T12:30:00">12:30</abbr> &ndash; <abbr class="dtend" title="2010-11-03T13:30:00">1:30pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent generic_item' id='schedule_item-9'>
+      <div class='concise'>
+        
+          <span class='summary'>Lunch</span>
+        
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            Lunch
+          
+        </li>
+        
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-03T12:30:00">12:30</abbr> &ndash; <abbr class="dtend" title="2010-11-03T13:30:00">1:30pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Lunch (Box Lunch will be provided)</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                                </tr>
+          
+      
+
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-03T13:30:00">1:30</abbr> &ndash; <abbr class="dtend" title="2010-11-03T14:15:00">2:15pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-3' id='proposal-219'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_219"><span>*</span></a>
+          <a href="../../sessions/219" class="url summary">Hot and cold data management in filesystem</a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/219">Hot and cold data management in filesystem</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/3" class="track-3">Refereed Presentations</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-03T13:30:00">1:30</abbr> &ndash; <abbr class="dtend" title="2010-11-03T14:15:00">2:15pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Hot and cold data migration over hybrid storage in btrfs</p>
+            </div>
+          </li>
+	
+	
+	  <li><a href="../../system/presentations/219/original/hot_cold_data_LPC.pdf">slides</a></li>
+        
+        
+          
+        
+        
+          <li>
+            <strong>Speakers:</strong>
+            <a href="../../users/387">Mingming Cao</a>
+          </li>
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                      
+            
+            
+              <td class='schedule_block' rowspan='3' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-03T13:30:00">1:30</abbr> &ndash; <abbr class="dtend" title="2010-11-03T16:00:00">4:00pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-117' id='proposal-591'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_591"><span>*</span></a>
+          <a href="../../sessions/591" class="url summary">Desktop</a>
+        
+        
+          <span class='room'>Thomas Paine</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/591">Desktop</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/117" class="track-117">Desktop</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/9">Thomas Paine</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-03T13:30:00">1:30</abbr> &ndash; <abbr class="dtend" title="2010-11-03T16:00:00">4:00pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Desktop related topics <a href="http://wiki.linuxplumbersconf.org/2010:desktop">Wiki</a> <a href="http://etherpad.osuosl.org/lpc2010-desktop">Etherpad</a></p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+    <li class='vevent light track-33' id='proposal-183'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_183"><span>*</span></a>
+          <a href="http://www.linuxplumbersconf.org/2010/ocw/sessions/183" class="url summary">Power Management</a>
+        
+        
+          <span class='room'>William Dawes</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/sessions/183">Power Management</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/33" class="track-33">Power Management</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/15">William Dawes</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-03T13:30:00">1:30</abbr> &ndash; <abbr class="dtend" title="2010-11-03T16:00:00">4:00pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Discussions about all topics related to power management <a href="http://wiki.linuxplumbersconf.org/2010:power_management">Wiki</a> <a href="http://etherpad.osuosl.org/lpc2010-power-management">Etherpad</a></p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                                </tr>
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-03T14:20:00">2:20</abbr> &ndash; <abbr class="dtend" title="2010-11-03T15:05:00">3:05pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-3' id='proposal-597'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_597"><span>*</span></a>
+          <a href="../../sessions/597" class="url summary">VirtFS—A paravirtual File System pass-through in KVM/QEMU </a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/597">VirtFS—A paravirtual File System pass-through in KVM/QEMU </a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/3" class="track-3">Refereed Presentations</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-03T14:20:00">2:20</abbr> &ndash; <abbr class="dtend" title="2010-11-03T15:05:00">3:05pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>VirtFS is a paravirtual file system which exports the host file systems to the guest on 9P2000.L protocol through VirtIO transport.</p>
+            </div>
+          </li>
+	
+	
+	  <li><a href="../../system/presentations/597/original/VirtFS_LPC_2010_Final.pdf">slides</a></li>
+        
+        
+          
+        
+        
+          <li>
+            <strong>Speakers:</strong>
+            <a href="../../users/825">Venkateswararao Jujjuri</a>
+          </li>
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                      
+            
+                                </tr>
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-03T15:10:00">3:10</abbr> &ndash; <abbr class="dtend" title="2010-11-03T15:55:00">3:55pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-3' id='proposal-297'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_297"><span>*</span></a>
+          <a href="../../sessions/297" class="url summary">Patchwork: pursuing productive project participation</a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/297">Patchwork: pursuing productive project participation</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/3" class="track-3">Refereed Presentations</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-03T15:10:00">3:10</abbr> &ndash; <abbr class="dtend" title="2010-11-03T15:55:00">3:55pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Patchwork is a web-based system for keeping track of contributions</p>
+            </div>
+          </li>
+	
+	
+	  <li><a href="../../system/presentations/297/original/patchwork-lpc2010.pdf">slides</a></li>
+        
+        
+          
+        
+        
+          <li>
+            <strong>Speakers:</strong>
+            <a href="../../users/531">Jeremy Kerr</a>
+          </li>
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                      
+            
+                                </tr>
+          
+      
+
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='2'>
+                
+<h4><abbr class="dtstart" title="2010-11-03T16:00:00">4:00</abbr> &ndash; <abbr class="dtend" title="2010-11-03T16:30:00">4:30pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent generic_item' id='schedule_item-15'>
+      <div class='concise'>
+        
+          <span class='summary'>Tea Break</span>
+        
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            Tea Break
+          
+        </li>
+        
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-03T16:00:00">4:00</abbr> &ndash; <abbr class="dtend" title="2010-11-03T16:30:00">4:30pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Afternoon Tea Break</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                                </tr>
+          
+      
+
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='2'>
+                
+<h4><abbr class="dtstart" title="2010-11-03T16:30:00">4:30</abbr> &ndash; <abbr class="dtend" title="2010-11-03T17:30:00">5:30pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-64' id='proposal-1017'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_1017"><span>*</span></a>
+          <a href="../../sessions/1017" class="url summary">Containers checkpoint/restart</a>
+        
+        
+          <span class='room'>Thomas Paine</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/1017">Containers checkpoint/restart</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/64" class="track-64">BoF</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/9">Thomas Paine</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-03T16:30:00">4:30</abbr> &ndash; <abbr class="dtend" title="2010-11-03T17:30:00">5:30pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Discuss the current state of checkpoint/restart in mainline, and what needs to be done to merge it.</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+    <li class='vevent light track-64' id='proposal-963'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_963"><span>*</span></a>
+          <a href="../../sessions/963" class="url summary">Power On war stories</a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/963">Power On war stories</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/64" class="track-64">BoF</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-03T16:30:00">4:30</abbr> &ndash; <abbr class="dtend" title="2010-11-03T17:30:00">5:30pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>lighting up a new board brings together a lot of interesting talent, and has a lot of challenges.</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+    <li class='vevent light track-64' id='proposal-1143'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_1143"><span>*</span></a>
+          <a href="../../sessions/1143" class="url summary">State of the kernel: license &quot;wise&quot;.</a>
+        
+        
+          <span class='room'>William Dawes</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/1143">State of the kernel: license &quot;wise&quot;.</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/64" class="track-64">BoF</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/15">William Dawes</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-03T16:30:00">4:30</abbr> &ndash; <abbr class="dtend" title="2010-11-03T17:30:00">5:30pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Survey of what licenses are actually in the kernel, beyond GPLv2/GPLv2+.</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                                </tr>
+          
+      
+
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='2'>
+                
+<h4><abbr class="dtstart" title="2010-11-03T17:30:00">5:30</abbr> &ndash; <abbr class="dtend" title="2010-11-03T18:30:00">6:30pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-64' id='proposal-1191'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_1191"><span>*</span></a>
+          <a href="../../sessions/1191" class="url summary">Ext4 snapshots</a>
+        
+        
+          <span class='room'>Thomas Paine</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/1191">Ext4 snapshots</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/64" class="track-64">BoF</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/9">Thomas Paine</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-03T17:30:00">5:30</abbr> &ndash; <abbr class="dtend" title="2010-11-03T18:30:00">6:30pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Overview of Next3 snapshots and what needs to be done to merge them into Ext4.</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+    <li class='vevent light track-64' id='proposal-1173'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_1173"><span>*</span></a>
+          <a href="../../sessions/1173" class="url summary">Kernel Debugging</a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/1173">Kernel Debugging</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/64" class="track-64">BoF</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-03T17:30:00">5:30</abbr> &ndash; <abbr class="dtend" title="2010-11-03T18:30:00">6:30pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Discuss state of <span class="caps">KGDB</span> and other kernel debug technologies.</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+    <li class='vevent light track-64' id='proposal-1221'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_1221"><span>*</span></a>
+          <a href="../../sessions/1221" class="url summary">Kicking the Tires of The Yocto Project</a>
+        
+        
+          <span class='room'>William Dawes</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/1221">Kicking the Tires of The Yocto Project</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/64" class="track-64">BoF</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/15">William Dawes</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-03T17:30:00">5:30</abbr> &ndash; <abbr class="dtend" title="2010-11-03T18:30:00">6:30pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Discuss the details of the recently announced yocto project and where it can lend value to embedded linux development.</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                                </tr>
+          
+      
+
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='2'>
+                
+<h4><abbr class="dtstart" title="2010-11-03T19:00:00">7:00</abbr> &ndash; <abbr class="dtend" title="2010-11-03T22:00:00">10:00pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent generic_item' id='schedule_item-27'>
+      <div class='concise'>
+        
+          <span class='summary'>Throw Linus to the Sharks Party at the New England Aquarium</span>
+        
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            Throw Linus to the Sharks Party at the New England Aquarium
+          
+        </li>
+        
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-03T19:00:00">7:00</abbr> &ndash; <abbr class="dtend" title="2010-11-03T22:00:00">10:00pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Throw Linus to the Sharks Party at <a href="http://www.neaq.org/index.php">New England Aquarium</a></p>
+<p>Drinks and Dinner Buffet, plus a chance to view all the animals and exhibits.</p>
+<p>When given a choice between giving a keynote and being fed to the sharks, Linus didn’t hesitate. “The sharks!”. Still nursing a grudge over a rejected patch? Don’t miss Linus Torvalds scuba-diving into the shark tank at the New England Aquarium!</p>
+<p>Buses will depart from the Hyatt between 6:30pm and 7:00pm.</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                                </tr>
+            </table>
+
+  <a name="day_2010_11_04"></a>
+  <a href="schedule#top" class='to_top'>Return to top</a>
+  <h3>Thursday, November  4, 2010</h3>
+
+  <table class='schedule'>
+    
+      
+
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-04T09:00:00">9:00</abbr> &ndash; <abbr class="dtend" title="2010-11-04T09:45:00">9:45am</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-3' id='proposal-411'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_411"><span>*</span></a>
+          <a href="../../sessions/411" class="url summary">Embedded Linux easier</a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/411">Embedded Linux easier</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/3" class="track-3">Refereed Presentations</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-04T09:00:00">9:00</abbr> &ndash; <abbr class="dtend" title="2010-11-04T09:45:00">9:45am</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>An approach to making it easier to work with embedded Linux</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+          <li>
+            <strong>Speakers:</strong>
+            <a href="../../users/615">Dirk Hohndel</a>
+          </li>
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                      
+            
+            
+              <td class='schedule_block' rowspan='2' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-04T09:00:00">9:00</abbr> &ndash; <abbr class="dtend" title="2010-11-04T10:00:00">10:00am</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-64' id='proposal-57'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_57"><span>*</span></a>
+          <a href="../../sessions/57" class="url summary">libferris: everything is a filesystem, and filesystems are everything.</a>
+        
+        
+          <span class='room'>Thomas Paine</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/57">libferris: everything is a filesystem, and filesystems are everything.</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/64" class="track-64">BoF</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/9">Thomas Paine</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-04T09:00:00">9:00</abbr> &ndash; <abbr class="dtend" title="2010-11-04T10:00:00">10:00am</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Libferris makes local and remote data available as a filesystem and conversely can be accessed from SQLite and XQuery among others as their native data types.</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                                </tr>
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-04T09:45:00">9:45</abbr> &ndash; <abbr class="dtend" title="2010-11-04T10:00:00">10:00am</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent generic_item' id='schedule_item-33'>
+      <div class='concise'>
+        
+          <span class='summary'>Break</span>
+        
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            Break
+          
+        </li>
+        
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-04T09:45:00">9:45</abbr> &ndash; <abbr class="dtend" title="2010-11-04T10:00:00">10:00am</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Break</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                      
+            
+                                </tr>
+          
+      
+
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-04T10:00:00">10:00</abbr> &ndash; <abbr class="dtend" title="2010-11-04T10:45:00">10:45am</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-3' id='proposal-579'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_579"><span>*</span></a>
+          <a href="../../sessions/579" class="url summary">Perf Tools: Recent Improvements</a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/579">Perf Tools: Recent Improvements</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/3" class="track-3">Refereed Presentations</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-04T10:00:00">10:00</abbr> &ndash; <abbr class="dtend" title="2010-11-04T10:45:00">10:45am</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Recent developments on the perf tools and discussion about <span class="caps">TODO</span>.</p>
+            </div>
+          </li>
+	
+	
+	  <li><a href="../../system/presentations/579/original/perf-plumbers2010.pdf">slides</a></li>
+        
+        
+          
+        
+        
+          <li>
+            <strong>Speakers:</strong>
+            <a href="../../users/813">Arnaldo Melo</a>
+          </li>
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                      
+            
+            
+              <td class='schedule_block' rowspan='3' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-04T10:00:00">10:00am</abbr> &ndash; <abbr class="dtend" title="2010-11-04T12:30:00">12:30pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-53' id='proposal-177'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_177"><span>*</span></a>
+          <a href="../../sessions/177" class="url summary">Audio</a>
+        
+        
+          <span class='room'>William Dawes</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/177">Audio</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/53" class="track-53">Audio</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/15">William Dawes</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-04T10:00:00">10:00am</abbr> &ndash; <abbr class="dtend" title="2010-11-04T12:30:00">12:30pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Discussion of audio integration issues in both kernel and userspace, covering both desktop and embedded systems. <a href="http://wiki.linuxplumbersconf.org/2010:audio">Wiki</a> <a href="http://etherpad.osuosl.org/lpc2010-audio">Etherpad</a></p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+    <li class='vevent light track-63' id='proposal-465'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_465"><span>*</span></a>
+          <a href="../../sessions/465" class="url summary">User-visible Networking Issues</a>
+        
+        
+          <span class='room'>Thomas Paine</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/465">User-visible Networking Issues</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/63" class="track-63">User Visible Network Issues</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/9">Thomas Paine</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-04T10:00:00">10:00am</abbr> &ndash; <abbr class="dtend" title="2010-11-04T12:30:00">12:30pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Discussion of device naming, Network Manger, Conman etc. <a href="http://wiki.linuxplumbersconf.org/2010:user-visible_networking_issues">Wiki</a> <a href="http://etherpad.osuosl.org/lpc2010-user-visible-network-issues">Etherpad</a></p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                                </tr>
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-04T10:50:00">10:50</abbr> &ndash; <abbr class="dtend" title="2010-11-04T11:35:00">11:35am</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-3' id='proposal-645'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_645"><span>*</span></a>
+          <a href="../../sessions/645" class="url summary">Testing the real-time Kernel on Arbitrary Hardware.</a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/645">Testing the real-time Kernel on Arbitrary Hardware.</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/3" class="track-3">Refereed Presentations</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-04T10:50:00">10:50</abbr> &ndash; <abbr class="dtend" title="2010-11-04T11:35:00">11:35am</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>An exploration of tools and test suites for measuring the performance of the real-time kernel. Also, a glimpse into the future, what do we need to do better?</p>
+            </div>
+          </li>
+	
+	
+	  <li><a href="../../system/presentations/645/original/measuring.odp">slides</a></li>
+        
+        
+          
+        
+        
+          <li>
+            <strong>Speakers:</strong>
+            <a href="../../users/189">Clark Williams</a>, <a href="../../users/103">John Kacur</a>
+          </li>
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                      
+            
+                                </tr>
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-04T11:40:00">11:40am</abbr> &ndash; <abbr class="dtend" title="2010-11-04T12:25:00">12:25pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-3' id='proposal-279'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_279"><span>*</span></a>
+          <a href="../../sessions/279" class="url summary">Runtime Power Management in the PCI Subsystem</a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/279">Runtime Power Management in the PCI Subsystem</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/3" class="track-3">Refereed Presentations</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-04T11:40:00">11:40am</abbr> &ndash; <abbr class="dtend" title="2010-11-04T12:25:00">12:25pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>I will describe the implementation of runtime power management support in the Linux kernel&#8217;s <span class="caps">PCI</span> subsystem and the related modifications of the <span class="caps">ACPI</span> subsystem.</p>
+            </div>
+          </li>
+	
+	
+	  <li><a href="../../system/presentations/279/original/PCI_runtime_PM.pdf">slides</a></li>
+        
+        
+          
+        
+        
+          <li>
+            <strong>Speakers:</strong>
+            <a href="../../users/483">Rafael Wysocki</a>
+          </li>
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                      
+            
+                                </tr>
+          
+      
+
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='2'>
+                
+<h4><abbr class="dtstart" title="2010-11-04T12:30:00">12:30</abbr> &ndash; <abbr class="dtend" title="2010-11-04T13:30:00">1:30pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent generic_item' id='schedule_item-39'>
+      <div class='concise'>
+        
+          <span class='summary'>Lunch</span>
+        
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            Lunch
+          
+        </li>
+        
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-04T12:30:00">12:30</abbr> &ndash; <abbr class="dtend" title="2010-11-04T13:30:00">1:30pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Lunch (Box Lunches will be provided)</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                                </tr>
+          
+      
+
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-04T13:30:00">1:30</abbr> &ndash; <abbr class="dtend" title="2010-11-04T14:15:00">2:15pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-3' id='proposal-237'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_237"><span>*</span></a>
+          <a href="../../sessions/237" class="url summary">Porting the Linux kernel to a new architecture, done right</a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/237">Porting the Linux kernel to a new architecture, done right</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/3" class="track-3">Refereed Presentations</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-04T13:30:00">1:30</abbr> &ndash; <abbr class="dtend" title="2010-11-04T14:15:00">2:15pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>A quick tour around the architecture specific kernel implementation a working example code.</p>
+            </div>
+          </li>
+	
+	
+	  <li><a href="../../system/presentations/237/original/porting.pdf">slides</a></li>
+        
+        
+          
+        
+        
+          <li>
+            <strong>Speakers:</strong>
+            <a href="../../users/423">Arnd Bergmann</a>
+          </li>
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                      
+            
+            
+              <td class='schedule_block' rowspan='3' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-04T13:30:00">1:30</abbr> &ndash; <abbr class="dtend" title="2010-11-04T16:00:00">4:00pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-93' id='proposal-105'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_105"><span>*</span></a>
+          <a href="../../sessions/105" class="url summary">Tracing (Part I)</a>
+        
+        
+          <span class='room'>William Dawes</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/105">Tracing (Part I)</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/93" class="track-93">Tracing</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/15">William Dawes</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-04T13:30:00">1:30</abbr> &ndash; <abbr class="dtend" title="2010-11-04T16:00:00">4:00pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Linux Tracing topics and issues.  <a href="http://wiki.linuxplumbersconf.org/2010:tracing">Wiki</a> <a href="http://etherpad.osuosl.org/lpc2010-tracing">Etherpad</a></p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+    <li class='vevent light track-23' id='proposal-117'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_117"><span>*</span></a>
+          <a href="../../sessions/117" class="url summary">Virtualization (Part I)</a>
+        
+        
+          <span class='room'>Thomas Paine</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/117">Virtualization (Part I)</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/23" class="track-23">Virtualization</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/9">Thomas Paine</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-04T13:30:00">1:30</abbr> &ndash; <abbr class="dtend" title="2010-11-04T16:00:00">4:00pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Virtualization topics and issues <a href="http://wiki.linuxplumbersconf.org/2010:virtualization">Wiki</a> <a href="http://etherpad.osuosl.org/lpc2010-virtualization">Etherpad</a></p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                                </tr>
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-04T14:20:00">2:20</abbr> &ndash; <abbr class="dtend" title="2010-11-04T15:05:00">3:05pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-3' id='proposal-399'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_399"><span>*</span></a>
+          <a href="../../sessions/399" class="url summary">The state of video</a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/399">The state of video</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/3" class="track-3">Refereed Presentations</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-04T14:20:00">2:20</abbr> &ndash; <abbr class="dtend" title="2010-11-04T15:05:00">3:05pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>A look at how to make watching and creating videos on Linux as good as it should be</p>
+            </div>
+          </li>
+	
+	
+	  <li><a href="../../system/presentations/399/original/state-of-video.pdf">slides</a></li>
+        
+        
+          
+        
+        
+          <li>
+            <strong>Speakers:</strong>
+            <a href="../../users/639">Benjamin Otte</a>
+          </li>
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                      
+            
+                                </tr>
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-04T15:10:00">3:10</abbr> &ndash; <abbr class="dtend" title="2010-11-04T15:55:00">3:55pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-3' id='proposal-483'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_483"><span>*</span></a>
+          <a href="../../sessions/483" class="url summary">Linux Graphics Directions</a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/483">Linux Graphics Directions</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/3" class="track-3">Refereed Presentations</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-04T15:10:00">3:10</abbr> &ndash; <abbr class="dtend" title="2010-11-04T15:55:00">3:55pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Now that we have competent Linux kernel graphics support, what comes next?</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+          <li>
+            <strong>Speakers:</strong>
+            <a href="../../users/657">Keith Packard</a>
+          </li>
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                      
+            
+                                </tr>
+          
+      
+
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='2'>
+                
+<h4><abbr class="dtstart" title="2010-11-04T16:00:00">4:00</abbr> &ndash; <abbr class="dtend" title="2010-11-04T16:30:00">4:30pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent generic_item' id='schedule_item-45'>
+      <div class='concise'>
+        
+          <span class='summary'>Tea Break</span>
+        
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            Tea Break
+          
+        </li>
+        
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-04T16:00:00">4:00</abbr> &ndash; <abbr class="dtend" title="2010-11-04T16:30:00">4:30pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Tea Break</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                                </tr>
+          
+      
+
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-04T16:30:00">4:30</abbr> &ndash; <abbr class="dtend" title="2010-11-04T17:15:00">5:15pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-3' id='proposal-477'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_477"><span>*</span></a>
+          <a href="../../sessions/477" class="url summary">The Linux Bluetooth Stack</a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/477">The Linux Bluetooth Stack</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/3" class="track-3">Refereed Presentations</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-04T16:30:00">4:30</abbr> &ndash; <abbr class="dtend" title="2010-11-04T17:15:00">5:15pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>A status update of the Linux Bluetooth stack, show the today&#8217;s state and what is coming in the near future.</p>
+            </div>
+          </li>
+	
+	
+	  <li><a href="../../system/presentations/477/original/Bluetooth_plumbers.pdf">slides</a></li>
+        
+        
+          
+        
+        
+          <li>
+            <strong>Speakers:</strong>
+            <a href="../../users/729">Gustavo Padovan</a>
+          </li>
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                      
+            
+            
+              <td class='schedule_block' rowspan='2' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-04T16:30:00">4:30</abbr> &ndash; <abbr class="dtend" title="2010-11-04T19:00:00">7:00pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-93' id='proposal-1203'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_1203"><span>*</span></a>
+          <a href="../../sessions/1203" class="url summary">Tracing (Part II)</a>
+        
+        
+          <span class='room'>William Dawes</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/1203">Tracing (Part II)</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/93" class="track-93">Tracing</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/15">William Dawes</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-04T16:30:00">4:30</abbr> &ndash; <abbr class="dtend" title="2010-11-04T19:00:00">7:00pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Linux Tracing topics and issues.  <a href="http://wiki.linuxplumbersconf.org/2010:tracing">Wiki</a> <a href="http://etherpad.osuosl.org/lpc2010-tracing">Etherpad</a></p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+    <li class='vevent light track-23' id='proposal-1209'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_1209"><span>*</span></a>
+          <a href="../../sessions/1209" class="url summary">Virtualization (Part II)</a>
+        
+        
+          <span class='room'>Thomas Paine</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/1209">Virtualization (Part II)</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/23" class="track-23">Virtualization</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/9">Thomas Paine</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-04T16:30:00">4:30</abbr> &ndash; <abbr class="dtend" title="2010-11-04T19:00:00">7:00pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Virtualization topics and issues <a href="http://wiki.linuxplumbersconf.org/2010:virtualization">Wiki</a> <a href="http://etherpad.osuosl.org/lpc2010-virtualization">Etherpad</a></p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                                </tr>
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-04T17:20:00">5:20</abbr> &ndash; <abbr class="dtend" title="2010-11-04T18:05:00">6:05pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-3' id='proposal-363'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_363"><span>*</span></a>
+          <a href="../../sessions/363" class="url summary">The Challenge of Mobile Broadband</a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/363">The Challenge of Mobile Broadband</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/3" class="track-3">Refereed Presentations</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-04T17:20:00">5:20</abbr> &ndash; <abbr class="dtend" title="2010-11-04T18:05:00">6:05pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Ubiquitous <span class="caps">WWAN</span> networks and devices reveal wide gaps in the Linux networking stack that we need to fix.</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+          <li>
+            <strong>Speakers:</strong>
+            <a href="../../users/585">Dan Williams</a>
+          </li>
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                      
+            
+                                </tr>
+          
+      
+
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='2'>
+                
+<h4><abbr class="dtstart" title="2010-11-04T19:00:00">7:00</abbr> &ndash; <abbr class="dtend" title="2010-11-04T22:30:00">10:30pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent generic_item' id='schedule_item-75'>
+      <div class='concise'>
+        
+          <span class='summary'>Free Night In Cambridge</span>
+        
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            Free Night In Cambridge
+          
+        </li>
+        
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-04T19:00:00">7:00</abbr> &ndash; <abbr class="dtend" title="2010-11-04T22:30:00">10:30pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Roundtrip Shuttle Transportation will be provided between 6:30pm and 10:30pm to Central Square in Cambridge &#8211; a great area for restaurants and bars.</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                                </tr>
+            </table>
+
+  <a name="day_2010_11_05"></a>
+  <a href="schedule#top" class='to_top'>Return to top</a>
+  <h3>Friday, November  5, 2010</h3>
+
+  <table class='schedule'>
+    
+      
+
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-05T09:00:00">9:00</abbr> &ndash; <abbr class="dtend" title="2010-11-05T09:45:00">9:45am</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-3' id='proposal-381'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_381"><span>*</span></a>
+          <a href="../../sessions/381" class="url summary">Unified energy-aware scheduling</a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/381">Unified energy-aware scheduling</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/3" class="track-3">Refereed Presentations</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-05T09:00:00">9:00</abbr> &ndash; <abbr class="dtend" title="2010-11-05T09:45:00">9:45am</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Unified approach to <span class="caps">CPU</span> power management where the scheduler works in co-ordination with cpufreq and cpuidle subsystems</p>
+            </div>
+          </li>
+	
+	
+	  <li><a href="../../system/presentations/381/original/unified-energy-Nov05b.pdf">slides</a></li>
+        
+        
+          
+        
+        
+          <li>
+            <strong>Speakers:</strong>
+            <a href="../../users/651">Vaidyanathan Srinivasan</a>, <a href="http://www.linuxplumbersconf.org/2010/ocw/users/1329">Trinabh Gupta</a>, <a href="../../users/219">Dipankar Sarma</a>
+          </li>
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                      
+            
+            
+              <td class='schedule_block' rowspan='2' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-05T09:00:00">9:00</abbr> &ndash; <abbr class="dtend" title="2010-11-05T10:00:00">10:00am</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-64' id='proposal-609'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_609"><span>*</span></a>
+          <a href="../../sessions/609" class="url summary">Challenges with networking in mobile devices</a>
+        
+        
+          <span class='room'>Thomas Paine</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/609">Challenges with networking in mobile devices</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/64" class="track-64">BoF</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/9">Thomas Paine</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-05T09:00:00">9:00</abbr> &ndash; <abbr class="dtend" title="2010-11-05T10:00:00">10:00am</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>This presentation shows the challenges with networking in modern mobile devices based on Linux.</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+    <li class='vevent light track-64' id='proposal-921'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_921"><span>*</span></a>
+          <a href="../../sessions/921" class="url summary">Hardware detection BoF</a>
+        
+        
+          <span class='room'>William Dawes</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/921">Hardware detection BoF</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/64" class="track-64">BoF</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/15">William Dawes</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-05T09:00:00">9:00</abbr> &ndash; <abbr class="dtend" title="2010-11-05T10:00:00">10:00am</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Discuss subsystems that reports hardware errors</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                                </tr>
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-05T09:45:00">9:45</abbr> &ndash; <abbr class="dtend" title="2010-11-05T10:00:00">10:00am</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent generic_item' id='schedule_item-51'>
+      <div class='concise'>
+        
+          <span class='summary'>Break</span>
+        
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            Break
+          
+        </li>
+        
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-05T09:45:00">9:45</abbr> &ndash; <abbr class="dtend" title="2010-11-05T10:00:00">10:00am</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Break</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                      
+            
+                                </tr>
+          
+      
+
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-05T10:00:00">10:00</abbr> &ndash; <abbr class="dtend" title="2010-11-05T10:45:00">10:45am</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-3' id='proposal-519'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_519"><span>*</span></a>
+          <a href="../../sessions/519" class="url summary">Idle scheduling support in the Linux Kernel</a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/519">Idle scheduling support in the Linux Kernel</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/3" class="track-3">Refereed Presentations</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-05T10:00:00">10:00</abbr> &ndash; <abbr class="dtend" title="2010-11-05T10:45:00">10:45am</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>This talk describes how Google uses <span class="caps">CFS</span> to provide differentiated <span class="caps">CPU</span> QoS, discusses the strengths and shortcomings of idle scheduling support in the Linux kernel, and presents solutions that improve utilization without impacting isolation.</p>
+            </div>
+          </li>
+	
+	
+	  <li><a href="../../system/presentations/519/original/Idle_Scheduling_in_Linux.pdf">slides</a></li>
+        
+        
+          
+        
+        
+          <li>
+            <strong>Speakers:</strong>
+            <a href="../../users/735">Nikhil Rao</a>
+          </li>
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                      
+            
+            
+              <td class='schedule_block' rowspan='3' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-05T10:00:00">10:00am</abbr> &ndash; <abbr class="dtend" title="2010-11-05T12:30:00">12:30pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-73' id='proposal-63'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_63"><span>*</span></a>
+          <a href="../../sessions/63" class="url summary">Embedded</a>
+        
+        
+          <span class='room'>William Dawes</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/63">Embedded</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/73" class="track-73">Embedded</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/15">William Dawes</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-05T10:00:00">10:00am</abbr> &ndash; <abbr class="dtend" title="2010-11-05T12:30:00">12:30pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Embedded topics and issues. <a href="http://wiki.linuxplumbersconf.org/2010:embedded_topics">Wiki</a> <a href="http://etherpad.osuosl.org/lpc2010-embedded">Etherpad</a></p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+    <li class='vevent light track-111' id='proposal-201'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_201"><span>*</span></a>
+          <a href="http://www.linuxplumbersconf.org/2010/ocw/sessions/201" class="url summary">File and Storage Systems</a>
+        
+        
+          <span class='room'>Thomas Paine</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/sessions/201">File and Storage Systems</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/111" class="track-111">File and Storage Systems</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/9">Thomas Paine</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-05T10:00:00">10:00am</abbr> &ndash; <abbr class="dtend" title="2010-11-05T12:30:00">12:30pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>The track will deal with issues around file and storage systems in Linux, from the kernel space up to user space. <a href="http://wiki.linuxplumbersconf.org/2010:file_and_storage_systems">Wiki</a> <a href="http://etherpad.osuosl.org/lpc2010-file-and-storage-systems">Etherpad</a></p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                                </tr>
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-05T10:50:00">10:50</abbr> &ndash; <abbr class="dtend" title="2010-11-05T11:35:00">11:35am</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-3' id='proposal-189'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_189"><span>*</span></a>
+          <a href="../../sessions/189" class="url summary">Linux HTPC</a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/189">Linux HTPC</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/3" class="track-3">Refereed Presentations</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-05T10:50:00">10:50</abbr> &ndash; <abbr class="dtend" title="2010-11-05T11:35:00">11:35am</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Using Linux to build your own Home Theater PC.</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+          <li>
+            <strong>Speakers:</strong>
+            <a href="../../users/357">Jarod Wilson</a>
+          </li>
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                      
+            
+                                </tr>
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-05T11:40:00">11:40am</abbr> &ndash; <abbr class="dtend" title="2010-11-05T12:25:00">12:25pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-3' id='proposal-639'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_639"><span>*</span></a>
+          <a href="../../sessions/639" class="url summary">Wi-Fi Direct on Linux</a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/639">Wi-Fi Direct on Linux</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/3" class="track-3">Refereed Presentations</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-05T11:40:00">11:40am</abbr> &ndash; <abbr class="dtend" title="2010-11-05T12:25:00">12:25pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Learn about Wi-Fi Direct and support on Linux</p>
+            </div>
+          </li>
+	
+	
+	  <li><a href="../../system/presentations/639/original/lpc-p2p.pdf">slides</a></li>
+        
+        
+          
+        
+        
+          <li>
+            <strong>Speakers:</strong>
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/users/837">Johannes Berg</a>
+          </li>
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                      
+            
+                                </tr>
+          
+      
+
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='2'>
+                
+<h4><abbr class="dtstart" title="2010-11-05T12:30:00">12:30</abbr> &ndash; <abbr class="dtend" title="2010-11-05T13:30:00">1:30pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent generic_item' id='schedule_item-57'>
+      <div class='concise'>
+        
+          <span class='summary'>Lunch</span>
+        
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            Lunch
+          
+        </li>
+        
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-05T12:30:00">12:30</abbr> &ndash; <abbr class="dtend" title="2010-11-05T13:30:00">1:30pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Lunch (Box Lunches will be provided)</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                                </tr>
+          
+      
+
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-05T13:30:00">1:30</abbr> &ndash; <abbr class="dtend" title="2010-11-05T14:15:00">2:15pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-3' id='proposal-669'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_669"><span>*</span></a>
+          <a href="../../sessions/669" class="url summary">API for Real-Time Scheduling with Temporal Isolation on Linux</a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/669">API for Real-Time Scheduling with Temporal Isolation on Linux</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/3" class="track-3">Refereed Presentations</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-05T13:30:00">1:30</abbr> &ndash; <abbr class="dtend" title="2010-11-05T14:15:00">2:15pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>How can we fix the current <span class="caps">API</span> for real-time scheduling with temporal isolation (deadline-based / Sporadic Server) ?</p>
+            </div>
+          </li>
+	
+	
+	  <li><a href="../../system/presentations/669/original/LPC-2010-Real-Time-API-MainConf.pdf">slides</a></li>
+        
+        
+          
+        
+        
+          <li>
+            <strong>Speakers:</strong>
+            <a href="../../users/885">Dario Faggioli</a>, <a href="../../users/285">Dhaval Giani</a>, <a href="../../users/879">Tommaso Cucinotta</a>
+          </li>
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                      
+            
+            
+              <td class='schedule_block' rowspan='3' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-05T13:30:00">1:30</abbr> &ndash; <abbr class="dtend" title="2010-11-05T16:00:00">4:00pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-43' id='proposal-711'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_711"><span>*</span></a>
+          <a href="http://www.linuxplumbersconf.org/2010/ocw/sessions/711" class="url summary">High Availability Clustering</a>
+        
+        
+          <span class='room'>Thomas Paine</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/sessions/711">High Availability Clustering</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/43" class="track-43">High Availability Clustering</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/9">Thomas Paine</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-05T13:30:00">1:30</abbr> &ndash; <abbr class="dtend" title="2010-11-05T16:00:00">4:00pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Discussion of low level issues related to HA and Clustering (including filesystems). <a href="http://wiki.linuxplumbersconf.org/2010:ha_clustering">Wiki</a> <a href="http://etherpad.osuosl.org/lpc2010-high-availability-clustering">Etherpad</a></p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+    <li class='vevent light track-123' id='proposal-621'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_621"><span>*</span></a>
+          <a href="../../sessions/621" class="url summary">Multimedia Infrastructure</a>
+        
+        
+          <span class='room'>William Dawes</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/621">Multimedia Infrastructure</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/123" class="track-123">Multimedia Infrastructure</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/15">William Dawes</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-05T13:30:00">1:30</abbr> &ndash; <abbr class="dtend" title="2010-11-05T16:00:00">4:00pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Topics and issues for the multimedia stack. <a href="http://wiki.linuxplumbersconf.org/2010:media_infrastructure">Wiki</a> <a href="http://etherpad.osuosl.org/lpc2010-multimedia">Etherpad</a></p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                                </tr>
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-05T14:20:00">2:20</abbr> &ndash; <abbr class="dtend" title="2010-11-05T15:05:00">3:05pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-3' id='proposal-651'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_651"><span>*</span></a>
+          <a href="../../sessions/651" class="url summary">Optimizing the QEMU/KVM Storage Stack</a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/651">Optimizing the QEMU/KVM Storage Stack</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/3" class="track-3">Refereed Presentations</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-05T14:20:00">2:20</abbr> &ndash; <abbr class="dtend" title="2010-11-05T15:05:00">3:05pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Tools and recent progress in improving <span class="caps">QEMU</span>/<span class="caps">KVM</span> storage performance.</p>
+            </div>
+          </li>
+	
+	
+	  <li><a href="../../system/presentations/651/original/Optimizing_the_QEMU_Storage_Stack.pdf">slides</a></li>
+        
+        
+          
+        
+        
+          <li>
+            <strong>Speakers:</strong>
+            <a href="../../users/561">Stefan Hajnoczi</a>
+          </li>
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                      
+            
+                                </tr>
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='1'>
+                
+<h4><abbr class="dtstart" title="2010-11-05T15:10:00">3:10</abbr> &ndash; <abbr class="dtend" title="2010-11-05T15:55:00">3:55pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-3' id='proposal-525'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_525"><span>*</span></a>
+          <a href="../../sessions/525" class="url summary">TCP-NV: Congestion Avoidance for Data Centers</a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/525">TCP-NV: Congestion Avoidance for Data Centers</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/3" class="track-3">Refereed Presentations</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-05T15:10:00">3:10</abbr> &ndash; <abbr class="dtend" title="2010-11-05T15:55:00">3:55pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p><span class="caps">TCP</span>-NV is a <span class="caps">TCP</span> variant for Data Centers that implements congestion avoidance, where the congestion window can decrease when queue build-up is detected and before packet loss occurs.</p>
+            </div>
+          </li>
+	
+	
+	  <li><a href="../../system/presentations/525/original/TCP_NV_LPC.pdf">slides</a></li>
+        
+        
+          
+        
+        
+          <li>
+            <strong>Speakers:</strong>
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/users/687">Lawrence Brakmo</a>
+          </li>
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                      
+            
+                                </tr>
+          
+      
+
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='2'>
+                
+<h4><abbr class="dtstart" title="2010-11-05T16:00:00">4:00</abbr> &ndash; <abbr class="dtend" title="2010-11-05T16:30:00">4:30pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent generic_item' id='schedule_item-63'>
+      <div class='concise'>
+        
+          <span class='summary'>Tea Break</span>
+        
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            Tea Break
+          
+        </li>
+        
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-05T16:00:00">4:00</abbr> &ndash; <abbr class="dtend" title="2010-11-05T16:30:00">4:30pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Tea Break</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                                </tr>
+          
+      
+
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='2'>
+                
+<h4><abbr class="dtstart" title="2010-11-05T16:30:00">4:30</abbr> &ndash; <abbr class="dtend" title="2010-11-05T17:15:00">5:15pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent light track-135' id='proposal-1179'>
+      <div class='concise'>
+        
+          <a href="../../users/me/favorites" class="favorite favorite_1179"><span>*</span></a>
+          <a href="../../sessions/1179" class="url summary">The wonderful world of LibreOffice</a>
+        
+        
+          <span class='room'>President's Ballroom</span>
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            <a href="../../sessions/1179">The wonderful world of LibreOffice</a>
+          
+        </li>
+        
+          <li>
+            <strong>Track:</strong>
+            <a href="tracks/135" class="track-135">Keynote</a>
+          </li>
+        
+        
+          <li class='location'>
+            <strong>Room:</strong>
+            <a href="rooms/3">President's Ballroom</a>
+          </li>
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-05T16:30:00">4:30</abbr> &ndash; <abbr class="dtend" title="2010-11-05T17:15:00">5:15pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>How we will fix your Free Software Office Suite</p>
+            </div>
+          </li>
+	
+	
+	  <li><a href="../../system/presentations/1179/original/libre-office.pdf">slides</a></li>
+        
+        
+          
+        
+        
+          <li>
+            <strong>Speakers:</strong>
+            <a href="../../users/1197">Michael Meeks</a>
+          </li>
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                                </tr>
+          
+      
+
+      
+          
+          <tr>
+          
+            
+            
+              <td class='schedule_block' rowspan='1' colspan='2'>
+                
+<h4><abbr class="dtstart" title="2010-11-05T18:00:00">6:00</abbr> &ndash; <abbr class="dtend" title="2010-11-05T22:00:00">10:00pm</abbr></h4>
+
+<ul class='calendar_items'>
+  
+    <li class='vevent generic_item' id='schedule_item-69'>
+      <div class='concise'>
+        
+          <span class='summary'>Closing Party at Grafton Street</span>
+        
+        
+      </div>
+      <ul class='session_info'>
+        <li>
+          <strong>Title:</strong>
+          
+            Closing Party at Grafton Street
+          
+        </li>
+        
+        
+        
+          <li class='time'>
+            <strong>Time:</strong>
+            <abbr class="dtstart" title="2010-11-05T18:00:00">6:00</abbr> &ndash; <abbr class="dtend" title="2010-11-05T22:00:00">10:00pm</abbr>
+          </li>
+        
+        
+          <li>
+            <div class='description'>
+              <strong>One Line Summary:</strong>
+              <p>Closing Party at the <a href="http://www.graftonstreetcambridge.com/">Grafton Street</a> pub in Cambridge</p>
+<p>Drinks and appetizers served.</p>
+<p>Buses will depart from the Hyatt between 5:15pm and 6:00pm.</p>
+            </div>
+          </li>
+	
+	
+        
+          
+        
+        
+      </ul>
+    </li>
+  
+</ul>
+
+
+              </td>
+                                </tr>
+            </table>
+
+
+        </div><!-- content -->
+      </div><!-- container -->
+
+        <div id="primary" class="sidebar">
+          <ul class="xoxo">
+            
+              <li id="login-as">
+                <h3>Welcome</h3>
+                <ul>
+                  <li><a href="../LPC2010BOFS/proposals/new">Login</a></li>
+                  
+                </ul>
+              </li>
+            
+
+            <li id="subscribe-to">
+              <h3>Subscribe to</h3>
+              <ul>
+                <li class="pre-bulletted"><a href="../../proposals.atom" class="feedable">Proposals feed</a></li>
+                
+              </ul>
+            </li>
+
+            
+          </ul>
+	  			<div id="sponsor-links">
+				<h3>Sponsors</h3>
+				<br>
+				<h5>Platinum</h5>
+				<br><a href="http://intel.com"><img src="../../../style/intel_logo.png" /></a>
+				<br>
+				<br><a href="http://qualcomm.com"><img src="../../../style/Qualcomm.png" /></a>
+				<br>
+				<br><a href="http://ibm.com"><img src="../../../style/IBMtm.png" /></a>
+				<br>&nbsp;
+				<h5>Gold</h5>
+				<br><a href="http://google.com"><img src="../../../style/google_logo.gif" /></a>
+				<br>
+				<br><a href="http://www.ti.com"><img src="../../../style/ti_logo.gif" /></a>
+				<br>&nbsp;
+				<h5>Silver</h5>
+				<br><a href="http://hp.com"><img src="../../../style/hp_logo.gif" /></a>
+				<br>
+				<br><a href="http://canonical.com"><img src="../../../style/canonical.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.akamai.com"><img src="../../../style/akamai_logo_pms.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.linaro.org"><img src="../../../style/linaro-1.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.oracle.com"><img src="../../../style/oralogo_small.gif" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.emc.com"><img src="../../../style/EMC_logo_2004_color2.png" /></a>
+<!--
+				<h3>Media Sponsors</h3>
+				<ul class="sponsor-links">
+
+					<li><a href="http://lwn.net"><img src="/2010/style/lwnlogo.png" /></a></li>
+					<li><a href="http://linuxjournel.com"><img src="/2010/style/ljcolor.png" /></a></li>
+					<li><a href="http://www.linuxpromagazine.com/"><img src="/2010/style/LinuxPro-logo.png" /></a></li>
+				</ul>
+-->
+			</div>
+
+
+
+        </div><!-- #sidebar-1 -->
+
+    <div id="footer">
+    <a href="http://osuosl.org"><img border="0" src="http://linuxplumbersconf.org/2010/style/osl-hosted.png" alt="OSL"/></a>
+    </div>
+
+  </div><!--wrapper -->
+
+  
+
+  <!-- arbitrary javascript from views -->
+  <script type="text/javascript">
+//<![CDATA[
+window._token = '8d14f92e6e1470838695fc1036641d45886dce51'
+//]]>
+</script>
+  <script type="text/javascript">
+    
+  </script>
+
+  
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-168427-8");
+      pageTracker._initData();
+      pageTracker._trackPageview();
+    </script>
+
+    <script src="http://static.getclicky.com/79611.js" type="text/javascript"></script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://static.getclicky.com/79611-db10.gif" /></p></noscript>
+  
+</body>
+</html>

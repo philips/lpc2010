@@ -1,0 +1,8 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ensemble Independent//vPim 0.695//EN
+CALSCALE:Gregorian
+METHOD:PUBLISH
+X-WR-CALNAME:Joel Becker's favorites
+X-WR-TIMEZONE:America/New_York
+END:VCALENDAR

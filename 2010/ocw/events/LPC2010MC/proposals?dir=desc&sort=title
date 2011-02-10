@@ -1,0 +1,4664 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+  <title>Linux Plumbers Conference Microconferences proposals / Linux Plumbers Conference: Developing the Kernel, Libraries and Utilities / November 3-5, 10 / Cambridge, MA</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="Developing the Kernel, Libraries and Utilities / November 3-5, 10 / Cambridge, MA" />
+
+  <!-- Feeds -->
+  <link href="../../proposals.atom" rel="alternate" title="Linux Plumbers Conference: Proposals feed" type="application/atom+xml" />
+  
+
+  <!-- Stylesheets -->
+  
+    <link href="http://linuxplumbersconf.org/2010/style/style.css" media="screen" rel="stylesheet" type="text/css" />
+  
+  <link href="../../themes/lpc/stylesheets/custom.css?1275586216" media="screen" rel="Stylesheet" type="text/css" />
+  
+
+  <!-- Dynamic styles -->
+  
+    
+      <style type="text/css" media="screen">
+        
+  /* Audio */
+  .track-53 { color: #28e246; }
+  .track-53.block { background: #28e246; color: #fff; }
+  .track-53.light { background: #b5f5bf; }
+  .track-53.light:hover { background: #86ef97; }
+
+  /* Boot and Init */
+  .track-99 { color: #f0196c; }
+  .track-99.block { background: #f0196c; color: #fff; }
+  .track-99.light { background: #faaecb; }
+  .track-99.light:hover { background: #f67dac; }
+
+  /* Desktop */
+  .track-117 { color: #16796d; }
+  .track-117.block { background: #16796d; color: #fff; }
+  .track-117.light { background: #23c2ae; }
+  .track-117.light:hover { background: #1fa999; }
+
+  /* Embedded */
+  .track-73 { color: #9922bf; }
+  .track-73.block { background: #9922bf; color: #fff; }
+  .track-73.light { background: #cf80e8; }
+  .track-73.light:hover { background: #c159e2; }
+
+  /* File and Storage Systems */
+  .track-111 { color: #b6eb75; }
+  .track-111.block { background: #b6eb75; color: #fff; }
+  .track-111.light { background: #ffffff; }
+  .track-111.light:hover { background: #f7fdf0; }
+
+  /* High Availability Clustering */
+  .track-43 { color: #5ad03e; }
+  .track-43.block { background: #5ad03e; color: #fff; }
+  .track-43.light { background: #c9f0c0; }
+  .track-43.light:hover { background: #a4e595; }
+
+  /* Multimedia Infrastructure */
+  .track-123 { color: #ec69cc; }
+  .track-123.block { background: #ec69cc; color: #fff; }
+  .track-123.light { background: #ffffff; }
+  .track-123.light:hover { background: #fbe2f5; }
+
+  /* Power Management */
+  .track-33 { color: #eaed1d; }
+  .track-33.block { background: #eaed1d; color: #fff; }
+  .track-33.light { background: #f8f9b1; }
+  .track-33.light:hover { background: #f3f580; }
+
+  /* Real Time */
+  .track-105 { color: #ef9f2e; }
+  .track-105.block { background: #ef9f2e; color: #fff; }
+  .track-105.light { background: #fbe8cd; }
+  .track-105.light:hover { background: #f7d098; }
+
+  /* Tracing */
+  .track-93 { color: #35e39c; }
+  .track-93.block { background: #35e39c; color: #fff; }
+  .track-93.light { background: #c9f7e4; }
+  .track-93.light:hover { background: #97f1cc; }
+
+  /* User Visible Network Issues */
+  .track-63 { color: #1877b9; }
+  .track-63.block { background: #1877b9; color: #fff; }
+  .track-63.light { background: #64b3eb; }
+  .track-63.light:hover { background: #3fa1e6; }
+
+  /* Virtualization */
+  .track-23 { color: #4db3a1; }
+  .track-23.block { background: #4db3a1; color: #fff; }
+  .track-23.light { background: #b9e1da; }
+  .track-23.light:hover { background: #95d2c7; }
+
+      </style>
+    
+  
+
+  <!-- Scripts -->
+  <script src="../../javascripts/jquery.min.js" type="text/javascript"></script>
+  <script src="../../javascripts/jquery-ui.effects.core.js" type="text/javascript"></script>
+  <script src="../../javascripts/jquery-ui.effects.highlight.js" type="text/javascript"></script>
+  <script src="../../javascripts/application.js" type="text/javascript"></script>
+  
+    
+    
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+      app.favorites_path = '/2010/ocw/users/me/favorites';
+      app.current_user = false;
+      app.authenticity_token = '8d14f92e6e1470838695fc1036641d45886dce51';
+      populate_user_favorites();
+      bind_user_favorite_controls();
+    });
+  </script>
+</head>
+
+
+
+<body>
+  <div id="wrapper">
+     <div id="header">
+           <h1 id="site-title"><span><a href="http://linuxplumbersconf.org/2010/" title="Linux Plumbers Conf 2010" rel="home">Linux Plumbers Conf 2010</a></span></h1>
+           <div id="site-description">Developing the Kernel, Libraries and Utilities</div>
+      </div>
+
+      	<div id="access">
+		<div class="skip-link"><a href="proposals?dir=desc&amp;sort=title#content" title="Skip to content">'Skip to content</a></div>
+
+<div id="menu">
+	<ul>
+		<li class="page_item page-item"><a href="../../../../2010.1">Blog</a></li>
+		<li class="page_item page-item"><a href="../../../participate/index.html" title="Attend">Participate</a></li>
+		<li class="page_item page-item"><a href="../LPC2010/schedule" title="Schedule">Schedule</a></li>
+		<li class="page_item page-item"><a href="../../../program/index.html" title="Program">Program</a></li>
+		<li class="page_item page-item"><a href="../../../contact/index.html" title="Contact">Contact</a></li>
+		<li class="page_item page-item"><a href="../../../faqs" title="FAQs">FAQs</a></li>
+	</ul>
+</div>
+
+	</div><!-- #access -->
+
+
+      <div id="container">
+        <div id="content">
+          <h2 class='entry-title'>Proposals</h2>
+          
+
+          <h2 class='page_title'>Linux Plumbers Conference Microconferences proposals</h2>
+
+          <!-- Display notices -->
+          
+          
+          
+          
+
+          <!-- Display view's content -->
+          
+
+
+
+
+
+
+
+
+  <div>
+    
+      
+        <div class="event_text open_text">
+          <p>We're accepting suggestions both for titles for Microconferences, as well as suggestions for what to discuss within specific Microconferences.&nbsp; We don't have a set deadline for this, but Plumbers only has room for at most 12 Microconferences, so get your Microconference topic suggestions in early.<br><br>We are also accepting proposals for<span style="text-decoration: underline;"> </span><a href="../LPC2010/proposals">presentations</a>, and <a href="../LPC2010BOFS/proposals">BoF sessions</a>.</p>
+          
+        </div>
+        <div class="submit-a-proposal-wrapper">
+          <a href="proposals/new" class="submit-a-proposal-button">Submit a proposal!</a>
+        </div>
+      
+    
+  </div>
+
+  
+
+
+  
+    <div>
+      
+      Sort by:
+      <a href="proposals?sort=title">Title</a> &or;, <a href="proposals?sort=track">Track</a>, <a href="proposals?sort=submitted_at">Submission date</a>
+    </div>
+  
+
+  
+    <table class='proposals kind_proposals' cellspacing='0'>
+      
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_135'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_135"><span>*</span></a>
+            
+              <a href="../../proposals/135" class="title">Xen privileged support in Linux: help!</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Help in the process of providing Xen privileged support in Linux kernel.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-23'>
+          <a href="tracks/23">Virtualization</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/14/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/315">Konrad Wilk</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1047'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1047"><span>*</span></a>
+            
+              <a href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1047" class="title">Why Pacemaker Sucks</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Tell the Pacemaker developers what sucks about building clusters with Pacemaker
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-43'>
+          <a href="tracks/43">High Availability Clustering</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/26/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/903">Lars Marowsky-Brée</a>, <a href="../../users/1107">Andrew Beekhof</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_855'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_855"><span>*</span></a>
+            
+              <a href="../../proposals/855" class="title">We've got it all backwards: enabling Pacemaker management application development</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            A proposal for making cluster management more easily accessible for 3rd party management software developers.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-43'>
+          <a href="tracks/43">High Availability Clustering</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/13/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/1041">Florian Haas</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1035'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1035"><span>*</span></a>
+            
+              <a href="../../proposals/1035" class="title">Virtualizing NUMA</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Discussing the benefits of virtualizing NUMA architecture in KVM or Xen guests
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-23'>
+          <a href="tracks/23">Virtualization</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/24/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/477">Andre Przywara</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1209'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1209"><span>*</span></a>
+            
+              <a href="../../sessions/1209" class="title">Virtualization (Part II)</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Virtualization topics and issues &quot;Wiki&quot;:http://wiki.linuxplumbersconf.org/2010:virtualization &quot;Etherpad&quot;:http://etherpad.osuosl.org/lpc2010-virtualization
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-23'>
+          <a href="tracks/23">Virtualization</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            10/15/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/users/303">Jes Sorensen</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_117'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_117"><span>*</span></a>
+            
+              <a href="../../sessions/117" class="title">Virtualization (Part I)</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Virtualization topics and issues &quot;Wiki&quot;:http://wiki.linuxplumbersconf.org/2010:virtualization &quot;Etherpad&quot;:http://etherpad.osuosl.org/lpc2010-virtualization
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-23'>
+          <a href="tracks/23">Virtualization</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/14/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/users/303">Jes Sorensen</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_915'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_915"><span>*</span></a>
+            
+              <a href="../../proposals/915" class="title">Videobuf2 - the new Video for Linux driver framework</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Status and development of the new driver framework for multimedia devices.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-123'>
+          <a href="tracks/123">Multimedia Infrastructure</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/20/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/1347">Marek Szyprowski</a>, <a href="http://www.linuxplumbersconf.org/2010/ocw/users/873">Pawel Osciak</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_465'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_465"><span>*</span></a>
+            
+              <a href="../../sessions/465" class="title">User-visible Networking Issues</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Discussion of device naming, Network Manger, Conman etc. &quot;Wiki&quot;:http://wiki.linuxplumbersconf.org/2010:user-visible_networking_issues &quot;Etherpad&quot;:http://etherpad.osuosl.org/lpc2010-user-visible-network-issues
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-63'>
+          <a href="tracks/63">User Visible Network Issues</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/19/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/723">Matt Domsch</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1197'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1197"><span>*</span></a>
+            
+              <a href="../../proposals/1197" class="title">Unified API for Snapshotting File Systems</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Let's talk about generic API for snapshots.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-111'>
+          <a href="tracks/111">File and Storage Systems</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            10/12/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/1269">Amir Goldstein</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_555'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_555"><span>*</span></a>
+            
+              <a href="../../proposals/555" class="title">Unfragmenting embedded Linux platform offerings</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Discussion around migrating specific Android tools and technology into other embedded Linux distros, to reduce fragmentation in the industry.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-73'>
+          <a href="tracks/73">Embedded</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/20/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/807">Tim Bird</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1149'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1149"><span>*</span></a>
+            
+              <a href="../../proposals/1149" class="title">Triaging, debugging, and fixing Ubuntu's audio problems</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Presentation and discussion around the tools available
+and used to debug audio problems
+
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-53'>
+          <a href="tracks/53">Audio</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            09/16/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/users/1221">David Henningsson</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1125'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1125"><span>*</span></a>
+            
+              <a href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1125" class="title">Transparent Hugepage Support</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            The presentation will show some internals and benefits of Transparent Hugepage Support
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-23'>
+          <a href="tracks/23">Virtualization</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            09/11/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/1215">Andrea Arcangeli</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_147'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_147"><span>*</span></a>
+            
+              <a href="../../proposals/147" class="title">Tracing Hypervisor Events</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            It would be nice to merge Linux and hypervisor tracing abilities.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-93'>
+          <a href="tracks/93">Tracing</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/14/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/321">Jeremy Fitzhardinge</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1203'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1203"><span>*</span></a>
+            
+              <a href="../../sessions/1203" class="title">Tracing (Part II)</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Linux Tracing topics and issues.  &quot;Wiki&quot;:http://wiki.linuxplumbersconf.org/2010:tracing &quot;Etherpad&quot;:http://etherpad.osuosl.org/lpc2010-tracing
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-93'>
+          <a href="tracks/93">Tracing</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            10/15/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/297">Vinod Kutty</a>, <a href="http://www.linuxplumbersconf.org/2010/ocw/users/243">Steven Rostedt</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_105'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_105"><span>*</span></a>
+            
+              <a href="../../sessions/105" class="title">Tracing (Part I)</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Linux Tracing topics and issues.  &quot;Wiki&quot;:http://wiki.linuxplumbersconf.org/2010:tracing &quot;Etherpad&quot;:http://etherpad.osuosl.org/lpc2010-tracing
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-93'>
+          <a href="tracks/93">Tracing</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/13/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/297">Vinod Kutty</a>, <a href="http://www.linuxplumbersconf.org/2010/ocw/users/243">Steven Rostedt</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_141'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_141"><span>*</span></a>
+            
+              <a href="../../proposals/141" class="title">Ticket to a tarpit</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Ticket spinlocks have surprisingly bad behaviour in a VM
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-23'>
+          <a href="tracks/23">Virtualization</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/14/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/321">Jeremy Fitzhardinge</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_831'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_831"><span>*</span></a>
+            
+              <a href="../../proposals/831" class="title">The Unholy Union of Corosync, Pacemaker and CTDB</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Discuss integrating CTDB with Pacemaker clusters; we need one less messaging layer, and one less resource manager.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-43'>
+          <a href="tracks/43">High Availability Clustering</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/11/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/981">Tim Serong</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_951'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_951"><span>*</span></a>
+            
+              <a href="../../proposals/951" class="title">The Future of the OCF Standard</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Resurrecting the OCF Standards Body for Resource Agents 
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-43'>
+          <a href="tracks/43">High Availability Clustering</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/22/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/1107">Andrew Beekhof</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_123'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_123"><span>*</span></a>
+            
+              <a href="http://www.linuxplumbersconf.org/2010/ocw/proposals/123" class="title">Testing the real-time Kernel on Arbitrary Hardware.</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            An exploration of tools and test suites for measuring the performance of the real-time kernel. Also, a glimpse into the future, what do we need to do better?
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-105'>
+          <a href="tracks/105">Real Time</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/14/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/189">Clark Williams</a>, <a href="../../users/103">John Kacur</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1161'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1161"><span>*</span></a>
+            
+              <a href="../../proposals/1161" class="title">systemd and the desktop</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            systemd is a not only an init systemd, but also a session manager, making the same features that are available for managing the system available to manage the user sessions
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-117'>
+          <a href="tracks/117">Desktop</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            09/19/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/users/351">Lennart Poettering</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1095'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1095"><span>*</span></a>
+            
+              <a href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1095" class="title">SVM Emulation - Performance Discussion</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            This talk will analyze the performance of the KVM SVM emulation today and will discuss some ideas to improve the performance and closing the performance gap between virtualization levels.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-23'>
+          <a href="tracks/23">Virtualization</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            09/01/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/1167">Joerg Roedel</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_867'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_867"><span>*</span></a>
+            
+              <a href="../../proposals/867" class="title">State of the Linux Audio Infrastructure in 2010</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            A quick overview where the Linux audio infrastructure stands this year.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-53'>
+          <a href="tracks/53">Audio</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/13/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/users/351">Lennart Poettering</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_843'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_843"><span>*</span></a>
+            
+              <a href="../../proposals/843" class="title">Simplify network configuration for VMs by harmonizing multiple Bridging, QOS, DCB and CNA implementations</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Simplify network configuration for VMs by harmonizing multiple Bridging, QOS, DCB and CNA implementations
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-63'>
+          <a href="tracks/63">User Visible Network Issues</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/12/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/909">Shyam Iyer</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_99'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_99"><span>*</span></a>
+            
+              <a href="../../proposals/99" class="title">SeaBIOS in a virtualized environment</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            SeaBIOS - the default BIOS for QEMU &amp; KVM - where it came from and where it's going.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-23'>
+          <a href="tracks/23">Virtualization</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/13/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/291">Kevin OConnor</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_489'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_489"><span>*</span></a>
+            
+              <a href="../../proposals/489" class="title">Scaling techniques in the stack for servers with high connection rates</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            This talk will describe some techniques for scaling front end servers.  In particular, we will describe the the use of SO_REUSEPORT in scaling servers for high connection rates with a single listening port.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-63'>
+          <a href="tracks/63">User Visible Network Issues</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/19/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/633">Ying Cai</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_999'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_999"><span>*</span></a>
+            
+              <a href="../../proposals/999" class="title">Running mainstream distributions on ARM</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Discussion about how to run mainstream Linux distributions on ARM-based systems
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-73'>
+          <a href="tracks/73">Embedded</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/23/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/465">Mike Rapoport</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1167'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1167"><span>*</span></a>
+            
+              <a href="../../proposals/1167" class="title">Routing compressed data through PulseAudio</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            This presentation will show the benefits in terms of power, audio policy and routing of handling compressed data in PulseAudio
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-53'>
+          <a href="tracks/53">Audio</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            09/21/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/1233">Pierre Bossart</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_849'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_849"><span>*</span></a>
+            
+              <a href="../../proposals/849" class="title">Resource Agents 1.1: fixing the OCF resource agent metadata schema</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            An overview of proposed updates to the XML schema we use to define OCF resource agent metadata
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-43'>
+          <a href="tracks/43">High Availability Clustering</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/13/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/903">Lars Marowsky-Brée</a>, <a href="../../users/1041">Florian Haas</a>, <a href="../../users/1125">Marek Grac</a>, <a href="../../users/1059">Dejan Muhamedagic</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_903'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_903"><span>*</span></a>
+            
+              <a href="../../proposals/903" class="title">Remote booting over iSCSI and FCoE: The past, the present, and the future.</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            This presentation shows the unique challenges with remote booting a system over iSCSI and FCoE storage protocols on Linux, lessons learned from past implementations, and future directions. 
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-99'>
+          <a href="tracks/99">Boot and Init</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/16/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/1065">Supreeth Venkataraman</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1155'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1155"><span>*</span></a>
+            
+              <a href="../../proposals/1155" class="title">Reality of PREEMPT_RT in the field</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            PREEMPT_RT users provide insight in use cases and experience
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-105'>
+          <a href="tracks/105">Real Time</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            09/17/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/1281">Matthias Bühler</a>, <a href="../../users/1287">David Sperry</a>, <a href="http://www.linuxplumbersconf.org/2010/ocw/users/279">Thomas Gleixner</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_93'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_93"><span>*</span></a>
+            
+              <a href="../../sessions/93" class="title">Real-Time</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Real Time Linux discussions &quot;Wiki&quot;:http://wiki.linuxplumbersconf.org/2010:real-time_response_for_full_foss_linux_stack &quot;EtherPad&quot;:http://etherpad.osuosl.org/lpc2010-real-time
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-105'>
+          <a href="tracks/105">Real Time</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/12/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/users/279">Thomas Gleixner</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_165'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_165"><span>*</span></a>
+            
+              <a href="http://www.linuxplumbersconf.org/2010/ocw/proposals/165" class="title">Qemu/Xen integration</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Implementing Xen device model support in Qemu
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-23'>
+          <a href="tracks/23">Virtualization</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/15/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/users/309">Stefano Stabellini</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_183'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_183"><span>*</span></a>
+            
+              <a href="http://www.linuxplumbersconf.org/2010/ocw/proposals/183" class="title">Power Management</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Discussions about all topics related to power management &quot;Wiki&quot;:http://wiki.linuxplumbersconf.org/2010:power_management &quot;Etherpad&quot;:http://etherpad.osuosl.org/lpc2010-power-management
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-33'>
+          <a href="tracks/33">Power Management</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/16/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/users/273">Matthew Garrett</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_741'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_741"><span>*</span></a>
+            
+              <a href="../../proposals/741" class="title">Porting virtio to other architectures</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Discuss the experience around porting virtio para-virtualization to other architectures
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-23'>
+          <a href="tracks/23">Virtualization</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/27/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/users/627">Ricardo Matinata</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1029'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1029"><span>*</span></a>
+            
+              <a href="../../proposals/1029" class="title">platform-specific PM customization</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Currently, platform-specific code has a need to customize common PM methods, typically on the platform_bus.  This track is to discuss the various approaches to solving this problem.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-33'>
+          <a href="tracks/33">Power Management</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/24/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/927">Kevin Hilman</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_819'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_819"><span>*</span></a>
+            
+              <a href="../../proposals/819" class="title">Per-device PM QoS constraints</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Explore and discuss methods to handle PM QoS constraints for each device in addition to system wide constraints.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-73'>
+          <a href="tracks/73">Embedded</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/10/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/927">Kevin Hilman</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_777'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_777"><span>*</span></a>
+            
+              <a href="../../proposals/777" class="title">Network virtualization</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Discuss support for layer-2 switching, network isolation, QoS, and virtual machine migrations of virtualized workloads 
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-23'>
+          <a href="tracks/23">Virtualization</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/27/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/501">Vivek  Kashyap</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_699'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_699"><span>*</span></a>
+            
+              <a href="../../proposals/699" class="title">Network QoS Guarantees for Virtual Machines</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            How can we achieve performance isolation of networking-intensive VMs ?
+
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-23'>
+          <a href="tracks/23">Virtualization</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/26/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/885">Dario Faggioli</a>, <a href="../../users/285">Dhaval Giani</a>, <a href="../../users/879">Tommaso Cucinotta</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_471'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_471"><span>*</span></a>
+            
+              <a href="../../proposals/471" class="title">Network Device Naming</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Which of my NICs is eth0?
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-63'>
+          <a href="tracks/63">User Visible Network Issues</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/19/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/723">Matt Domsch</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1059'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1059"><span>*</span></a>
+            
+              <a href="../../proposals/1059" class="title">Multimedia memory management nightmare</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Multimedia devices need to transfer very large amount of data efficiently, a painful operation on ARM-based systems that needs a solution.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-73'>
+          <a href="tracks/73">Embedded</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/26/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/843">Laurent Pinchart</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_195'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_195"><span>*</span></a>
+            
+              <a href="../../proposals/195" class="title">Multimedia Linux</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Video4Linux, Digital Video Broadcasting, Video Decoding and Remote Control integration
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-123'>
+          <a href="tracks/123">Multimedia Infrastructure</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/16/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/357">Jarod Wilson</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_621'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_621"><span>*</span></a>
+            
+              <a href="../../sessions/621" class="title">Multimedia Infrastructure</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Topics and issues for the multimedia stack. &quot;Wiki&quot;:http://wiki.linuxplumbersconf.org/2010:media_infrastructure &quot;Etherpad&quot;:http://etherpad.osuosl.org/lpc2010-multimedia
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-123'>
+          <a href="tracks/123">Multimedia Infrastructure</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/24/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/759">Mauro Carvalho Chehab</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_993'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_993"><span>*</span></a>
+            
+              <a href="../../proposals/993" class="title">multi-card/gpu - can we fix it?</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            non-traditional multi-card scenarios are appearing in hardware and we need to better place kernel/X.org to deal with these
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-117'>
+          <a href="tracks/117">Desktop</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/23/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/393">David Airlie</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_945'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_945"><span>*</span></a>
+            
+              <a href="../../proposals/945" class="title">Merge Tracing and Debugging</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Consider further integration of kernel debugging and tracing.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-93'>
+          <a href="tracks/93">Tracing</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/22/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/699">Jason Wessel</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1023'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1023"><span>*</span></a>
+            
+              <a href="../../proposals/1023" class="title">Media controller: finally getting audio and video to play together</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            The Media Controller is a new kernel API designed to give applications full control over media devices through a single interface.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-53'>
+          <a href="tracks/53">Audio</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/24/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/843">Laurent Pinchart</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_957'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_957"><span>*</span></a>
+            
+              <a href="../../proposals/957" class="title">Matahari - A General Purpose, Cross-Platform Agent for Clustered and non-Clustered Hosts</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Introducing Matahari and its role in a clustered environment 
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-43'>
+          <a href="tracks/43">High Availability Clustering</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/22/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/1107">Andrew Beekhof</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_879'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_879"><span>*</span></a>
+            
+              <a href="../../proposals/879" class="title">Low Carb diet: removing XML syntactic sugar from the CIB</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Cleaning out the CIB XML schema
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-43'>
+          <a href="tracks/43">High Availability Clustering</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/13/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/1041">Florian Haas</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_159'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_159"><span>*</span></a>
+            
+              <a href="../../proposals/159" class="title">Linux performance enhancements when running as a Xen HVM guest.</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Expand Xen PV frontend drivers in Linux to work under HVM.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-23'>
+          <a href="tracks/23">Virtualization</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/15/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/users/309">Stefano Stabellini</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1011'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1011"><span>*</span></a>
+            
+              <a href="../../proposals/1011" class="title">Linux Containers: are we there yet?</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            An overview of the current state of Linux Containers in (and out of) the mainline.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-23'>
+          <a href="tracks/23">Virtualization</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/24/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/users/783">Kir Kolyshkin</a>, <a href="../../users/789">Pavel Emelyanov</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_327'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_327"><span>*</span></a>
+            
+              <a href="../../proposals/327" class="title">KVM/QEMU Storage Stack Performance Discussion</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            An in-depth discussion of the key challenges in optimizing KVM/QEMU storage stack performance, our recent progress, and solicitation of ideas on further work in this area.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-23'>
+          <a href="tracks/23">Virtualization</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/19/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/561">Stefan Hajnoczi</a>, <a href="../../users/375">Khoa Huynh</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_33'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_33"><span>*</span></a>
+            
+              <a href="../../proposals/33" class="title">KVM on S390x</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Where are we, where are we going and why do we need KVM on S390x?
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-23'>
+          <a href="tracks/23">Virtualization</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            06/19/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/163">Alexander Graf</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_987'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_987"><span>*</span></a>
+            
+              <a href="../../proposals/987" class="title">Kernel assisted adaptive mutexes</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Leveraging kernel-side knowledge of task scheduling can provide for more efficient adaptive mutexes.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-105'>
+          <a href="tracks/105">Real Time</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/23/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/339">Darren Hart</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1065'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1065"><span>*</span></a>
+            
+              <a href="../../proposals/1065" class="title">IP over steam</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            how to get a cluster running in any cloud?
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-43'>
+          <a href="tracks/43">High Availability Clustering</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/27/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/1077">Fabio M. Di Nitto</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_231'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_231"><span>*</span></a>
+            
+              <a href="../../proposals/231" class="title">IOV hardware and software plumbing for VMware ESX - journey to uncompromised  I/O Virtualization and Convergence</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Integration of VMware ESX para-virtual and passthru I/O &quot;plumbing&quot;, 10GbE IOV, and protocol acceleration.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-23'>
+          <a href="tracks/23">Virtualization</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/17/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/417">Leonid Grossman</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_723'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_723"><span>*</span></a>
+            
+              <a href="../../proposals/723" class="title">I/O Runtime PM Framework and User Space</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Discussion about user space interfaces provided by the kernel's I/O runtime PM framework.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-33'>
+          <a href="tracks/33">Power Management</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/26/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/483">Rafael Wysocki</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_717'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_717"><span>*</span></a>
+            
+              <a href="http://www.linuxplumbersconf.org/2010/ocw/proposals/717" class="title">I/O Runtime PM Framework and CPUidle</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Discussion about the needs and possibilities of the I/O runtime PM framework integration with the CPUidle framework.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-33'>
+          <a href="tracks/33">Power Management</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/26/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/483">Rafael Wysocki</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_711'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_711"><span>*</span></a>
+            
+              <a href="http://www.linuxplumbersconf.org/2010/ocw/proposals/711" class="title">High Availability Clustering</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Discussion of low level issues related to HA and Clustering (including filesystems). &quot;Wiki&quot;:http://wiki.linuxplumbersconf.org/2010:ha_clustering &quot;Etherpad&quot;:http://etherpad.osuosl.org/lpc2010-high-availability-clustering
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-43'>
+          <a href="tracks/43">High Availability Clustering</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/26/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/903">Lars Marowsky-Brée</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_837'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_837"><span>*</span></a>
+            
+              <a href="../../proposals/837" class="title">Handling Thin provisioning Capacity Threshold Alerts</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Handling Thin provisioning Capacity Threshold Alerts
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-111'>
+          <a href="tracks/111">File and Storage Systems</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/12/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/909">Shyam Iyer</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_801'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_801"><span>*</span></a>
+            
+              <a href="../../proposals/801" class="title">Handling of digital audio links in ASoC</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Discussion of how to handle digital audio sources outside the CPU
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-53'>
+          <a href="tracks/53">Audio</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/05/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/1017">Liam Girdwood</a>, <a href="../../users/345">Mark Brown</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1227'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1227"><span>*</span></a>
+            
+              <a href="../../proposals/1227" class="title">GNOME OS</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            GNOME OS: an open operating system designed for modern life
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-117'>
+          <a href="tracks/117">Desktop</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            11/03/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/1395">Jon McCann</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_861'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_861"><span>*</span></a>
+            
+              <a href="../../proposals/861" class="title">Getting the word out there: enabling application developers to write and package resource agents</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            What we can do to help application developers add Pacemaker support into their applications
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-43'>
+          <a href="tracks/43">High Availability Clustering</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/13/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/1041">Florian Haas</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1131'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1131"><span>*</span></a>
+            
+              <a href="../../proposals/1131" class="title">File System Performance Testing</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Discussion surrounding performance regression testing
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-111'>
+          <a href="tracks/111">File and Storage Systems</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            09/13/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/users/1203">Jeff Moyer</a>, <a href="../../users/1209">Eric Sandeen</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_201'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_201"><span>*</span></a>
+            
+              <a href="http://www.linuxplumbersconf.org/2010/ocw/proposals/201" class="title">File and Storage Systems</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            The track will deal with issues around file and storage systems in Linux, from the kernel space up to user space. &quot;Wiki&quot;:http://wiki.linuxplumbersconf.org/2010:file_and_storage_systems &quot;Etherpad&quot;:http://etherpad.osuosl.org/lpc2010-file-and-storage-systems
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-111'>
+          <a href="tracks/111">File and Storage Systems</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/16/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/369">Ric Wheeler</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_807'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_807"><span>*</span></a>
+            
+              <a href="../../proposals/807" class="title">Exposing routing information to applications</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Discussion of presentation of audio path data to applications
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-53'>
+          <a href="tracks/53">Audio</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/05/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/345">Mark Brown</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_129'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_129"><span>*</span></a>
+            
+              <a href="../../proposals/129" class="title">Expand Linux kernel to include more Xen PV drivers (PCI pass through)</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Make Linux running as PV guest under Xen work with PCI pass-through devices.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-23'>
+          <a href="tracks/23">Virtualization</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/14/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/315">Konrad Wilk</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_657'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_657"><span>*</span></a>
+            
+              <a href="../../proposals/657" class="title">Embedded Video devices: Can Linux handle such complex video Sub-System</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Video4Linux, Fbdev Framework: Does they satisfy/fulfill features supported by Embedded devices
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-123'>
+          <a href="tracks/123">Multimedia Infrastructure</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/26/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/867">Vaibhav Hiremath</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_939'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_939"><span>*</span></a>
+            
+              <a href="../../proposals/939" class="title">Embedded platform mainlining: benefits, obstacles and examples</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Embedded platforms mainlining problems and their possible solutions.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-73'>
+          <a href="tracks/73">Embedded</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/21/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/465">Mike Rapoport</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_63'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_63"><span>*</span></a>
+            
+              <a href="../../sessions/63" class="title">Embedded</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Embedded topics and issues. &quot;Wiki&quot;:http://wiki.linuxplumbersconf.org/2010:embedded_topics &quot;Etherpad&quot;:http://etherpad.osuosl.org/lpc2010-embedded
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-73'>
+          <a href="tracks/73">Embedded</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/02/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/users/133">Grant Likely</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1005'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1005"><span>*</span></a>
+            
+              <a href="../../proposals/1005" class="title">EGL and GLES1/2 on Linux</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            An overview of the mesa EGL and GLES 1/2 implementation on Linux
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-117'>
+          <a href="tracks/117">Desktop</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/24/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/users/777">Kristian Høgsberg</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_885'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_885"><span>*</span></a>
+            
+              <a href="../../proposals/885" class="title">Easy is Hard</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Why can't we have an HA appliance that you just plug in, turn on and forget about?
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-43'>
+          <a href="tracks/43">High Availability Clustering</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/16/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/981">Tim Serong</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1113'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1113"><span>*</span></a>
+            
+              <a href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1113" class="title">Dynamic probing with perf</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            A presentation of kprobes/uprobes based dynamic trace event
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-93'>
+          <a href="tracks/93">Tracing</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            09/06/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/1191">Masami Hiramatsu</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_339'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_339"><span>*</span></a>
+            
+              <a href="http://www.linuxplumbersconf.org/2010/ocw/proposals/339" class="title">Dracut - a generic initramfs infrastructure</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Introduction of a initramfs generation tool, which creates a general purpose udev event based initramfs.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-99'>
+          <a href="tracks/99">Boot and Init</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/19/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/555">Harald Hoyer</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_891'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_891"><span>*</span></a>
+            
+              <a href="../../proposals/891" class="title">Divide and Conquer: An alternative approach to split-site clustering in Pacemaker</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Filtered replication for the Pacemaker CIB
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-43'>
+          <a href="tracks/43">High Availability Clustering</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/16/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/1041">Florian Haas</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1077'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1077"><span>*</span></a>
+            
+              <a href="../../proposals/1077" class="title">discussing syslink: an efficient inter-processor communication system for mobile devices</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            mainlining Syslink: discussion of problems/solutions towards an efficient Inter-Processor Communication system for mobile Linux devices that employ extra slave remote processors
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-73'>
+          <a href="tracks/73">Embedded</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/27/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/429">Hari Kanigeri</a>, <a href="../../users/231">Ohad Ben-Cohen</a>, <a href="../../users/411">Suman Anna</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_909'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_909"><span>*</span></a>
+            
+              <a href="../../proposals/909" class="title">Device tree discussion session</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            General discussion about device tree support on embedded platforms
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-73'>
+          <a href="tracks/73">Embedded</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/17/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/531">Jeremy Kerr</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_969'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_969"><span>*</span></a>
+            
+              <a href="../../proposals/969" class="title">device pm tuning is hard</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            after getting all the pm patches into your system, there is a lot more work to do to get good battery life.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-33'>
+          <a href="tracks/33">Power Management</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/23/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/441">Mark Gross</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_393'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_393"><span>*</span></a>
+            
+              <a href="../../proposals/393" class="title">Desktop Miniconference</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Microconference for X and other graphics infrastructure
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-117'>
+          <a href="tracks/117">Desktop</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/19/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/657">Keith Packard</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_591'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_591"><span>*</span></a>
+            
+              <a href="../../sessions/591" class="title">Desktop</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Desktop related topics &quot;Wiki&quot;:http://wiki.linuxplumbersconf.org/2010:desktop &quot;Etherpad&quot;:http://etherpad.osuosl.org/lpc2010-desktop
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-117'>
+          <a href="tracks/117">Desktop</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/22/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/831">Vincent Untz</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1215'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1215"><span>*</span></a>
+            
+              <a href="../../proposals/1215" class="title">Design and History of CTDB</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            This describes the internals of CTDB and why CTDB is designed the way it is.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-43'>
+          <a href="tracks/43">High Availability Clustering</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            10/18/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/users/1053">Michael Adam</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_975'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_975"><span>*</span></a>
+            
+              <a href="../../proposals/975" class="title">data logging for device field trials</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            embedded device debugging is made harder by the fact that people use them, and when they crash you arn't there.  How to capture useful data persistently for remote postmortem debug is the question
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-73'>
+          <a href="tracks/73">Embedded</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/23/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/441">Mark Gross</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_795'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_795"><span>*</span></a>
+            
+              <a href="../../proposals/795" class="title">Crafting Elegant User Experiences Involving Complex Storage Technologies</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Let's talk about how to improve user experiences involving file and storage systems.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-111'>
+          <a href="tracks/111">File and Storage Systems</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/04/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/945">Máirín Duffy</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_789'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_789"><span>*</span></a>
+            
+              <a href="../../proposals/789" class="title">CPUIdle versus Suspend</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            What issues are keeping CPUIdle from being closer to suspend in terms of power savings?
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-33'>
+          <a href="tracks/33">Power Management</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/03/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/933">Mike Turquette</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_729'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_729"><span>*</span></a>
+            
+              <a href="../../proposals/729" class="title">CPU isolation</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Why and how to efficiently dedicate a CPU to a single task through CPU isolation.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-105'>
+          <a href="tracks/105">Real Time</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/26/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/447">Frédéric Weisbecker</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1137'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1137"><span>*</span></a>
+            
+              <a href="../../proposals/1137" class="title">Corosync Community Roadmap Whiteboard</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Current community roadmap and discussion about additional features.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-43'>
+          <a href="tracks/43">High Availability Clustering</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            09/13/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/users/1035">Steven Dake</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_249'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_249"><span>*</span></a>
+            
+              <a href="../../proposals/249" class="title">Converting ftrace plugins into trace events</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Convert ftrace plugin to the unified trace event interface.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-93'>
+          <a href="tracks/93">Tracing</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/18/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/447">Frédéric Weisbecker</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_813'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_813"><span>*</span></a>
+            
+              <a href="http://www.linuxplumbersconf.org/2010/ocw/proposals/813" class="title">Converging towards a unified Lockless Ring Buffer library</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Unification of Perf, Ftrace and LTTng ring buffers.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-93'>
+          <a href="tracks/93">Tracing</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/06/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/1011">Mathieu Desnoyers</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1185'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1185"><span>*</span></a>
+            
+              <a href="../../proposals/1185" class="title">Consolidation of disk heartbeating</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            We have three disk heartbeats systems; let's not.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-43'>
+          <a href="tracks/43">High Availability Clustering</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            10/02/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/users/1263">Joel Becker</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1041'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1041"><span>*</span></a>
+            
+              <a href="../../proposals/1041" class="title">Combining Xenner, Xen and KVM into a giant furball</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Making the world a better place by enabling people to switch between Xen, Qemu and KVM as they wish.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-23'>
+          <a href="tracks/23">Virtualization</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/25/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/163">Alexander Graf</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_735'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_735"><span>*</span></a>
+            
+              <a href="../../proposals/735" class="title">Checkpoint/Restart: Present, Goals and Blockers</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Issues blocking advanced and general usage of  checkpoint/restart in desktop/non-HPC environments.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-23'>
+          <a href="tracks/23">Virtualization</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/27/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/501">Vivek  Kashyap</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_825'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_825"><span>*</span></a>
+            
+              <a href="../../proposals/825" class="title">Challenges in Mobile Networking</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Challenges that we have with networking in the mobile space.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-63'>
+          <a href="tracks/63">User Visible Network Issues</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/10/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/723">Matt Domsch</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1071'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1071"><span>*</span></a>
+            
+              <a href="../../proposals/1071" class="title">C-State optimization</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Which C-State is the most optimal in terms of energy saving for a given idle time?
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-33'>
+          <a href="tracks/33">Power Management</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/27/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/597">Vincent Bour</a>, <a href="../../users/603">Nicole Chalhoub</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_1119'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_1119"><span>*</span></a>
+            
+              <a href="http://www.linuxplumbersconf.org/2010/ocw/proposals/1119" class="title">bootchart2 - what is going on ?</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Come hear about the somewhat less-lame boot-charting solution.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-99'>
+          <a href="tracks/99">Boot and Init</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            09/10/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/1197">Michael Meeks</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_87'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_87"><span>*</span></a>
+            
+              <a href="../../sessions/87" class="title">Boot and Init</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Early initialization and alternatives to traditional unix init. &quot;Wiki&quot;:http://wiki.linuxplumbersconf.org/2010:early_boot_and_init_systems &quot;Etherpad&quot;:http://etherpad.osuosl.org/lpc2010-boot-and-init
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-99'>
+          <a href="tracks/99">Boot and Init</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/12/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/255">Kay Sievers</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_873'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_873"><span>*</span></a>
+            
+              <a href="../../proposals/873" class="title">Beyond init: systemd </a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            systemd is a new system and session manager for Linux which is currently being adopted by the Fedora and OpenSUSE distributions as default init system.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-99'>
+          <a href="tracks/99">Boot and Init</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/13/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/255">Kay Sievers</a>, <a href="http://www.linuxplumbersconf.org/2010/ocw/users/351">Lennart Poettering</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_927'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_927"><span>*</span></a>
+            
+              <a href="../../proposals/927" class="title">Audio Use Case management</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Simplified audio hardware management with emphasis on performance, power consumption and audio use case flexibility.
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-53'>
+          <a href="tracks/53">Audio</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/20/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/1017">Liam Girdwood</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_177'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_177"><span>*</span></a>
+            
+              <a href="../../sessions/177" class="title">Audio</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Discussion of audio integration issues in both kernel and userspace, covering both desktop and embedded systems. &quot;Wiki&quot;:http://wiki.linuxplumbersconf.org/2010:audio &quot;Etherpad&quot;:http://etherpad.osuosl.org/lpc2010-audio
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-53'>
+          <a href="tracks/53">Audio</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/16/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/345">Mark Brown</a>, <a href="http://www.linuxplumbersconf.org/2010/ocw/users/351">Lennart Poettering</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_675'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_675"><span>*</span></a>
+            
+              <a href="../../proposals/675" class="title">API for Real-Time Scheduling with Temporal Isolation on Linux</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            How can we fix the API for real-time scheduling with temporal isolation (deadline scheduling / Sporadic Server) ?
+	    <a href="http://linuxplumbersconf.com/2010/ocw//system/presentations/675/original/LPC-2010-Real-Time-API-MicroConf.pdf">(slides)</a>
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-105'>
+          <a href="tracks/105">Real Time</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/26/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/885">Dario Faggioli</a>, <a href="../../users/285">Dhaval Giani</a>, <a href="../../users/879">Tommaso Cucinotta</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_981'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_981"><span>*</span></a>
+            
+              <a href="../../proposals/981" class="title">Android PM experiances</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            What have you learned from Android PM enabling of you device?
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-33'>
+          <a href="tracks/33">Power Management</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            08/23/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="../../users/441">Mark Gross</a>
+          
+        </td>
+      </tr>
+      
+        
+        
+        
+
+      <tr class='proposal_row' id='proposal_row_171'>
+        <td rowspan='2' class='description'>
+          <h3>
+            <a href="../../users/me/favorites" class="favorite favorite_171"><span>*</span></a>
+            
+              <a href="../../proposals/171" class="title">Advances in memory management in a virtualized environment</a>
+            
+            
+          </h3>
+
+          <div class="excerpt">
+            Memory Management in a virtualized environment is a hard problem with many creative solutions being developed
+	    
+          </div>
+	  
+        </td>
+
+        
+        <td class='track block track-23'>
+          <a href="tracks/23">Virtualization</a>
+        </td>
+        
+
+        
+          <td class='date'>
+            07/15/2010
+          </td>
+        
+      </tr>
+      <tr>
+        <td class="speakers" colspan='2'>
+          
+            
+          
+          
+            <a href="http://www.linuxplumbersconf.org/2010/ocw/users/333">Dan Magenheimer</a>
+          
+        </td>
+      </tr>
+      
+    </table>
+  
+
+
+
+
+        </div><!-- content -->
+      </div><!-- container -->
+
+        <div id="primary" class="sidebar">
+          <ul class="xoxo">
+            
+              <li id="login-as">
+                <h3>Welcome</h3>
+                <ul>
+                  <li><a href="../LPC2010BOFS/proposals/new">Login</a></li>
+                  
+                    <li class='pre-bulletted'><a href="proposals/new" class="addable">Submit a proposal</a> </li>
+                  
+                </ul>
+              </li>
+            
+
+            <li id="subscribe-to">
+              <h3>Subscribe to</h3>
+              <ul>
+                <li class="pre-bulletted"><a href="../../proposals.atom" class="feedable">Proposals feed</a></li>
+                
+              </ul>
+            </li>
+
+            
+          </ul>
+	  			<div id="sponsor-links">
+				<h3>Sponsors</h3>
+				<br>
+				<h5>Platinum</h5>
+				<br><a href="http://intel.com"><img src="../../../style/intel_logo.png" /></a>
+				<br>
+				<br><a href="http://qualcomm.com"><img src="../../../style/Qualcomm.png" /></a>
+				<br>
+				<br><a href="http://ibm.com"><img src="../../../style/IBMtm.png" /></a>
+				<br>&nbsp;
+				<h5>Gold</h5>
+				<br><a href="http://google.com"><img src="../../../style/google_logo.gif" /></a>
+				<br>
+				<br><a href="http://www.ti.com"><img src="../../../style/ti_logo.gif" /></a>
+				<br>&nbsp;
+				<h5>Silver</h5>
+				<br><a href="http://hp.com"><img src="../../../style/hp_logo.gif" /></a>
+				<br>
+				<br><a href="http://canonical.com"><img src="../../../style/canonical.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.akamai.com"><img src="../../../style/akamai_logo_pms.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.linaro.org"><img src="../../../style/linaro-1.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.oracle.com"><img src="../../../style/oralogo_small.gif" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.emc.com"><img src="../../../style/EMC_logo_2004_color2.png" /></a>
+<!--
+				<h3>Media Sponsors</h3>
+				<ul class="sponsor-links">
+
+					<li><a href="http://lwn.net"><img src="/2010/style/lwnlogo.png" /></a></li>
+					<li><a href="http://linuxjournel.com"><img src="/2010/style/ljcolor.png" /></a></li>
+					<li><a href="http://www.linuxpromagazine.com/"><img src="/2010/style/LinuxPro-logo.png" /></a></li>
+				</ul>
+-->
+			</div>
+
+
+
+        </div><!-- #sidebar-1 -->
+
+    <div id="footer">
+    <a href="http://osuosl.org"><img border="0" src="http://linuxplumbersconf.org/2010/style/osl-hosted.png" alt="OSL"/></a>
+    </div>
+
+  </div><!--wrapper -->
+
+  
+
+  <!-- arbitrary javascript from views -->
+  <script type="text/javascript">
+//<![CDATA[
+window._token = '8d14f92e6e1470838695fc1036641d45886dce51'
+//]]>
+</script>
+  <script type="text/javascript">
+    
+  </script>
+
+  
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-168427-8");
+      pageTracker._initData();
+      pageTracker._trackPageview();
+    </script>
+
+    <script src="http://static.getclicky.com/79611.js" type="text/javascript"></script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://static.getclicky.com/79611-db10.gif" /></p></noscript>
+  
+</body>
+</html>

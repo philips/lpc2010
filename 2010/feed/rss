@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- generator="WordPress/2.9.2" -->
+<rss version="0.92">
+<channel>
+	<title>Linux Plumbers Conference 2010</title>
+	<link>http://www.linuxplumbersconf.org/2010</link>
+	<description>The conference where userspace meets the kernel</description>
+	<lastBuildDate>Tue, 23 Nov 2010 05:16:48 +0000</lastBuildDate>
+	<docs>http://backend.userland.com/rss092</docs>
+	<language>en</language>
+	
+	<item>
+		<title>Photos from Linux Plumbers 2010 posted</title>
+		<description><![CDATA[Some photos from this year&#8217;s event.  Enjoy!
+]]></description>
+		<link>http://www.linuxplumbersconf.org/2010/11/23/photos-from-linux-plumbers-2010-posted</link>
+			</item>
+	<item>
+		<title>IRC Backchannel available for MCs</title>
+		<description><![CDATA[Back channel chat for the MicroConferences is available at irc.freenode.org.  The channels are named by room (see the schedule for the room names).
+The two channels are
+#lpc2010-william-dawes
+#lpc2010-thomas-paine
+There are also etherpads for shared note taking which are listed in the online schedule if you hover over the MC or click on the individual MC.
+]]></description>
+		<link>http://www.linuxplumbersconf.org/2010/11/04/irc-backchannel-available-for-mcs</link>
+			</item>
+	<item>
+		<title>The schedule in PDF form</title>
+		<description><![CDATA[For your convenience, here is the conference schedule in PDF form.
+]]></description>
+		<link>http://www.linuxplumbersconf.org/2010/11/03/the-schedule-in-pdf-form</link>
+			</item>
+	<item>
+		<title>Plumbers Registration now Full</title>
+		<description><![CDATA[As you know, we deliberately limit Plumbers to being around 300 people to facilitate easy discussions in the MicroConferences.  Well, as of Friday, that limit has now been reached and registration is now closed.
+So a big thank you to everyone who registered; we&#8217;re looking forwards to making this the most interesting and productive Plumbers conference [...]]]></description>
+		<link>http://www.linuxplumbersconf.org/2010/10/17/plumbers-registration-now-full</link>
+			</item>
+	<item>
+		<title>Preliminary Schedule Up</title>
+		<description><![CDATA[Please forgive the formatting and lack of details around the MCs; we&#8217;re working to fix that.  The schedule is here.
+]]></description>
+		<link>http://www.linuxplumbersconf.org/2010/10/17/preliminary-schedule-up</link>
+			</item>
+	<item>
+		<title>Standard Registration Extension</title>
+		<description><![CDATA[According to the Linux Foundation, we&#8217;ve only got 16 places left before Plumbers sells out, so if you were planning on attending, now might be a good time to reserve one of them.
+We&#8217;re also extending standard registration ($325) until Monday 18 October after which the late registration fee of $400 will apply (assuming we have [...]]]></description>
+		<link>http://www.linuxplumbersconf.org/2010/10/13/standard-registration-extension</link>
+			</item>
+	<item>
+		<title>Announcing Keynotes and Events</title>
+		<description><![CDATA[The Linux Plumbers Conference is pleased to announce our keynote line-up and evening events. LPC 2010 will be held in Boston from November 3-5.
+Keynotes
+ Michael Meeks : &#8220;The Wonderful World of LibreOffice&#8221;
+ Jonathan Corbet : &#8220;The Kernel Report&#8221;
+Evening Events
+Tuesday, Nov 2, Jillian&#8217;s at Fenway, Second Floor
+Joint event for Kernel Summit and Linux Plumbers Conference Drinks [...]]]></description>
+		<link>http://www.linuxplumbersconf.org/2010/10/13/announcing-keynotes-and-events</link>
+			</item>
+	<item>
+		<title>Update on Hotels</title>
+		<description><![CDATA[The Hyatt is now full (and the group rate expires on Friday 8 Oct), so the Linux Foundation has arranged accommodation at the Harvard Square Hotel at the rate of US$169/night (plus tax) which includes internet.
+This hotel is about a mile from the Hyatt, but the LF will provide  daily shuttle service between this [...]]]></description>
+		<link>http://www.linuxplumbersconf.org/2010/10/08/update-on-hotels</link>
+			</item>
+	<item>
+		<title>Hotel Discount Ends on Friday 8 October</title>
+		<description><![CDATA[﻿Please be sure to make your hotel reservations before Friday to take advantage of the discounted rate.  Click here to reserve.
+Please also note that the hotel is now sold out on the evenings of Friday, November 5th and Saturday, November 6th.  If you were planning to stay one or both of those nights, and have [...]]]></description>
+		<link>http://www.linuxplumbersconf.org/2010/10/06/hotel-discount-ends-on-friday-8-october</link>
+			</item>
+	<item>
+		<title>Opening Keynote and Presentation Track announcement</title>
+		<description><![CDATA[The Linux Plumbers Conference Program Committee is pleased to announce Jonathan Corbet as our opening keynote speaker.  Mr. Corbet is well respected in our community as a kernel developer and the co-founder and executive editor of Linux Weekly News.
+We&#8217;re also pleased to announce that speakers have been selected for the presentation track.  Click [...]]]></description>
+		<link>http://www.linuxplumbersconf.org/2010/08/24/opening-keynote-and-presentation-track-announcement</link>
+			</item>
+</channel>
+</rss>

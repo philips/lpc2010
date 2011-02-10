@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+	<title>Registration is now Open &#8211; Linux Plumbers Conference 2010</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="../../../wp-content/themes/lpcwp/style.css" />
+<link rel="alternate" type="application/rss+xml" title="Linux Plumbers Conference 2010 &raquo; Registration is now Open Comments Feed" href="http://www.linuxplumbersconf.org/2010/05/26/registration-is-now-open/feed" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Linux Plumbers Conference 2010' href='../../../../2010.1' />
+<link rel='start' title='What is Linux Plumbing?' href='../../../04/29/what-is-linux-plumbing' />
+<link rel='prev' title='Call for Track Ideas' href='../../../04/30/call-for-track-ideas/trackback' />
+<link rel='next' title='BoF Sign Up Now Open' href='../../../06/03/bof-sign-up-now-open/trackback' />
+<meta name="generator" content="WordPress 2.9.2" />
+<link rel='canonical' href='trackback' />
+<script type="text/javascript"><!--
+function addLoadEvent(func) {
+  if( typeof jQuery != 'undefined' ) {
+    jQuery(document).ready( func );
+  } else if( typeof Prototype != 'undefined' ) {
+    Event.observe( window, 'load', func );
+  } else {
+    var oldonload = window.onload;
+    if (typeof window.onload != 'function') {
+      window.onload = func;
+    } else {
+      window.onload = function() {
+        if (oldonload)
+          oldonload();
+        
+        func();
+      }
+    }
+  }
+}
+function wphc(){
+	var wphc_data = [2112289013,1894245607,1996028595,1911280368,1795030526,1705092598,1056632037,2111897060,1726605516,1017688243,800636323,800701603,800701858,800636067,783859107,783924387,783924642,631946402,1827273651,1996028595,2095960816,1052093931,1755887267,1772683250,1105978851,1055977206,632860078,2011232947,1772153087,1105978851,1055977206,1862249903,2077748987,1923544562,1794106358,1056154875,1772153850,1105978851,821095670,1827268080,1772157394,1105978851,938536694,1052094643,933936305,1772680883,1105978851,1055977462,1403564216,820050418,922739427,1772659105,1105978851,938536694,1056288168,2111897060,1726736588,1051961016,2080026094,1895495911,1996028595,2095960816,1056290539,2111897060,1944579788,2080176355,1051960507]; 
+
+	for (var i=0; i<wphc_data.length; i++){
+		wphc_data[i]=wphc_data[i]^512265619;
+	}
+
+	var a = new Array(wphc_data.length); 
+	for (var i=0; i<wphc_data.length; i++) { 
+		a[i] = String.fromCharCode(wphc_data[i] & 0xFF, wphc_data[i]>>>8 & 0xFF, wphc_data[i]>>>16 & 0xFF, wphc_data[i]>>>24 & 0xFF);
+	}
+
+	return eval(a.join('')); 
+}
+addLoadEvent(function(){var el=document.getElementById('wphc_value');if(el)el.value=wphc();});
+//--></script>
+	<link rel="alternate" type="application/rss+xml" href="http://www.linuxplumbersconf.org/2010/feed" title="Linux Plumbers Conference 2010 latest posts" />
+	<link rel="alternate" type="application/rss+xml" href="http://www.linuxplumbersconf.org/2010/comments/feed" title="Linux Plumbers Conference 2010 latest comments" />
+	<link rel="pingback" href="../../../xmlrpc.php" />
+</head>
+
+<body class="wordpress y2011 m02 d10 h11 single postid-289 s-y2010 s-m05 s-d26 s-h15 s-category-uncategorized s-author-jejb">
+
+<div id="wrapper" class="hfeed">
+
+	<div id="header">
+		<h1 id="site-title"><span><a href="../../../../2010.1" title="Linux Plumbers Conference 2010" rel="home">Linux Plumbers Conference 2010</a></span></h1>
+		<div id="site-description">The conference where userspace meets the kernel</div>
+	</div><!--  #header -->
+
+		<div id="access">
+		<div class="skip-link"><a href="trackback#content" title="Skip to content">'Skip to content</a></div>
+
+<div id="menu">
+	<ul>
+		<li class="page_item page-item"><a href="../../../../2010.1">Blog</a></li>
+		<li class="page_item page-item"><a href="../../../participate/index.html" title="Attend">Participate</a></li>
+		<li class="page_item page-item"><a href="../../../ocw/events/LPC2010/schedule" title="Schedule">Schedule</a></li>
+		<li class="page_item page-item"><a href="../../../program/index.html" title="Program">Program</a></li>
+		<li class="page_item page-item"><a href="../../../contact/index.html" title="Contact">Contact</a></li>
+		<li class="page_item page-item"><a href="../../../faqs" title="FAQs">FAQs</a></li>
+	</ul>
+</div>
+
+	</div><!-- #access -->
+
+
+	<div id="container">
+		<div id="content">
+
+
+			<div id="nav-above" class="navigation">
+				<div class="nav-previous"><a href="../../../04/30/call-for-track-ideas/trackback" rel="prev"><span class="meta-nav">&laquo;</span> Call for Track Ideas</a></div>
+				<div class="nav-next"><a href="../../../06/03/bof-sign-up-now-open/trackback" rel="next">BoF Sign Up Now Open <span class="meta-nav">&raquo;</span></a></div>
+			</div>
+
+			<div id="post-289" class="hentry p1 post publish author-jejb category-uncategorized untagged y2010 m05 d26 h15">
+				<h2 class="entry-title">Registration is now Open</h2>
+				<div class="entry-content">
+<p>For really early birds, the registration link above is now live.</p>
+<p>It&#8217;s redirecting to the <a href="http://events.linuxfoundation.org/component/registrationpro/?func=details&amp;did=37" target="_self">linux foundation registration site</a> for those of you who just can&#8217;t wait to reserve your place.  The Earlybird registration price of $275 will be current until 31 August 2010.</p>
+
+				</div>
+				<div class="entry-meta">
+					This entry was written by <span class="author vcard"><a class="url fn n" href="../../../author/jejb/index.html" title="View all posts by jejb">jejb</a></span>, posted on <abbr class="published" title="2010-05-26T16:39:17-0400">May 26, 2010 at 4:39 pm</abbr>, filed under <a href="../../../category/uncategorized" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>. Bookmark the <a href="trackback" title="Permalink to Registration is now Open" rel="bookmark">permalink</a>. Follow any comments here with the <a href="http://www.linuxplumbersconf.org/2010/05/26/registration-is-now-open/feed" title="Comments RSS to Registration is now Open" rel="alternate" type="application/rss+xml">RSS feed for this post</a>.
+					<a class="comment-link" href="trackback#respond" title="Post a comment">Post a comment</a> or leave a trackback: <a class="trackback-link" href="trackback" title="Trackback URL for your post" rel="trackback">Trackback URL</a>.
+				</div>
+			</div><!-- .post -->
+
+			<div id="nav-below" class="navigation">
+				<div class="nav-previous"><a href="../../../04/30/call-for-track-ideas/trackback" rel="prev"><span class="meta-nav">&laquo;</span> Call for Track Ideas</a></div>
+				<div class="nav-next"><a href="../../../06/03/bof-sign-up-now-open/trackback" rel="next">BoF Sign Up Now Open <span class="meta-nav">&raquo;</span></a></div>
+			</div>
+
+			<div id="comments">
+
+				<div id="respond">
+					<h3>Post a Comment</h3>
+
+					<div class="formcontainer">	
+						<form id="commentform" action="http://www.linuxplumbersconf.org/2010/wp-comments-post.php" method="post">
+
+
+							<p id="comment-notes">Your email is <em>never</em> shared. Required fields are marked <span class="required">*</span></p>
+
+							<div class="form-label"><label for="author">Name</label> <span class="required">*</span></div>
+							<div class="form-input"><input id="author" name="author" class="text required" type="text" value="" size="30" maxlength="50" tabindex="3" /></div>
+
+							<div class="form-label"><label for="email">Email</label> <span class="required">*</span></div>
+							<div class="form-input"><input id="email" name="email" class="text required" type="text" value="" size="30" maxlength="50" tabindex="4" /></div>
+
+							<div class="form-label"><label for="url">Website</label></div>
+							<div class="form-input"><input id="url" name="url" class="text" type="text" value="" size="30" maxlength="50" tabindex="5" /></div>
+
+
+							<div class="form-label"><label for="comment">Comment</label></div>
+							<div class="form-textarea"><textarea id="comment" name="comment" class="text required" cols="45" rows="8" tabindex="6"></textarea></div>
+
+							<div class="form-submit"><input id="submit" name="submit" class="button" type="submit" value="Post Comment" tabindex="7" /><input type="hidden" name="comment_post_ID" value="289" /></div>
+
+							<div class="form-option"><div><input type="hidden" id="wphc_value" name="wphc_value" value=""/></div><p>Powered by <a href="http://wordpress-plugins.feifei.us/hashcash/">WP Hashcash</a></p><noscript><div><small>Wordpress Hashcash needs javascript to work, but your browser has javascript disabled. Your comment will be queued in Akismet!</small></div></noscript></div>
+
+						</form><!-- #commentform -->
+					</div><!-- .formcontainer -->
+
+				</div><!-- #respond -->
+
+			</div><!-- #comments -->
+
+		</div><!-- #content -->
+	</div><!-- #container -->
+
+	<div id="primary" class="sidebar">
+
+		<ul class="xoxo">
+
+			<li id="attend-links">
+				<h3>Participate</h3>
+				<ul>
+				<li class="page_item page-item-1"><red>Registration is now Closed</red></li>
+				<li class="page_item page-item-2"><a href="../../../ocw/events/LPC2010/proposals" title="Proposal list">View Presentations</a></li>
+				<li class="page_item page-item-2"><a href="../../../ocw/events/LPC2010MC/proposals" title="Proposal list">Suggestions for a Microconfs</a></li>
+				<li class="page_item page-item-2"><a href="../../../ocw/events/LPC2010BOFS/proposals" title="Proposal List">Submit a BoF</a></li>
+<!--
+				<li class="page_item page-item-2"><a href="/2010/ocw/events/LPC2010MC/proposals" title="Proposal List">Submit a MicroConference</a></li>
+-->
+
+				</ul>
+			</li>
+
+			<li id="social-links">
+				<h3>Stay Connected</h3>
+				<ul>
+					<li><a href="http://www.linuxplumbersconf.org/2010/feed" title="Linux Plumbers Conference 2010 latest posts" rel="alternate" type="application/rss+xml">Blog Feed</a></li>
+					<li><a href="https://twitter.com/linuxplumbers">Twitter</a></li>
+					<li><a href="https://identi.ca/linuxplumbers">identi.ca</a></li>
+					<li><a href="http://lists.osuosl.org/mailman/listinfo/announce">Announce list</a></li>
+					<li><a href="http://planet.linuxplumbersconf.org/">Planet LPC</a></li>
+				</ul>
+			</li>
+
+						<div id="sponsor-links">
+				<h3>Sponsors</h3>
+				<br>
+				<h5>Platinum</h5>
+				<br><a href="http://intel.com"><img src="../../../style/intel_logo.png" /></a>
+				<br>
+				<br><a href="http://qualcomm.com"><img src="../../../style/Qualcomm.png" /></a>
+				<br>
+				<br><a href="http://ibm.com"><img src="../../../style/IBMtm.png" /></a>
+				<br>&nbsp;
+				<h5>Gold</h5>
+				<br><a href="http://google.com"><img src="../../../style/google_logo.gif" /></a>
+				<br>
+				<br><a href="http://www.ti.com"><img src="../../../style/ti_logo.gif" /></a>
+				<br>&nbsp;
+				<h5>Silver</h5>
+				<br><a href="http://hp.com"><img src="../../../style/hp_logo.gif" /></a>
+				<br>
+				<br><a href="http://canonical.com"><img src="../../../style/canonical.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.akamai.com"><img src="../../../style/akamai_logo_pms.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.linaro.org"><img src="../../../style/linaro-1.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.oracle.com"><img src="../../../style/oralogo_small.gif" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.emc.com"><img src="../../../style/EMC_logo_2004_color2.png" /></a>
+<!--
+				<h3>Media Sponsors</h3>
+				<ul class="sponsor-links">
+
+					<li><a href="http://lwn.net"><img src="/2010/style/lwnlogo.png" /></a></li>
+					<li><a href="http://linuxjournel.com"><img src="/2010/style/ljcolor.png" /></a></li>
+					<li><a href="http://www.linuxpromagazine.com/"><img src="/2010/style/LinuxPro-logo.png" /></a></li>
+				</ul>
+-->
+			</div>
+
+
+
+		</ul>
+	</div><!-- #primary .sidebar -->
+
+	<div id="secondary" class="sidebar">
+		<ul class="xoxo">
+			<li id="search">
+				<h3><label for="s">Search</label></h3>
+				<form id="searchform" class="blog-search" method="get" action="../../../../2010.1">
+					<div>
+						<input id="s" name="s" type="text" class="text" value="" size="10" tabindex="1" />
+						<input type="submit" class="button" value="Find" tabindex="2" />
+					</div>
+				</form>
+			</li>
+
+
+
+			<li id="meta">
+				<h3>Meta</h3>
+				<ul>
+					
+					<li><a href="https://www.linuxplumbersconf.org/2010/wp-login.php">Log in</a></li>
+					
+				</ul>
+			</li>
+		</ul>
+	</div><!-- #secondary .sidebar -->
+
+	<div id="footer">
+<a href="http://osuosl.org"><img border="0" src="http://www.linuxplumbersconf.org/2010/05/26/style/osl-hosted.png" alt="OSL"/></a>
+	</div><!-- #footer -->
+
+</div><!-- #wrapper .hfeed -->
+
+
+</body>
+</html>

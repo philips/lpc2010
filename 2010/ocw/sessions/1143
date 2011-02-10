@@ -1,0 +1,348 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+  <title>State of the kernel: license &quot;wise&quot;. / Linux Plumbers Conference: Developing the Kernel, Libraries and Utilities / November 3-5, 10 / Cambridge, MA</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="Developing the Kernel, Libraries and Utilities / November 3-5, 10 / Cambridge, MA" />
+
+  <!-- Feeds -->
+  <link href="../proposals.atom" rel="alternate" title="Linux Plumbers Conference: Proposals feed" type="application/atom+xml" />
+  
+
+  <!-- Stylesheets -->
+  
+    <link href="http://linuxplumbersconf.org/2010/style/style.css" media="screen" rel="stylesheet" type="text/css" />
+  
+  <link href="../themes/lpc/stylesheets/custom.css?1275586216" media="screen" rel="Stylesheet" type="text/css" />
+  
+
+  <!-- Dynamic styles -->
+  
+    
+      <style type="text/css" media="screen">
+        
+  /* BoF */
+  .track-64 { color: #eca718; }
+  .track-64.block { background: #eca718; color: #fff; }
+  .track-64.light { background: #f8dea8; }
+  .track-64.light:hover { background: #f4cc78; }
+
+      </style>
+    
+  
+
+  <!-- Scripts -->
+  <script src="../javascripts/jquery.min.js" type="text/javascript"></script>
+  <script src="../javascripts/jquery-ui.effects.core.js" type="text/javascript"></script>
+  <script src="../javascripts/jquery-ui.effects.highlight.js" type="text/javascript"></script>
+  <script src="../javascripts/application.js" type="text/javascript"></script>
+  
+    
+    
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+      app.favorites_path = '/2010/ocw/users/me/favorites';
+      app.current_user = false;
+      app.authenticity_token = '8d14f92e6e1470838695fc1036641d45886dce51';
+      populate_user_favorites();
+      bind_user_favorite_controls();
+      bind_calendar_items();
+    });
+  </script>
+</head>
+
+
+
+<body>
+  <div id="wrapper">
+     <div id="header">
+           <h1 id="site-title"><span><a href="http://linuxplumbersconf.org/2010/" title="Linux Plumbers Conf 2010" rel="home">Linux Plumbers Conf 2010</a></span></h1>
+           <div id="site-description">Developing the Kernel, Libraries and Utilities</div>
+      </div>
+
+      	<div id="access">
+		<div class="skip-link"><a href="1143#content" title="Skip to content">'Skip to content</a></div>
+
+<div id="menu">
+	<ul>
+		<li class="page_item page-item"><a href="../../../2010.1">Blog</a></li>
+		<li class="page_item page-item"><a href="../../participate/index.html" title="Attend">Participate</a></li>
+		<li class="page_item page-item"><a href="../events/LPC2010/schedule" title="Schedule">Schedule</a></li>
+		<li class="page_item page-item"><a href="../../program/index.html" title="Program">Program</a></li>
+		<li class="page_item page-item"><a href="../../contact/index.html" title="Contact">Contact</a></li>
+		<li class="page_item page-item"><a href="../../faqs" title="FAQs">FAQs</a></li>
+	</ul>
+</div>
+
+	</div><!-- #access -->
+
+
+      <div id="container">
+        <div id="content">
+          <h2 class='entry-title'>Proposals</h2>
+          
+
+          <h2 class='page_title'>State of the kernel: license &quot;wise&quot;.</h2>
+
+          <!-- Display notices -->
+          
+          
+          
+          <div class="flash" id="flash"><p class="failure">Session information has not yet been published for this event.</p></div>
+
+          <!-- Display view's content -->
+          
+
+<a href="../users/me/favorites" class="favorite favorite_1143"><span>*</span></a>
+
+
+
+
+
+
+  
+
+  <div class='show-proposal'>
+
+
+  <div class='proposal-meta'>
+    
+  
+      <div class='track block track-64'>
+        <a href="../events/LPC2010BOFS/tracks/64">BoF</a>
+      </div>
+  
+  
+      <a href="http://www.linuxplumbersconf.org/2010/ocw/events/LPC2010BOFS/session_types/34" class="session_type">60 minute BoF</a>
+  
+<!-- jejb: this serves no purpose and looks strange
+    <div class='proposal-slug'>
+      lpcLPC2010BOFS-1143
+    </div>
+-->
+    
+      <div class='proposal-scheduling'>
+        <b>Scheduled:</b>
+        Wednesday, November 3, 2010 from 4:30 &ndash; 5:30pm 
+        in 
+        <a href="../events/LPC2010/rooms/15">William Dawes</a>
+      </div>
+    
+      </div>
+  
+  
+    <h3>One Line Summary</h3>
+    <div class="compressed"><p>Survey of what licenses are actually in the kernel, beyond GPLv2/GPLv2+.</p></div>
+  
+
+    <h3>Abstract</h3>
+    <p>This <span class="caps">BOF</span> will examine at the Linux kernel using current tools (FOSSology, etc.) to analyze the licensing inside the kernel itself,  and illustrate what&#8217;s there and detectable beyond the GPLv2 and GPLv2+ licenses we all expect to see.</p>
+<p>Discussion of the corner cases found by the analysis, and some of the current trends emerging in reporting licensing and copyrights will be discussed, as well as the open source tools available to assist with package analysis.</p>
+
+  
+    <h3>Tags</h3>
+    <p>License, copyright, GPLv2, FOSSology, ninka, legal, linux kernel</p>
+  
+
+  
+
+  
+
+  <div class="record-controls">
+    
+    <a href="../events/LPC2010BOFS/proposals" class="cancelable">Back to list of proposals</a>
+  </div>
+
+  
+    <h3>Speaker</h3>
+
+    
+
+<ul class='user_list'>
+
+  
+
+<li class="user_box vcard ">
+  
+  <div class='user_head'>
+    <h3><a href="../users/1023" class="fn n" id="id_1023" name="id_1023">Kate Stewart</a></h3>
+        <span class='affiliation org'>Canonical</span>
+      </div>
+  <div class='user_body'>
+    <div class='user_links'>
+      <ul>
+                
+        
+        
+        
+        
+              </ul>
+    </div>
+
+  
+    <h4>Biography</h4>
+    <div class='note'>
+      <p>Development Manager for Power architecture Linux, U-boot and Gnu toolchain team at Freescale for 10 years.  Just joined Canonical as Ubuntu Release Manager.</p>
+    </div>
+  
+  
+  
+  
+  
+      
+  </div>
+</li>
+</ul>
+
+
+  
+
+
+
+
+
+
+  <form action="http://www.linuxplumbersconf.org/2010/ocw/proposals/1143/comments" class="standard-form" id="comment-form" method="post"><div style="margin:0;padding:0"><input name="authenticity_token" type="hidden" value="8d14f92e6e1470838695fc1036641d45886dce51" /></div>
+    <input id="comment_proposal_id" name="comment[proposal_id]" type="hidden" value="1143" />
+    <h4>Leave a private comment to organizers about this proposal</h4>
+    <table class="standard-form">
+      
+      <tr>
+        <td class="label-cell">
+          <label for="comment_email">Email address</label>
+        </td>
+        <td class="data-cell">
+          <input id="comment_email" name="comment[email]" size="30" type="text" />
+        </td>
+      </tr>
+      <tr>
+        <td class="label-cell">
+          <label for="comment_message">Comment</label>
+        </td>
+        <td class="data-cell">
+          <textarea cols="40" id="comment_message" name="comment[message]" rows="3"></textarea>
+        </td>
+      </tr>
+      <tr class="quagmire">
+        <td class="label-cell">
+          <label for="quagmire_Leave blank">Leave blank</label>
+        </td>
+        <td>
+          <input id="quagmire" name="quagmire" type="text" />
+        </td>
+      </tr>
+      <tr>
+        <td class="label-cell">&nbsp;</td>
+        <td class="data-cell">
+          <input id="comment_submit" name="commit" type="submit" value="Create comment" />
+        </td>
+      </tr>
+    </table>
+  </form>
+
+
+</div>
+
+        </div><!-- content -->
+      </div><!-- container -->
+
+        <div id="primary" class="sidebar">
+          <ul class="xoxo">
+            
+              <li id="login-as">
+                <h3>Welcome</h3>
+                <ul>
+                  <li><a href="../events/LPC2010BOFS/proposals/new">Login</a></li>
+                  
+                    <li class='pre-bulletted'><a href="../events/LPC2010BOFS/proposals/new" class="addable">Submit a proposal</a> </li>
+                  
+                </ul>
+              </li>
+            
+
+            <li id="subscribe-to">
+              <h3>Subscribe to</h3>
+              <ul>
+                <li class="pre-bulletted"><a href="../proposals.atom" class="feedable">Proposals feed</a></li>
+                
+              </ul>
+            </li>
+
+            
+          </ul>
+	  			<div id="sponsor-links">
+				<h3>Sponsors</h3>
+				<br>
+				<h5>Platinum</h5>
+				<br><a href="http://intel.com"><img src="../../style/intel_logo.png" /></a>
+				<br>
+				<br><a href="http://qualcomm.com"><img src="../../style/Qualcomm.png" /></a>
+				<br>
+				<br><a href="http://ibm.com"><img src="../../style/IBMtm.png" /></a>
+				<br>&nbsp;
+				<h5>Gold</h5>
+				<br><a href="http://google.com"><img src="../../style/google_logo.gif" /></a>
+				<br>
+				<br><a href="http://www.ti.com"><img src="../../style/ti_logo.gif" /></a>
+				<br>&nbsp;
+				<h5>Silver</h5>
+				<br><a href="http://hp.com"><img src="../../style/hp_logo.gif" /></a>
+				<br>
+				<br><a href="http://canonical.com"><img src="../../style/canonical.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.akamai.com"><img src="../../style/akamai_logo_pms.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.linaro.org"><img src="../../style/linaro-1.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.oracle.com"><img src="../../style/oralogo_small.gif" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.emc.com"><img src="../../style/EMC_logo_2004_color2.png" /></a>
+<!--
+				<h3>Media Sponsors</h3>
+				<ul class="sponsor-links">
+
+					<li><a href="http://lwn.net"><img src="/2010/style/lwnlogo.png" /></a></li>
+					<li><a href="http://linuxjournel.com"><img src="/2010/style/ljcolor.png" /></a></li>
+					<li><a href="http://www.linuxpromagazine.com/"><img src="/2010/style/LinuxPro-logo.png" /></a></li>
+				</ul>
+-->
+			</div>
+
+
+
+        </div><!-- #sidebar-1 -->
+
+    <div id="footer">
+    <a href="http://osuosl.org"><img border="0" src="http://linuxplumbersconf.org/2010/style/osl-hosted.png" alt="OSL"/></a>
+    </div>
+
+  </div><!--wrapper -->
+
+  
+
+  <!-- arbitrary javascript from views -->
+  <script type="text/javascript">
+//<![CDATA[
+window._token = '8d14f92e6e1470838695fc1036641d45886dce51'
+//]]>
+</script>
+  <script type="text/javascript">
+    
+  </script>
+
+  
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-168427-8");
+      pageTracker._initData();
+      pageTracker._trackPageview();
+    </script>
+
+    <script src="http://static.getclicky.com/79611.js" type="text/javascript"></script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://static.getclicky.com/79611-db10.gif" /></p></noscript>
+  
+</body>
+</html>

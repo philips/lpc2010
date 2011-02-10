@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ensemble Independent//vPim 0.695//EN
+CALSCALE:Gregorian
+METHOD:PUBLISH
+X-WR-CALNAME:Andrew Beekhof's favorites
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+DTSTART:20101103T151000
+DTEND:20101103T155500
+SUMMARY:Patchwork: pursuing productive project participation
+CREATED:20100719T035821
+LAST-MODIFIED:20101117T112620
+DESCRIPTION:Patchwork is a web-based system for keeping track of contributi
+ ons
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/297
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/297
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T100000
+DTEND:20101103T104500
+SUMMARY:License To Kill…Your Code...
+CREATED:20100720T020558
+LAST-MODIFIED:20101027T212055
+DESCRIPTION:Just as the lack of software discipline can lead to bad code an
+ d poor usability\, the lack of license understanding and execution can crip
+ ple the legitimate usability of open source software.
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/531
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/531
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101104T100000
+DTEND:20101104T104500
+SUMMARY:Perf Tools: Recent Improvements
+CREATED:20100721T123811
+LAST-MODIFIED:20101116T183840
+DESCRIPTION:Recent developments on the perf tools and discussion about TODO
+ .
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/579
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/579
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101105T133000
+DTEND:20101105T160000
+SUMMARY:High Availability Clustering
+CREATED:20100726T152019
+LAST-MODIFIED:20101103T231806
+DESCRIPTION:Discussion of low level issues related to HA and Clustering (in
+ cluding filesystems). "Wiki":http://wiki.linuxplumbersconf.org/2010:ha_clus
+ tering "Etherpad":http://etherpad.osuosl.org/lpc2010-high-availability-clus
+ tering
+LOCATION:Thomas Paine
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/711
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/711
+END:VEVENT
+END:VCALENDAR

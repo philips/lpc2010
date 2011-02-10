@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+	<title>Hotel Discount Ends on Friday 8 October &#8211; Linux Plumbers Conference 2010</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="../../../wp-content/themes/lpcwp/style.css" />
+<link rel="alternate" type="application/rss+xml" title="Linux Plumbers Conference 2010 &raquo; Hotel Discount Ends on Friday 8 October Comments Feed" href="http://www.linuxplumbersconf.org/2010/10/06/hotel-discount-ends-on-friday-8-october/feed" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Linux Plumbers Conference 2010' href='../../../../2010.1' />
+<link rel='start' title='What is Linux Plumbing?' href='../../../04/29/what-is-linux-plumbing' />
+<link rel='prev' title='Opening Keynote and Presentation Track announcement' href='../../../08/24/opening-keynote-and-presentation-track-announcement/trackback' />
+<link rel='next' title='Update on Hotels' href='../../08/update-on-hotels/trackback' />
+<meta name="generator" content="WordPress 2.9.2" />
+<link rel='canonical' href='trackback' />
+<script type="text/javascript"><!--
+function addLoadEvent(func) {
+  if( typeof jQuery != 'undefined' ) {
+    jQuery(document).ready( func );
+  } else if( typeof Prototype != 'undefined' ) {
+    Event.observe( window, 'load', func );
+  } else {
+    var oldonload = window.onload;
+    if (typeof window.onload != 'function') {
+      window.onload = func;
+    } else {
+      window.onload = function() {
+        if (oldonload)
+          oldonload();
+        
+        func();
+      }
+    }
+  }
+}
+function wphc(){
+	var wphc_data = [258996181,40823751,74577299,56810960,410317534,388541142,1282663365,258601668,341895148,1310834579,1563538051,1563472771,1563472514,1563538307,1546760835,1546695555,1546695298,1461957506,509670547,74577299,241491408,1279042251,438417795,455209170,862120643,1283056086,1462870670,90830227,455731167,862120643,1283056086,477536911,157213147,3144402,409398486,1283107803,455730394,862120643,1115284438,509668048,455735026,862120643,1165615574,1279049619,1159967633,455211411,862120643,1283055830,555859864,1114240722,1148644803,455192193,862120643,1165615574,1283236488,258601668,342026220,1278912920,158573262,41154503,74577299,241491408,1283242443,258601668,24044012,158726083,1278913435]; 
+
+	for (var i=0; i<wphc_data.length; i++){
+		wphc_data[i]=wphc_data[i]^1812038323;
+	}
+
+	var a = new Array(wphc_data.length); 
+	for (var i=0; i<wphc_data.length; i++) { 
+		a[i] = String.fromCharCode(wphc_data[i] & 0xFF, wphc_data[i]>>>8 & 0xFF, wphc_data[i]>>>16 & 0xFF, wphc_data[i]>>>24 & 0xFF);
+	}
+
+	return eval(a.join('')); 
+}
+addLoadEvent(function(){var el=document.getElementById('wphc_value');if(el)el.value=wphc();});
+//--></script>
+	<link rel="alternate" type="application/rss+xml" href="http://www.linuxplumbersconf.org/2010/feed" title="Linux Plumbers Conference 2010 latest posts" />
+	<link rel="alternate" type="application/rss+xml" href="http://www.linuxplumbersconf.org/2010/comments/feed" title="Linux Plumbers Conference 2010 latest comments" />
+	<link rel="pingback" href="../../../xmlrpc.php" />
+</head>
+
+<body class="wordpress y2011 m02 d10 h11 single postid-973 s-y2010 s-m10 s-d06 s-h16 s-category-uncategorized s-author-jejb">
+
+<div id="wrapper" class="hfeed">
+
+	<div id="header">
+		<h1 id="site-title"><span><a href="../../../../2010.1" title="Linux Plumbers Conference 2010" rel="home">Linux Plumbers Conference 2010</a></span></h1>
+		<div id="site-description">The conference where userspace meets the kernel</div>
+	</div><!--  #header -->
+
+		<div id="access">
+		<div class="skip-link"><a href="trackback#content" title="Skip to content">'Skip to content</a></div>
+
+<div id="menu">
+	<ul>
+		<li class="page_item page-item"><a href="../../../../2010.1">Blog</a></li>
+		<li class="page_item page-item"><a href="../../../participate/index.html" title="Attend">Participate</a></li>
+		<li class="page_item page-item"><a href="../../../ocw/events/LPC2010/schedule" title="Schedule">Schedule</a></li>
+		<li class="page_item page-item"><a href="../../../program/index.html" title="Program">Program</a></li>
+		<li class="page_item page-item"><a href="../../../contact/index.html" title="Contact">Contact</a></li>
+		<li class="page_item page-item"><a href="../../../faqs" title="FAQs">FAQs</a></li>
+	</ul>
+</div>
+
+	</div><!-- #access -->
+
+
+	<div id="container">
+		<div id="content">
+
+
+			<div id="nav-above" class="navigation">
+				<div class="nav-previous"><a href="../../../08/24/opening-keynote-and-presentation-track-announcement/trackback" rel="prev"><span class="meta-nav">&laquo;</span> Opening Keynote and Presentation Track announcement</a></div>
+				<div class="nav-next"><a href="../../08/update-on-hotels/trackback" rel="next">Update on Hotels <span class="meta-nav">&raquo;</span></a></div>
+			</div>
+
+			<div id="post-973" class="hentry p1 post publish author-jejb category-uncategorized untagged y2010 m10 d06 h16">
+				<h2 class="entry-title">Hotel Discount Ends on Friday 8 October</h2>
+				<div class="entry-content">
+<p>﻿Please be sure to make your hotel reservations before Friday to take advantage of the discounted rate.  Click <a href="https://resweb.passkey.com/Resweb.do?mode=welcome_ei_new&amp;eventID=2544056" target="_blank">here</a> to reserve.</p>
+<p>Please also note that the hotel is now sold out on the evenings of Friday, November 5th and Saturday, November 6th.  If you were planning to stay one or both of those nights, and have not yet made your reservation, please email Angela at <a href="mailto:angela@linuxfoundation.org">angela@linuxfoundation.org</a>.  She is working with other hotels near the Hyatt to find availability over those dates at a discounted rate.</p>
+
+				</div>
+				<div class="entry-meta">
+					This entry was written by <span class="author vcard"><a class="url fn n" href="../../../author/jejb/index.html" title="View all posts by jejb">jejb</a></span>, posted on <abbr class="published" title="2010-10-06T17:03:08-0400">October 6, 2010 at 5:03 pm</abbr>, filed under <a href="../../../category/uncategorized" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>. Bookmark the <a href="trackback" title="Permalink to Hotel Discount Ends on Friday 8 October" rel="bookmark">permalink</a>. Follow any comments here with the <a href="http://www.linuxplumbersconf.org/2010/10/06/hotel-discount-ends-on-friday-8-october/feed" title="Comments RSS to Hotel Discount Ends on Friday 8 October" rel="alternate" type="application/rss+xml">RSS feed for this post</a>.
+					<a class="comment-link" href="trackback#respond" title="Post a comment">Post a comment</a> or leave a trackback: <a class="trackback-link" href="trackback" title="Trackback URL for your post" rel="trackback">Trackback URL</a>.
+				</div>
+			</div><!-- .post -->
+
+			<div id="nav-below" class="navigation">
+				<div class="nav-previous"><a href="../../../08/24/opening-keynote-and-presentation-track-announcement/trackback" rel="prev"><span class="meta-nav">&laquo;</span> Opening Keynote and Presentation Track announcement</a></div>
+				<div class="nav-next"><a href="../../08/update-on-hotels/trackback" rel="next">Update on Hotels <span class="meta-nav">&raquo;</span></a></div>
+			</div>
+
+			<div id="comments">
+
+				<div id="respond">
+					<h3>Post a Comment</h3>
+
+					<div class="formcontainer">	
+						<form id="commentform" action="http://www.linuxplumbersconf.org/2010/wp-comments-post.php" method="post">
+
+
+							<p id="comment-notes">Your email is <em>never</em> shared. Required fields are marked <span class="required">*</span></p>
+
+							<div class="form-label"><label for="author">Name</label> <span class="required">*</span></div>
+							<div class="form-input"><input id="author" name="author" class="text required" type="text" value="" size="30" maxlength="50" tabindex="3" /></div>
+
+							<div class="form-label"><label for="email">Email</label> <span class="required">*</span></div>
+							<div class="form-input"><input id="email" name="email" class="text required" type="text" value="" size="30" maxlength="50" tabindex="4" /></div>
+
+							<div class="form-label"><label for="url">Website</label></div>
+							<div class="form-input"><input id="url" name="url" class="text" type="text" value="" size="30" maxlength="50" tabindex="5" /></div>
+
+
+							<div class="form-label"><label for="comment">Comment</label></div>
+							<div class="form-textarea"><textarea id="comment" name="comment" class="text required" cols="45" rows="8" tabindex="6"></textarea></div>
+
+							<div class="form-submit"><input id="submit" name="submit" class="button" type="submit" value="Post Comment" tabindex="7" /><input type="hidden" name="comment_post_ID" value="973" /></div>
+
+							<div class="form-option"><div><input type="hidden" id="wphc_value" name="wphc_value" value=""/></div><p>Powered by <a href="http://wordpress-plugins.feifei.us/hashcash/">WP Hashcash</a></p><noscript><div><small>Wordpress Hashcash needs javascript to work, but your browser has javascript disabled. Your comment will be queued in Akismet!</small></div></noscript></div>
+
+						</form><!-- #commentform -->
+					</div><!-- .formcontainer -->
+
+				</div><!-- #respond -->
+
+			</div><!-- #comments -->
+
+		</div><!-- #content -->
+	</div><!-- #container -->
+
+	<div id="primary" class="sidebar">
+
+		<ul class="xoxo">
+
+			<li id="attend-links">
+				<h3>Participate</h3>
+				<ul>
+				<li class="page_item page-item-1"><red>Registration is now Closed</red></li>
+				<li class="page_item page-item-2"><a href="../../../ocw/events/LPC2010/proposals" title="Proposal list">View Presentations</a></li>
+				<li class="page_item page-item-2"><a href="../../../ocw/events/LPC2010MC/proposals" title="Proposal list">Suggestions for a Microconfs</a></li>
+				<li class="page_item page-item-2"><a href="../../../ocw/events/LPC2010BOFS/proposals" title="Proposal List">Submit a BoF</a></li>
+<!--
+				<li class="page_item page-item-2"><a href="/2010/ocw/events/LPC2010MC/proposals" title="Proposal List">Submit a MicroConference</a></li>
+-->
+
+				</ul>
+			</li>
+
+			<li id="social-links">
+				<h3>Stay Connected</h3>
+				<ul>
+					<li><a href="http://www.linuxplumbersconf.org/2010/feed" title="Linux Plumbers Conference 2010 latest posts" rel="alternate" type="application/rss+xml">Blog Feed</a></li>
+					<li><a href="https://twitter.com/linuxplumbers">Twitter</a></li>
+					<li><a href="https://identi.ca/linuxplumbers">identi.ca</a></li>
+					<li><a href="http://lists.osuosl.org/mailman/listinfo/announce">Announce list</a></li>
+					<li><a href="http://planet.linuxplumbersconf.org/">Planet LPC</a></li>
+				</ul>
+			</li>
+
+						<div id="sponsor-links">
+				<h3>Sponsors</h3>
+				<br>
+				<h5>Platinum</h5>
+				<br><a href="http://intel.com"><img src="../../../style/intel_logo.png" /></a>
+				<br>
+				<br><a href="http://qualcomm.com"><img src="../../../style/Qualcomm.png" /></a>
+				<br>
+				<br><a href="http://ibm.com"><img src="../../../style/IBMtm.png" /></a>
+				<br>&nbsp;
+				<h5>Gold</h5>
+				<br><a href="http://google.com"><img src="../../../style/google_logo.gif" /></a>
+				<br>
+				<br><a href="http://www.ti.com"><img src="../../../style/ti_logo.gif" /></a>
+				<br>&nbsp;
+				<h5>Silver</h5>
+				<br><a href="http://hp.com"><img src="../../../style/hp_logo.gif" /></a>
+				<br>
+				<br><a href="http://canonical.com"><img src="../../../style/canonical.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.akamai.com"><img src="../../../style/akamai_logo_pms.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.linaro.org"><img src="../../../style/linaro-1.png" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.oracle.com"><img src="../../../style/oralogo_small.gif" /></a>
+				<br>&nbsp;
+				<br><a href="http://www.emc.com"><img src="../../../style/EMC_logo_2004_color2.png" /></a>
+<!--
+				<h3>Media Sponsors</h3>
+				<ul class="sponsor-links">
+
+					<li><a href="http://lwn.net"><img src="/2010/style/lwnlogo.png" /></a></li>
+					<li><a href="http://linuxjournel.com"><img src="/2010/style/ljcolor.png" /></a></li>
+					<li><a href="http://www.linuxpromagazine.com/"><img src="/2010/style/LinuxPro-logo.png" /></a></li>
+				</ul>
+-->
+			</div>
+
+
+
+		</ul>
+	</div><!-- #primary .sidebar -->
+
+	<div id="secondary" class="sidebar">
+		<ul class="xoxo">
+			<li id="search">
+				<h3><label for="s">Search</label></h3>
+				<form id="searchform" class="blog-search" method="get" action="../../../../2010.1">
+					<div>
+						<input id="s" name="s" type="text" class="text" value="" size="10" tabindex="1" />
+						<input type="submit" class="button" value="Find" tabindex="2" />
+					</div>
+				</form>
+			</li>
+
+
+
+			<li id="meta">
+				<h3>Meta</h3>
+				<ul>
+					
+					<li><a href="https://www.linuxplumbersconf.org/2010/wp-login.php">Log in</a></li>
+					
+				</ul>
+			</li>
+		</ul>
+	</div><!-- #secondary .sidebar -->
+
+	<div id="footer">
+<a href="http://osuosl.org"><img border="0" src="http://www.linuxplumbersconf.org/2010/10/06/style/osl-hosted.png" alt="OSL"/></a>
+	</div><!-- #footer -->
+
+</div><!-- #wrapper .hfeed -->
+
+
+</body>
+</html>

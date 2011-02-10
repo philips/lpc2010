@@ -1,0 +1,732 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ensemble Independent//vPim 0.695//EN
+CALSCALE:Gregorian
+METHOD:PUBLISH
+X-WR-CALNAME:Linux Plumbers Conference 2010
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+DTSTART:20101102T190000
+DTEND:20101102T220000
+SUMMARY:Reception at Jillian's
+CREATED:20101013T182344
+LAST-MODIFIED:20101029T160947
+DESCRIPTION:Joint reception with the Kernel Summit at "Jillians":http://www
+ .jilliansboston.com/ at Fenway\, Second Floor\n\nDrinks & Appetizers\, an
+ d a floor full of entertainment: Pool tables\, table tennis\, foosball\, da
+ rts\, and more.\n\nBuses will depart from the Hyatt at 6:30pm
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/21
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/21
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T090000
+DTEND:20101103T094500
+SUMMARY:The kernel report
+CREATED:20100719T161742
+LAST-MODIFIED:20101116T193341
+DESCRIPTION:The kernel: where it is\, how it got there\, and where it's goi
+ ng.
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/417
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/417
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T094500
+DTEND:20101103T100000
+SUMMARY:Break
+CREATED:20101013T180824
+LAST-MODIFIED:20101013T180824
+DESCRIPTION:Break
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/3
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/3
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T100000
+DTEND:20101103T104500
+SUMMARY:License To Kill…Your Code...
+CREATED:20100720T020558
+LAST-MODIFIED:20101027T212055
+DESCRIPTION:Just as the lack of software discipline can lead to bad code an
+ d poor usability\, the lack of license understanding and execution can crip
+ ple the legitimate usability of open source software.
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/531
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/531
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T100000
+DTEND:20101103T123000
+SUMMARY:Real-Time
+CREATED:20100712T130508
+LAST-MODIFIED:20101103T011704
+DESCRIPTION:Real Time Linux discussions "Wiki":http://wiki.linuxplumberscon
+ f.org/2010:real-time_response_for_full_foss_linux_stack "EtherPad":http://e
+ therpad.osuosl.org/lpc2010-real-time
+LOCATION:William Dawes
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/93
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/93
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T100000
+DTEND:20101103T123000
+SUMMARY:Boot and Init
+CREATED:20100712T092709
+LAST-MODIFIED:20101103T011915
+DESCRIPTION:Early initialization and alternatives to traditional unix init.
+  "Wiki":http://wiki.linuxplumbersconf.org/2010:early_boot_and_init_systems 
+ "Etherpad":http://etherpad.osuosl.org/lpc2010-boot-and-init
+LOCATION:Thomas Paine
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/87
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/87
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T105000
+DTEND:20101103T113500
+SUMMARY:Linux Multitenant File Servers using Likewise-CIFS
+CREATED:20100719T203056
+LAST-MODIFIED:20101116T191924
+DESCRIPTION:The paper will explain the architecture used by the Likewise-CI
+ FS file server to enable Linux hosts to concurrently operate as a member of
+  multiple Microsoft Active Directory domains.
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/501
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/501
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T114000
+DTEND:20101103T122500
+SUMMARY:Next Steps In File Permission Models
+CREATED:20100719T201137
+LAST-MODIFIED:20101013T181215
+DESCRIPTION:Why POSIX ACLs are not enough and how to replace them
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/495
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/495
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T123000
+DTEND:20101103T133000
+SUMMARY:Lunch
+CREATED:20101013T181534
+LAST-MODIFIED:20101020T131222
+DESCRIPTION:Lunch (Box Lunch will be provided)
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/9
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T133000
+DTEND:20101103T141500
+SUMMARY:Hot and cold data management in filesystem
+CREATED:20100716T210547
+LAST-MODIFIED:20101201T185807
+DESCRIPTION:Hot and cold data migration over hybrid storage in btrfs
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/219
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/219
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T133000
+DTEND:20101103T160000
+SUMMARY:Power Management
+CREATED:20100716T135154
+LAST-MODIFIED:20101103T012737
+DESCRIPTION:Discussions about all topics related to power management "Wiki"
+ :http://wiki.linuxplumbersconf.org/2010:power_management "Etherpad":http://
+ etherpad.osuosl.org/lpc2010-power-management
+LOCATION:William Dawes
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/183
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/183
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T133000
+DTEND:20101103T160000
+SUMMARY:Desktop
+CREATED:20100722T175534
+LAST-MODIFIED:20101103T012413
+DESCRIPTION:Desktop related topics "Wiki":http://wiki.linuxplumbersconf.org
+ /2010:desktop "Etherpad":http://etherpad.osuosl.org/lpc2010-desktop
+LOCATION:Thomas Paine
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/591
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/591
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T142000
+DTEND:20101103T150500
+SUMMARY:VirtFS—A paravirtual File System pass-through in KVM/QEMU
+CREATED:20100723T113804
+LAST-MODIFIED:20101117T112841
+DESCRIPTION:VirtFS is a paravirtual file system which exports the host file
+  systems to the guest on 9P2000.L protocol through VirtIO transport.
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/597
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/597
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T151000
+DTEND:20101103T155500
+SUMMARY:Patchwork: pursuing productive project participation
+CREATED:20100719T035821
+LAST-MODIFIED:20101117T112620
+DESCRIPTION:Patchwork is a web-based system for keeping track of contributi
+ ons
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/297
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/297
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T160000
+DTEND:20101103T163000
+SUMMARY:Tea Break
+CREATED:20101013T181927
+LAST-MODIFIED:20101013T181927
+DESCRIPTION:Afternoon Tea Break
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/15
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/15
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T163000
+DTEND:20101103T173000
+SUMMARY:State of the kernel: license "wise".
+CREATED:20100916T014419
+LAST-MODIFIED:20101021T142414
+DESCRIPTION:Survey of what licenses are actually in the kernel\, beyond GPL
+ v2/GPLv2+.
+LOCATION:William Dawes
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/1143
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/1143
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T163000
+DTEND:20101103T173000
+SUMMARY:Power On war stories
+CREATED:20100822T195637
+LAST-MODIFIED:20101015T115928
+DESCRIPTION:lighting up a new board brings together a lot of interesting ta
+ lent\, and has a lot of challenges.
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/963
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/963
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T163000
+DTEND:20101103T173000
+SUMMARY:Containers checkpoint/restart
+CREATED:20100824T113811
+LAST-MODIFIED:20101015T115948
+DESCRIPTION:Discuss the current state of checkpoint/restart in mainline\, a
+ nd what needs to be done to merge it.
+LOCATION:Thomas Paine
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/1017
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/1017
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T173000
+DTEND:20101103T183000
+SUMMARY:Ext4 snapshots
+CREATED:20101007T104306
+LAST-MODIFIED:20101015T120050
+DESCRIPTION:Overview of Next3 snapshots and what needs to be done to merge 
+ them into Ext4.
+LOCATION:Thomas Paine
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/1191
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/1191
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T173000
+DTEND:20101103T183000
+SUMMARY:Kicking the Tires of The Yocto Project
+CREATED:20101029T203024
+LAST-MODIFIED:20101031T002533
+DESCRIPTION:Discuss the details of the recently announced yocto project and
+  where it can lend value to embedded linux development.
+LOCATION:William Dawes
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/1221
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/1221
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T173000
+DTEND:20101103T183000
+SUMMARY:Kernel Debugging
+CREATED:20100927T174136
+LAST-MODIFIED:20101015T120033
+DESCRIPTION:Discuss state of KGDB and other kernel debug technologies.
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/1173
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/1173
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101103T190000
+DTEND:20101103T220000
+SUMMARY:Throw Linus to the Sharks Party at the New England Aquarium
+CREATED:20101013T183017
+LAST-MODIFIED:20101029T161106
+DESCRIPTION:Throw Linus to the Sharks Party at "New England Aquarium":http:
+ //www.neaq.org/index.php\n\nDrinks and Dinner Buffet\, plus a chance to v
+ iew all the animals and exhibits.\n\nWhen given a choice between giving a
+  keynote and being fed to the sharks\, Linus didn’t hesitate. “The sharks!”
+ . Still nursing a grudge over a rejected patch? Don’t miss Linus Torvalds s
+ cuba-diving into the shark tank at the New England Aquarium!\n\nBuses wil
+ l depart from the Hyatt between 6:30pm and 7:00pm.
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/27
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/27
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101104T090000
+DTEND:20101104T094500
+SUMMARY:Embedded Linux easier
+CREATED:20100719T154103
+LAST-MODIFIED:20101013T183144
+DESCRIPTION:An approach to making it easier to work with embedded Linux
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/411
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/411
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101104T090000
+DTEND:20101104T100000
+SUMMARY:libferris: everything is a filesystem\, and filesystems are everyth
+ ing.
+CREATED:20100629T043442
+LAST-MODIFIED:20101015T115527
+DESCRIPTION:Libferris makes local and remote data available as a filesystem
+  and conversely can be accessed from SQLite and XQuery among others as thei
+ r native data types.
+LOCATION:Thomas Paine
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/57
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/57
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101104T094500
+DTEND:20101104T100000
+SUMMARY:Break
+CREATED:20101013T184731
+LAST-MODIFIED:20101013T185112
+DESCRIPTION:Break
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/33
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/33
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101104T100000
+DTEND:20101104T104500
+SUMMARY:Perf Tools: Recent Improvements
+CREATED:20100721T123811
+LAST-MODIFIED:20101116T183840
+DESCRIPTION:Recent developments on the perf tools and discussion about TODO
+ .
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/579
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/579
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101104T100000
+DTEND:20101104T123000
+SUMMARY:User-visible Networking Issues
+CREATED:20100719T174323
+LAST-MODIFIED:20101103T224253
+DESCRIPTION:Discussion of device naming\, Network Manger\, Conman etc. "Wik
+ i":http://wiki.linuxplumbersconf.org/2010:user-visible_networking_issues "E
+ therpad":http://etherpad.osuosl.org/lpc2010-user-visible-network-issues
+LOCATION:Thomas Paine
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/465
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/465
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101104T100000
+DTEND:20101104T123000
+SUMMARY:Audio
+CREATED:20100716T122026
+LAST-MODIFIED:20101103T223511
+DESCRIPTION:Discussion of audio integration issues in both kernel and users
+ pace\, covering both desktop and embedded systems. "Wiki":http://wiki.linux
+ plumbersconf.org/2010:audio "Etherpad":http://etherpad.osuosl.org/lpc2010-a
+ udio
+LOCATION:William Dawes
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/177
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/177
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101104T105000
+DTEND:20101104T113500
+SUMMARY:Testing the real-time Kernel on Arbitrary Hardware.
+CREATED:20100726T061249
+LAST-MODIFIED:20101116T192021
+DESCRIPTION:An exploration of tools and test suites for measuring the perfo
+ rmance of the real-time kernel. Also\, a glimpse into the future\, what do 
+ we need to do better?
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/645
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/645
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101104T114000
+DTEND:20101104T122500
+SUMMARY:Runtime Power Management in the PCI Subsystem
+CREATED:20100718T213812
+LAST-MODIFIED:20101116T193237
+DESCRIPTION:I will describe the implementation of runtime power management 
+ support in the Linux kernel's PCI subsystem and the related modifications o
+ f the ACPI subsystem.
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/279
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/279
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101104T123000
+DTEND:20101104T133000
+SUMMARY:Lunch
+CREATED:20101013T184809
+LAST-MODIFIED:20101020T131303
+DESCRIPTION:Lunch (Box Lunches will be provided)
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/39
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/39
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101104T133000
+DTEND:20101104T141500
+SUMMARY:Porting the Linux kernel to a new architecture\, done right
+CREATED:20100717T163246
+LAST-MODIFIED:20101116T193511
+DESCRIPTION:A quick tour around the architecture specific kernel implementa
+ tion a working example code.
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/237
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/237
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101104T133000
+DTEND:20101104T160000
+SUMMARY:Tracing (Part I)
+CREATED:20100713T194216
+LAST-MODIFIED:20101103T225533
+DESCRIPTION:Linux Tracing topics and issues.  "Wiki":http://wiki.linuxplumb
+ ersconf.org/2010:tracing "Etherpad":http://etherpad.osuosl.org/lpc2010-trac
+ ing
+LOCATION:William Dawes
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/105
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/105
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101104T133000
+DTEND:20101104T160000
+SUMMARY:Virtualization (Part I)
+CREATED:20100714T075324
+LAST-MODIFIED:20101103T230020
+DESCRIPTION:Virtualization topics and issues "Wiki":http://wiki.linuxplumbe
+ rsconf.org/2010:virtualization "Etherpad":http://etherpad.osuosl.org/lpc201
+ 0-virtualization
+LOCATION:Thomas Paine
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/117
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/117
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101104T142000
+DTEND:20101104T150500
+SUMMARY:The state of video
+CREATED:20100719T150500
+LAST-MODIFIED:20101117T112723
+DESCRIPTION:A look at how to make watching and creating videos on Linux as 
+ good as it should be
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/399
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/399
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101104T151000
+DTEND:20101104T155500
+SUMMARY:Linux Graphics Directions
+CREATED:20100719T180742
+LAST-MODIFIED:20101013T183817
+DESCRIPTION:Now that we have competent Linux kernel graphics support\, what
+  comes next?
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/483
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/483
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101104T160000
+DTEND:20101104T163000
+SUMMARY:Tea Break
+CREATED:20101013T184923
+LAST-MODIFIED:20101013T184923
+DESCRIPTION:Tea Break
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/45
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/45
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101104T163000
+DTEND:20101104T171500
+SUMMARY:The Linux Bluetooth Stack
+CREATED:20100719T180219
+LAST-MODIFIED:20101116T192201
+DESCRIPTION:A status update of the Linux Bluetooth stack\, show the today's
+  state and what is coming in the near future.
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/477
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/477
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101104T163000
+DTEND:20101104T190000
+SUMMARY:Virtualization (Part II)
+CREATED:20101015T113124
+LAST-MODIFIED:20101103T230019
+DESCRIPTION:Virtualization topics and issues "Wiki":http://wiki.linuxplumbe
+ rsconf.org/2010:virtualization "Etherpad":http://etherpad.osuosl.org/lpc201
+ 0-virtualization
+LOCATION:Thomas Paine
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/1209
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/1209
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101104T163000
+DTEND:20101104T190000
+SUMMARY:Tracing (Part II)
+CREATED:20101015T112645
+LAST-MODIFIED:20101103T224819
+DESCRIPTION:Linux Tracing topics and issues.  "Wiki":http://wiki.linuxplumb
+ ersconf.org/2010:tracing "Etherpad":http://etherpad.osuosl.org/lpc2010-trac
+ ing
+LOCATION:William Dawes
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/1203
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/1203
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101104T172000
+DTEND:20101104T180500
+SUMMARY:The Challenge of Mobile Broadband
+CREATED:20100719T115002
+LAST-MODIFIED:20101015T124058
+DESCRIPTION:Ubiquitous WWAN networks and devices reveal wide gaps in the Li
+ nux networking stack that we need to fix.
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/363
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/363
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101104T190000
+DTEND:20101104T223000
+SUMMARY:Free Night In Cambridge
+CREATED:20101029T161411
+LAST-MODIFIED:20101029T161411
+DESCRIPTION:Roundtrip Shuttle Transportation will be provided between 6:30p
+ m and 10:30pm to Central Square in Cambridge - a great area for restaurants
+  and bars.
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/75
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/75
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101105T090000
+DTEND:20101105T094500
+SUMMARY:Unified energy-aware scheduling
+CREATED:20100719T140400
+LAST-MODIFIED:20101116T192339
+DESCRIPTION:Unified approach to CPU power management where the scheduler wo
+ rks in co-ordination with cpufreq and cpuidle subsystems
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/381
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/381
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101105T090000
+DTEND:20101105T100000
+SUMMARY:Challenges with networking in mobile devices
+CREATED:20100723T225041
+LAST-MODIFIED:20101015T115602
+DESCRIPTION:This presentation shows the challenges with networking in moder
+ n mobile devices based on Linux.
+LOCATION:Thomas Paine
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/609
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/609
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101105T090000
+DTEND:20101105T100000
+SUMMARY:Hardware detection BoF
+CREATED:20100820T130451
+LAST-MODIFIED:20101015T115645
+DESCRIPTION:Discuss subsystems that reports hardware errors
+LOCATION:William Dawes
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/921
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/921
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101105T094500
+DTEND:20101105T100000
+SUMMARY:Break
+CREATED:20101013T185207
+LAST-MODIFIED:20101013T185207
+DESCRIPTION:Break
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/51
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/51
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101105T100000
+DTEND:20101105T104500
+SUMMARY:Idle scheduling support in the Linux Kernel
+CREATED:20100719T222649
+LAST-MODIFIED:20101116T192637
+DESCRIPTION:This talk describes how Google uses CFS to provide differentiat
+ ed CPU QoS\, discusses the strengths and shortcomings of idle scheduling su
+ pport in the Linux kernel\, and presents solutions that improve utilization
+  without impacting isolation.
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/519
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/519
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101105T100000
+DTEND:20101105T123000
+SUMMARY:File and Storage Systems
+CREATED:20100716T154447
+LAST-MODIFIED:20101103T230910
+DESCRIPTION:The track will deal with issues around file and storage systems
+  in Linux\, from the kernel space up to user space. "Wiki":http://wiki.linu
+ xplumbersconf.org/2010:file_and_storage_systems "Etherpad":http://etherpad.
+ osuosl.org/lpc2010-file-and-storage-systems
+LOCATION:Thomas Paine
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/201
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/201
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101105T100000
+DTEND:20101105T123000
+SUMMARY:Embedded
+CREATED:20100702T121628
+LAST-MODIFIED:20101103T230558
+DESCRIPTION:Embedded topics and issues. "Wiki":http://wiki.linuxplumberscon
+ f.org/2010:embedded_topics "Etherpad":http://etherpad.osuosl.org/lpc2010-em
+ bedded
+LOCATION:William Dawes
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/63
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/63
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101105T105000
+DTEND:20101105T113500
+SUMMARY:Linux HTPC
+CREATED:20100716T140202
+LAST-MODIFIED:20101015T124110
+DESCRIPTION:Using Linux to build your own Home Theater PC.
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/189
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/189
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101105T114000
+DTEND:20101105T122500
+SUMMARY:Wi-Fi Direct on Linux
+CREATED:20100725T173734
+LAST-MODIFIED:20101116T192520
+DESCRIPTION:Learn about Wi-Fi Direct and support on Linux
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/639
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/639
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101105T123000
+DTEND:20101105T133000
+SUMMARY:Lunch
+CREATED:20101013T185259
+LAST-MODIFIED:20101020T131329
+DESCRIPTION:Lunch (Box Lunches will be provided)
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/57
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/57
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101105T133000
+DTEND:20101105T141500
+SUMMARY:API for Real-Time Scheduling with Temporal Isolation on Linux
+CREATED:20100726T131445
+LAST-MODIFIED:20101117T122931
+DESCRIPTION:How can we fix the current API for real-time scheduling with te
+ mporal isolation (deadline-based / Sporadic Server) ?\n
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/669
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/669
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101105T133000
+DTEND:20101105T160000
+SUMMARY:High Availability Clustering
+CREATED:20100726T152019
+LAST-MODIFIED:20101103T231806
+DESCRIPTION:Discussion of low level issues related to HA and Clustering (in
+ cluding filesystems). "Wiki":http://wiki.linuxplumbersconf.org/2010:ha_clus
+ tering "Etherpad":http://etherpad.osuosl.org/lpc2010-high-availability-clus
+ tering
+LOCATION:Thomas Paine
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/711
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/711
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101105T133000
+DTEND:20101105T160000
+SUMMARY:Multimedia Infrastructure
+CREATED:20100724T163607
+LAST-MODIFIED:20101103T231513
+DESCRIPTION:Topics and issues for the multimedia stack. "Wiki":http://wiki.
+ linuxplumbersconf.org/2010:media_infrastructure "Etherpad":http://etherpad.
+ osuosl.org/lpc2010-multimedia
+LOCATION:William Dawes
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/621
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/621
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101105T142000
+DTEND:20101105T150500
+SUMMARY:Optimizing the QEMU/KVM Storage Stack
+CREATED:20100726T062636
+LAST-MODIFIED:20101116T193146
+DESCRIPTION:Tools and recent progress in improving QEMU/KVM storage perform
+ ance.
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/651
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/651
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101105T151000
+DTEND:20101105T155500
+SUMMARY:TCP-NV: Congestion Avoidance for Data Centers
+CREATED:20100719T225456
+LAST-MODIFIED:20101116T193016
+DESCRIPTION:TCP-NV is a TCP variant for Data Centers that implements conges
+ tion avoidance\, where the congestion window can decrease when queue build-
+ up is detected and before packet loss occurs.
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/525
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/525
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101105T160000
+DTEND:20101105T163000
+SUMMARY:Tea Break
+CREATED:20101013T185404
+LAST-MODIFIED:20101013T185404
+DESCRIPTION:Tea Break
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/63
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/63
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101105T163000
+DTEND:20101105T171500
+SUMMARY:The wonderful world of LibreOffice
+CREATED:20101001T142550
+LAST-MODIFIED:20101117T112514
+DESCRIPTION:How we will fix your Free Software Office Suite
+LOCATION:President's Ballroom
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/1179
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/1179
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101105T180000
+DTEND:20101105T220000
+SUMMARY:Closing Party at Grafton Street
+CREATED:20101013T185627
+LAST-MODIFIED:20101104T164630
+DESCRIPTION:Closing Party at the "Grafton Street":http://www.graftonstreetc
+ ambridge.com/ pub in Cambridge\n\nDrinks and appetizers served.\n\nBuse
+ s will depart from the Hyatt between 5:15pm and 6:00pm.
+URL:http://www.linuxplumbersconf.org/2010/ocw/sessions/69
+UID:http://www.linuxplumbersconf.org/2010/ocw/sessions/69
+END:VEVENT
+END:VCALENDAR
